@@ -1,0 +1,35 @@
+/*---------------set html height to full page--------*/
+html, body
+	{
+	width:100%;
+	height:100%;
+	margin: 0;
+
+	}
+
+/*---------------set html height to full page--------*/
+/*---------------Req---------------------------------*/
+* 	{box-sizing: border-box;}
+/*---------------Req---------------------------------*/
+
+#section1
+	{
+    height: 100vh; /* 100% of the viewport height */
+	background-color:pink;
+
+	}
+#section2
+	{
+    height: 100vh; /* 100% of the viewport height */
+	background-color:silver;
+	}
+#section3
+	{
+    height: 100vh; /* 100% of the viewport height */
+	}
+#section4
+	{
+    height: 100vh; /* 100% of the viewport height */
+	background-color:gray;
+	}
+

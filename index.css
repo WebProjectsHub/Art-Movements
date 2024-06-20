@@ -1,35 +1,385 @@
+/*---------------Color style------------------------*/
+/*------https://coolors.co/palette/000000-14213d-fca311-e5e5e5-ffffff----*/
+/*------https://coolors.co/palette/0015ff-ff00a1-90fe00-8400ff-00fff7-ff7300	----*/
+/*------https://coolors.co/visualizer/0015ff-ff00a1-90fe00-8400ff-00fff7-ff7300	----*/
+/*------
+1. html and body height and width
+2. background
+3. container
+4. link style
+5. general text size adjustment
+6. font style and sizes
+	- font styles
+	- font size
+	- custom font size
+		- intro
+7. sections
+8. header
+9. body
+	- section
+10. buttons
+11. colors
+
+-------*/
+/*---01---*/
 /*---------------set html height to full page--------*/
 html, body
 	{
 	width:100%;
 	height:100%;
 	margin: 0;
-
 	}
 
-/*---------------set html height to full page--------*/
+/*---------------END set html height to full page----*/
+/*---02---*/
+/*---------------Style background--------------------*/
+.background
+	{
+	position:fixed;
+	width:100vw;
+	height:100vh;
+	-webkit-background-image:url(../Assets/images/Ars_Poetic-bg.jpg);
+	background-image:url(../Assets/images/Ars_Poetic-bg.jpg);
+	background-size: cover;
+	background-position:0% 0%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+	z-index:-1;
+	}
+/*---------------END Style background----------------*/
+/*---03---*/
+/*---------------Style container---------------------*/
+.container
+	{
+	width:800px;
+	}
+/*---------------END Style container-----------------*/
 /*---------------Req---------------------------------*/
 * 	{box-sizing: border-box;}
-/*---------------Req---------------------------------*/
+/*---------------END Req-----------------------------*/
+/*---04---*/
+/*---------------Style the links---------------------*/
+a	{
+	text-decoration:none;
+	color:unset;
+	cursor:pointer;
+	}
+/*---------------END Style the links-----------------*/
+/*---05---*/
+/*---------------Text size adjustment----------------*/
+html	{
+	-ms-text-size-adjust: 100%;		
+	-webkit-text-size-adjust: 100%; 	
+	}
+	/*---Prevent iOS text size adjust after------*/
+	/*---orientation change, without disabling---*/
+	/*---user zoom.------------------------------*/
 
-#section1
-	{
-    height: 100vh; /* 100% of the viewport height */
-	background-color:pink;
+html	{
+	font-size: 62.5%;
+	}
+	/*---10px--*/
+
+body 	{
+	font-family: 'NotoSansSymbols', sans-serif;
+	overflow:auto;
+
 
 	}
-#section2
+
+/*---------------END Text size adjustment------------*/
+/*---06---*/
+/*---------------Style fonts-------------------------*/
+	/*-------Font styles-------------------------*/
+@font-face
 	{
-    height: 100vh; /* 100% of the viewport height */
-	background-color:silver;
-	}
-#section3
-	{
-    height: 100vh; /* 100% of the viewport height */
-	}
-#section4
-	{
-    height: 100vh; /* 100% of the viewport height */
-	background-color:gray;
+	font-family: 'NotoSansSymbols';
+	src: local('NotoSansSymbols'), url('../Assets/fonts/Noto_Sans_Symbols/NotoSansSymbols-VariableFont_wght.ttf') format('truetype');
 	}
 
+@font-face 
+	{
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Raleway'), url('../Assets/fonts/Raleway/Raleway-Medium.woff') format('woff');
+	}
+
+@font-face 
+	{
+	font-family: 'Montserrat';
+	src: local('Montserrat'), url('..//Assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+	}
+@font-face 
+	{
+	font-family: 'Material Symbols Outlined';
+	font-style: normal;
+	src: url(../Assets/fonts/MaterialSymbolsOutlined[FILL,GRAD,opsz,wght].woff2) format('woff');
+	}
+
+html	{
+	font-family: 'NotoSansSymbols', sans-serif;
+	}
+	/*-------END Font styles---------------------*/
+	/*-------Font size---------------------------*/
+p	{
+	margin: 0;
+	line-height:1.6;
+	}
+
+h	/*---website name---*/	
+	{
+	font-family: 'NotoSansSymbols', sans-serif;
+	font-size: 4.0rem;
+	font-weight:900;
+	line-height: unset;
+	letter-spacing: -.1rem; 
+	margin:0;
+	}
+
+h1, h2, h3, h4, h5, h6
+
+	{
+	font-family: 'NotoSansSymbols', sans-serif;
+	margin-top: 0;
+	margin-bottom: 2rem;
+	}
+
+h1	{ font-size: 4.0rem; line-height: 1.2;  }	/*---40px--*/
+h2	{ font-size: 3.6rem; line-height: 1.25; }	/*---36px--*/
+h3	{ font-size: 3.0rem; line-height: 1.3;  }	/*---30px--*/
+h4	{ font-size: 2.4rem; line-height: 1.35; }	/*---24px--*/
+h5	{ font-size: 1.8rem; line-height: 1.5;  }	/*---18px--*/
+h6	{ font-size: 1.5rem; line-height: 1.6;  }	/*---15px--*/
+
+	/*-------END Font size-----------------------*/
+	/*-------Custom Font size--------------------*/
+.middle >p
+	{font-size: 1.8rem; line-height: 1.5;  }
+
+	/*-------END Custom Font size----------------*/
+/*---------------END Style fonts---------------------*/
+/*---07---*/
+/*---------------Style Sections----------------------*/
+.section
+	{
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	padding:20px 0;
+	}
+	/*-------Main page---------------------------*/
+#S1, #S2
+	{ scroll-snap-align: start;}
+#S1	{ background-color:;}
+#S2	{ background-color:;}
+
+#containerS2
+	{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	align-items:center;
+	justify-content:space-between;
+	}
+	/*-------END Main page-----------------------*/
+/*---------------END Style Sections------------------*/
+/*---08---*/
+/*---------------Style Header------------------------*/
+.header	{
+	display:flex;
+	align-items:center;
+	width:100%;
+	height:100px;
+	z-index:4;
+	position:relative;
+	top:0;
+	}
+	/*-------Left--------------------------------*/
+.headLeft
+	{
+	display:flex;
+	width:50%;
+	height:100%;
+	justify-content:flex-start;
+	}
+	/*-------END Left----------------------------*/
+	/*-------Right-------------------------------*/
+.headRight
+	{
+	display:flex;
+	width:50%;
+	height:100%;
+	justify-content:flex-end;
+	}
+	/*-------END Right---------------------------*/
+/*---------------END Style Header--------------------*/
+/*---09---*/
+/*---------------Style middle------------------------*/
+.middle	{
+	padding-top:20px;
+	}
+/*---------------END Style middle--------------------*/
+/*---10---*/
+/*---------------Style buttons-----------------------*/
+.bTopics
+	{
+	height:45%;
+	width:45%;
+	margin:20px 0;
+	padding:0 10px 0 10px;
+	border-radius:15px;
+	border:none;
+	font-size: 2.40rem;
+	font-weight:900;
+	font-family: 'NotoSansSymbols', sans-serif;
+	line-height:1.35;
+	cursor:pointer;
+	}
+
+.bTopics:hover
+	{
+	width:50%;
+	font-size: 3.6rem;
+	line-height: 1.25;
+	font-weight:900;
+	}
+/*---------------END Style buttons-------------------*/
+/*---11---*/
+/*---------------Style colors------------------------*/
+	/*-------website name------------------------*/
+h	{color:#8400FF;}
+	/*-------END website name--------------------*/
+	/*-------page colors-main page---------------*/
+#S1	{ background-color:#00FFF7;}
+#S2	{ background-color:#8400FF;}
+	/*-------END page colors-main page-----------*/
+	/*-------button-Topics-----------------------*/
+.bTopics
+	{
+	background-color:#00FFF7;
+	color:#FFFFFF;
+	}
+.bTopics:hover
+	{
+	background-color:#90FE00;
+	color:#FF7300;
+	}
+	/*-------END button-Topics-------------------*/
+	/*-------button-Topics-----------------------*/
+
+
+/*---------------END Style colors--------------------*/
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*---------------RESPONSIVE DESIGN-------------------*/
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+{
+h	/*---website name---*/	
+	{
+	font-size: 3.6rem;
+	line spacing:1.25;
+	font-weight:800;
+	}
+.header	{height:60px;}
+.middle >p 
+	{
+	font-size: 1.2rem;
+	line-height: 1.6;
+	}
+.container
+	{ width:300px;}
+.bTopics
+	{
+	height:40%;
+	width:45%;
+	font-size: 2.0rem;
+	font-weight:800;
+	line-height:1.35;
+	padding:unset;
+	}
+
+.bTopics:hover
+	{
+	width:45%;
+	height:45%;
+	font-size: 2.0rem;
+	line-height: 1.25;
+	font-weight:900;
+	}
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+	
+}
+
+/* iPad 3 (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (-webkit-min-device-pixel-ratio : 2),
+only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (min-resolution: 192dpi) { 
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+	
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+	
+}
+
+/* Retina displays ----------- */
+@media  only screen 
+and (-webkit-min-device-pixel-ratio : 2), 
+only screen 
+and (min-resolution: 192dpi) {
+
+}
