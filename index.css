@@ -1,5 +1,5 @@
 /*---------------Color style------------------------*/
-/*------https://coolors.co/palette/000000-14213d-fca311-e5e5e5-ffffff----*/
+/*------https://coolors.co/palette/dfd3c3-f0ece3-f4c7ab-b2b8a3-5f8b7e----*/
 /*------https://coolors.co/palette/0015ff-ff00a1-90fe00-8400ff-00fff7-ff7300	----*/
 /*------https://coolors.co/visualizer/0015ff-ff00a1-90fe00-8400ff-00fff7-ff7300	----*/
 /*------
@@ -39,9 +39,23 @@ html, body
 /*---------------END Style background----------------*/
 /*---03---*/
 /*---------------Style container---------------------*/
+.fp-overflow
+	{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:100%;
+	}
+.fp-table
+	{
+	justify-content:flex-start;
+	height:100%;
+	}
 .container
 	{
 	width:800px;
+	height:100%;
+	padding:0 20px;
 	}
 /*---------------END Style container-----------------*/
 /*---------------Req---------------------------------*/
@@ -72,10 +86,8 @@ html	{
 
 body 	{
 	font-family: 'NotoSansSymbols', sans-serif;
-	overflow:auto;
-
-
 	}
+
 
 /*---------------END Text size adjustment------------*/
 /*---06---*/
@@ -104,7 +116,7 @@ body 	{
 	{
 	font-family: 'Material Symbols Outlined';
 	font-style: normal;
-	src: url(../Assets/fonts/MaterialSymbolsOutlined[FILL,GRAD,opsz,wght].woff2) format('woff');
+	src: url(./assets/fonts/MaterialSymbolsOutlined[FILL,GRAD,opsz,wght].woff2) format('woff');
 	}
 
 html	{
@@ -155,28 +167,20 @@ h6	{ font-size: 1.5rem; line-height: 1.6;  }	/*---15px--*/
 /*---------------END Style fonts---------------------*/
 /*---07---*/
 /*---------------Style Sections----------------------*/
-.section
-	{
-	height:100vh;
-	display:flex;
-	justify-content:center;
-	padding:20px 0;
 
-	transition: scroll 3s ease;
-	}
 	/*-------Main page---------------------------*/
-#S1, #S2
-	{ scroll-snap-align: start;}
+
 #S1	{ background-color:;}
 #S2	{ background-color:;}
 
-#containerS2
+#containerS1
 	{
 	display:flex;
 	flex-direction:row;
 	flex-wrap:wrap;
 	align-items:center;
 	justify-content:space-between;
+	height:80vh;
 	}
 	/*-------END Main page-----------------------*/
 /*---------------END Style Sections------------------*/
@@ -244,23 +248,24 @@ h6	{ font-size: 1.5rem; line-height: 1.6;  }	/*---15px--*/
 /*---------------END Style buttons-------------------*/
 /*---11---*/
 /*---------------Style colors------------------------*/
-	/*-------website name------------------------*/
-h	{color:#8400FF;}
+	/*-------website name + text-----------------*/
+h, .middle >p
+	{color:#5F8B7E;}
 	/*-------END website name--------------------*/
 	/*-------page colors-main page---------------*/
-#S1	{ background-color:#00FFF7;}
-#S2	{ background-color:#8400FF;}
+#section0	{ background-color:#F0ECE3;}
+#section1	{ background-color:#5F8B7E;}
 	/*-------END page colors-main page-----------*/
 	/*-------button-Topics-----------------------*/
 .bTopics
 	{
-	background-color:#00FFF7;
-	color:#FFFFFF;
+	background-color:#B2B8A3;
+	color:#F0ECE3;
 	}
 .bTopics:hover
 	{
-	background-color:#90FE00;
-	color:#FF7300;
+	background-color:#DFD3C3;
+	color:#5F8B7E;
 	}
 	/*-------END button-Topics-------------------*/
 	/*-------button-Topics-----------------------*/

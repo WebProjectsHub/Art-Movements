@@ -2,19 +2,15 @@
 <html>
 <head>
    <title>Art Movements</title>
+<link rel="stylesheet" href="fullpage.css">
    <link rel="stylesheet" href="index.css">
    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<style>
-html	{
-	scroll-behavior: smooth;
-	scroll-snap-type: y mandatory;
-	}
-</style>
 <body>
-<!------------Section 1----------------!>
-<div class="section" id="S1">
+<div id="fullpage">
+<!------------Section 0----------------!>
+<div class="section active" id="section0">
 	<!------------Container----------------!>	
 	<div class="container">
 		<!------------Header----------------!>
@@ -37,14 +33,16 @@ Delve into the captivating universe of art movements. From the bold brushstrokes
 	</div>
 	<!------------END Container------------!>
 </div>
-<!------------END Section 1------------!>
-<!------------Section 2----------------!>	
-<div class="section" id="S2">
+<!------------END Section 0------------!>
+<!------------Section 1----------------!>	
+<div class="section" id="section1">
 	<!------------Container----------------!>	
-	<div class="container" id="containerS2">
+	<div class="container" id="containerS1">
 		<!------------Topics----------------!>
 		<button class="bTopics">
-				Journey Through Time and Style
+				<a href="./Topics_Timeline/Timeline.html">
+					Journey Through Time and Style
+				</a>
 		</button>
 		<button class="bTopics">
 				The Art Movements
@@ -59,8 +57,20 @@ Delve into the captivating universe of art movements. From the bold brushstrokes
 	</div>
 	<!------------END Container------------!>
 </div>
-<!------------END Section 2------------!>
+<!------------END Section 1------------!>
 </div>
 <!------------END Container------------!>
+</div>
+<script type="text/javascript" src="fullpage.js"></script>
+<script type="text/javascript">
+	var myFullpage = new fullpage('#fullpage', {
+		sectionsColor: [],
+        controlArrows: false,
+        navigation: true,
+        slidesNavigation: true
+
+	});
+</script>
+
 </body>
 </html>
