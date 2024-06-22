@@ -86,6 +86,7 @@ Delve into the captivating universe of art movements. From the bold brushstrokes
 </div>
 <!------------END Container------------!>
 </div>
+    <p id="demo"></p>
 <script type="text/javascript" src="fullpage.js"></script>
 <script type="text/javascript">
 	var myFullpage = new fullpage('#fullpage', {
@@ -94,5 +95,11 @@ Delve into the captivating universe of art movements. From the bold brushstrokes
 	});
 </script>
 
+    <script>
+        var w = window.innerWidth;
+        var h = window.innerHeight;
+        var x = document.getElementById("demo");
+        x.innerHTML = "Browser width: " + w + ", height: " + h + ".";
+    </script>
 </body>
 </html>
