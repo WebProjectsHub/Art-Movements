@@ -30,7 +30,6 @@ html, body
 	height:100%;
 	margin: 0;
 	}
-
 /*---------------END set html height to full page----*/
 /*---02---*/
 /*---------------Req---------------------------------*/
@@ -278,6 +277,13 @@ li >h, .sContainer h1
 	}
 	/*-------END link-Topics---------------------*/
 /*---------------END Style colors--------------------*/
+/*---12---*/
+/*---------------Style watermark---------------------*/
+
+/*---------------END Style watermark-----------------*/
+.fp-warning, .fp-watermark
+	{display:none}
+
 /*---------------------------------------------------*/
 /*---------------------------------------------------*/
 /*---------------------------------------------------*/
@@ -295,7 +301,6 @@ h	/*---website name---*/
 	line spacing:1.25;
 	font-weight:800;
 	}
-.header	{height:60px;}
 .middle >p 
 	{
 	font-size: 1.2rem;
@@ -303,25 +308,10 @@ h	/*---website name---*/
 	}
 .container
 	{ width:300px;}
-.bTopics
-	{
-	height:40%;
-	width:45%;
-	font-size: 2.0rem;
-	font-weight:800;
-	line-height:1.35;
-	padding:unset;
-	}
-
-.bTopics:hover
-	{
-	width:45%;
-	height:45%;
-	font-size: 2.0rem;
-	line-height: 1.25;
-	font-weight:900;
-	}
-
+.sContainer
+	{ width:200px;}
+.sContainer h1
+	{ text-align:center;}
 }
 
 /* Smartphones (landscape) ----------- */
