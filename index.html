@@ -8,6 +8,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+
 <div id="fullpage">
 <!------------Section 0----------------!>
 <div class="section active" id="section0">
@@ -34,28 +35,52 @@ Delve into the captivating universe of art movements. From the bold brushstrokes
 	<!------------END Container------------!>
 </div>
 <!------------END Section 0------------!>
-<!------------Section 1----------------!>	
+<!------------Section 1----------------!>
+	<!------------Section header-----------!>
+<ul id="menu">
+	<li><h> Art Movements</h></li>
+</ul>
+	<!------------END Section header-------!>
+
 <div class="section" id="section1">
-	<!------------Container----------------!>	
-	<div class="container" id="containerS1">
-		<!------------Topics----------------!>
-		<button class="bTopics">
-				<a href="./Topics_Timeline/Timeline.html">
-					Journey Through Time and Style
-				</a>
-		</button>
-		<button class="bTopics">
-				The Art Movements
-		</button>
-		<button class="bTopics">
-				Discover the World of Art Movements
-		</button>
-		<button class="bTopics">
-				Artists
-		</button>
-		<!------------END Topics------------!>
+	<!------------Topics slides------------!>
+	<div class="slide active">
+		<!------------Container----------------!>	
+		<div class="sContainer">
+			<h1>
+				Journey Through Time and Styles
+			</h1>
+		</div>
+		<!------------END Container------------!>
 	</div>
-	<!------------END Container------------!>
+	<div class="slide">
+		<!------------Container----------------!>	
+		<div class="sContainer">
+			<h1>
+				The Art Movements
+			</h1>
+		</div>
+		<!------------END Container------------!>
+	</div>
+	<div class="slide">
+		<!------------Container----------------!>	
+		<div class="sContainer">
+			<h1>
+				Discover The Arts
+			</h1>
+		</div>
+		<!------------END Container------------!>
+	</div>
+	<div class="slide">
+		<!------------Container----------------!>	
+		<div class="sContainer">
+			<h1>
+				Discover the Artists
+			</h1>
+		</div>
+		<!------------END Container------------!>
+	</div>
+	<!------------END Topics slides--------!>
 </div>
 <!------------END Section 1------------!>
 </div>
@@ -65,10 +90,7 @@ Delve into the captivating universe of art movements. From the bold brushstrokes
 <script type="text/javascript">
 	var myFullpage = new fullpage('#fullpage', {
 		sectionsColor: [],
-        controlArrows: false,
-        navigation: true,
-        slidesNavigation: true
-
+        controlArrows: true,
 	});
 </script>
 

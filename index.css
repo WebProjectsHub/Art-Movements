@@ -4,16 +4,17 @@
 /*------https://coolors.co/visualizer/0015ff-ff00a1-90fe00-8400ff-00fff7-ff7300	----*/
 /*------
 1. html and body height and width
-2. background
-3. container
-4. link style
-5. general text size adjustment
-6. font style and sizes
+2. required
+3. link style
+4. general text size adjustment
+5. font style and sizes
 	- font styles
 	- font size
 	- custom font size
 		- middle >p
+6. header
 7. sections
+	- container
 8. header
 9. body
 	- section
@@ -32,36 +33,10 @@ html, body
 
 /*---------------END set html height to full page----*/
 /*---02---*/
-/*---------------Style background--------------------*/
-.background
-	{
-	}
-/*---------------END Style background----------------*/
-/*---03---*/
-/*---------------Style container---------------------*/
-.fp-overflow
-	{
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	height:100%;
-	}
-.fp-table
-	{
-	justify-content:flex-start;
-	height:100%;
-	}
-.container
-	{
-	width:800px;
-	height:100%;
-	padding:0 20px;
-	}
-/*---------------END Style container-----------------*/
 /*---------------Req---------------------------------*/
 * 	{box-sizing: border-box;}
 /*---------------END Req-----------------------------*/
-/*---04---*/
+/*---03---*/
 /*---------------Style the links---------------------*/
 a	{
 	text-decoration:none;
@@ -69,7 +44,7 @@ a	{
 	cursor:pointer;
 	}
 /*---------------END Style the links-----------------*/
-/*---05---*/
+/*---04---*/
 /*---------------Text size adjustment----------------*/
 html	{
 	-ms-text-size-adjust: 100%;		
@@ -83,14 +58,11 @@ html	{
 	font-size: 62.5%;
 	}
 	/*---10px--*/
-
 body 	{
 	font-family: 'NotoSansSymbols', sans-serif;
 	}
-
-
 /*---------------END Text size adjustment------------*/
-/*---06---*/
+/*---05---*/
 /*---------------Style fonts-------------------------*/
 	/*-------Font styles-------------------------*/
 @font-face
@@ -134,8 +106,7 @@ h	/*---website name---*/
 	font-family: 'NotoSansSymbols', sans-serif;
 	font-size: 4.0rem;
 	font-weight:900;
-	line-height: unset;
-	letter-spacing: -.1rem; 
+	line-height: 1.2;
 	margin:0;
 	}
 
@@ -162,17 +133,50 @@ h6	{ font-size: 1.5rem; line-height: 1.6;  }	/*---15px--*/
 	line-height: 1.5;
 	font-weight:400;
 	}
-
 	/*-------END Custom Font size----------------*/
 /*---------------END Style fonts---------------------*/
+/*---06---*/
+/*---------------Style header------------------------*/
+#menu	{
+	display:flex;
+	justify-content:center;
+	height:100px;
+	width:100%;
+	position:fixed;
+	z-index:100;
+	}
+#menu li
+	{
+	width:800px;
+	display:flex;
+	align-items:center;
+	height:100%;
+	}
+ul	{ list-style:none;}
+/*---------------END Style header--------------------*/
 /*---07---*/
 /*---------------Style Sections----------------------*/
-
-	/*-------Main page---------------------------*/
-
-#S1	{ background-color:;}
-#S2	{ background-color:;}
-
+	/*-------Style preContainer------------------*/
+.fp-overflow
+	{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:100%;
+	}
+.fp-table
+	{
+	justify-content:flex-start;
+	height:100%;
+	}
+	/*-------END Style preContainer--------------*/
+	/*-------Style container---------------------*/
+.container
+	{
+	width:800px;
+	height:100%;
+	padding:20px;
+	}
 #containerS1
 	{
 	display:flex;
@@ -182,7 +186,13 @@ h6	{ font-size: 1.5rem; line-height: 1.6;  }	/*---15px--*/
 	justify-content:space-between;
 	height:80vh;
 	}
-	/*-------END Main page-----------------------*/
+.sContainer
+	{
+	width:800px;
+	display:flex;
+	justify-content:center;
+	}
+	/*-------END Style container-----------------*/
 /*---------------END Style Sections------------------*/
 /*---08---*/
 /*---------------Style Header------------------------*/
@@ -248,29 +258,25 @@ h6	{ font-size: 1.5rem; line-height: 1.6;  }	/*---15px--*/
 /*---------------END Style buttons-------------------*/
 /*---11---*/
 /*---------------Style colors------------------------*/
-	/*-------website name + text-----------------*/
+	/*-------Style colors web site name + text---*/
 h, .middle >p
 	{color:#5F8B7E;}
-	/*-------END website name--------------------*/
+li >h, .sContainer h1
+	{color:#F0ECE3;}
+	/*-------END Style colors website name-------*/
 	/*-------page colors-main page---------------*/
 #section0	{ background-color:#F0ECE3;}
 #section1	{ background-color:#5F8B7E;}
 	/*-------END page colors-main page-----------*/
-	/*-------button-Topics-----------------------*/
-.bTopics
+	/*-------link-Topics-------------------------*/
+.sContainer h1:hover
 	{
-	background-color:#B2B8A3;
-	color:#F0ECE3;
+	color:#F4C7AB;
+	font-size: 4.5rem;
+	font-weight:900;
+	transition: font-weight 0.2s ease;
 	}
-.bTopics:hover
-	{
-	background-color:#DFD3C3;
-	color:#5F8B7E;
-	}
-	/*-------END button-Topics-------------------*/
-	/*-------button-Topics-----------------------*/
-
-
+	/*-------END link-Topics---------------------*/
 /*---------------END Style colors--------------------*/
 /*---------------------------------------------------*/
 /*---------------------------------------------------*/
