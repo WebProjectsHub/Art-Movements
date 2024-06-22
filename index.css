@@ -304,10 +304,14 @@ h	/*---website name---*/
 .middle >p 
 	{
 	font-size: 1.2rem;
-	line-height: 1.6;
+	line-height: 1.5;
+	text-align:justify;
 	}
 .container
-	{ width:300px;}
+	{
+	width:300px;
+	padding-top:0;
+	}
 .sContainer
 	{ width:200px;}
 .sContainer h1
