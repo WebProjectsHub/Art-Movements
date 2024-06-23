@@ -195,9 +195,7 @@ ul	{ list-style:none;}
 	display:flex;
 	justify-content:center;
 	margin:0 60px;
-
-	align-items:center;
-	background-color:gray;
+ 	align-items:center;
 	}
 .sContainer h1
 	{
@@ -290,15 +288,8 @@ and (orientation : landscape)
 .container
 	{ width:unset;}
  #menu	{ height:60px;}
-	
+
 }
-
-
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape)
-
 
 
 /* Smartphones (landscape) ----------- */
