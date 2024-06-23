@@ -283,14 +283,24 @@ h	/*---website name---*/
 }
 
 /* iPhone 14 (landscape) ------------- */
-@media only screen and (max-width: 615px) 
-	and (orientation: landscape)
+@media only screen 
+and (min-device-width : 600px) 
+and (orientation : landscape)
 {
 .container
 	{ width:unset;}
  #menu	{ height:60px;}
 	
 }
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape)
+
+
+
 /* Smartphones (landscape) ----------- */
 @media only screen 
 and (min-width : 321px) {
