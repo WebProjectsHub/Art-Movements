@@ -90,7 +90,6 @@
 	{
 	width:65%;
 	height:100%;
-	background-color:rgba(50,50,50,.5);
 	padding-bottom:20px;
 	overflow-y: auto;
 	}
@@ -138,8 +137,20 @@ ul
 #section6	{ background-color:#E5EE9A;}
 #section7	{ background-color:#E3DAB7;}
 #section8	{ background-color:#E5EE9A;}
-#section9	{ background-color:#E3DAB7;}
-#section10	{ background-color:#5F8B7E;}
+#section9	{ background-color:#EF3E56;}
+#section10	{ background-color:#F65368;}
+
+
+#section11	{ background-color:#FEADBD;}
+#section12	{ background-color:#88C148;}
+#section13	{ background-color:#60A61F;}
+#section14	{ background-color:#BEDE8A;}
+#section15	{ background-color:#C8D77C;}
+#section16	{ background-color:#ECEDDF;}
+#section17	{ background-color:#EEF2F5;}
+#section18	{ background-color:#E6B4C4;}
+#section19	{ background-color:#d5d1cd;}
+#section20	{ background-color:#72A424;}
 	/*-------END page colors-main page-----------*/
 
 /*---------------END Style colors--------------------*/
