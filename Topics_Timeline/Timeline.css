@@ -13,16 +13,30 @@
 	- custom font size
 		- middle >p
 6. header
-*********
 7. sections
 	- pre-container
 	- container
 	- section
 8. watermark
 9. middle
-10. xxxxxxx
+10. navigation
 11. colors
 -------*/
+/*---01---*/
+/*---------------set html height to full page--------*/
+/*---------------END set html height to full page----*/
+/*---02---*/
+/*---------------Req---------------------------------*/
+/*---------------END Req-----------------------------*/
+/*---03---*/
+/*---------------Style the links---------------------*/
+/*---------------END Style the links-----------------*/
+/*---04---*/
+/*---------------Text size adjustment----------------*/
+/*---------------END Text size adjustment------------*/
+/*---05---*/
+/*---------------Style fonts-------------------------*/
+/*---------------END Style fonts---------------------*/
 /*---06---*/
 /*---------------Style header------------------------*/
 #menu	{ margin-bottom:0;}
@@ -66,8 +80,18 @@
 	/*-------END Style section_contents_image----*/
 /*---------------END Style Sections------------------*/
 /*---08---*/
+/*---------------Style watermark---------------------*/
+/*---------------END Style watermark-----------------*/
 /*---09---*/
+/*---------------Style middle------------------------*/
 /*---10---*/
+/*---------------Style navigation--------------------*/
+#fp-nav ul li a span, .fp-slidesNav ul li a span
+	{
+	background: white;
+	}
+
+/*---------------END Style navigation----------------*/
 /*---11---*/
 /*---------------Style colors------------------------*/
 	/*-------Style colors web site name + text---*/
