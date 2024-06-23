@@ -138,7 +138,7 @@ h6	{ font-size: 1.5rem; line-height: 1.6;  }	/*---15px--*/
 /*---------------Style header------------------------*/
 .header
 	{
-	position:fixed;
+	position:relative;
 	top:0;
 	height:100px;
 	width:100%;
@@ -187,10 +187,6 @@ ul	{ list-style:none;}
 	width:800px;
 	height:100%;
 	padding:0 20px 20px 20px;
-
-	display:flex;
-	flex-direction:column;
-	justify-content:center;
 	}
 /*--
 #containerS1
@@ -266,8 +262,8 @@ li >h, .sContainer h1
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) 
+and (min-width : 320px) 
+and (max-width : 480px) 
 {
 h	/*---website name---*/	
 	{
@@ -284,8 +280,11 @@ h	/*---website name---*/
 .container
 	{
 	width:300px;
-	padding-top:0;
+	padding-top:0px;
 	}
+#menu, .header
+	{ height:90px;}
+
 .sContainer
 	{
 	}
@@ -301,7 +300,8 @@ and (orientation : landscape)
 {
 .container
 	{ width:unset;}
- #menu	{ height:60px;}
+ #menu, .header
+	{ height:90px;}
 
 }
 
