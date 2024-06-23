@@ -164,7 +164,6 @@ ul	{ list-style:none;}
 	justify-content:center;
 	align-items:center;
 	height:100%;
-	margin-bottom:20px;
 	}
 .fp-table
 	{
@@ -200,6 +199,7 @@ ul	{ list-style:none;}
 .sContainer h1
 	{
 	text-align:center;
+	margin:0;
 	}
 	/*-------END Style container-----------------*/
 /*---------------END Style Sections------------------*/
@@ -274,7 +274,6 @@ h	/*---website name---*/
 .sContainer
 	{
 	}
-
 .fp-arrow 
 	{scale:60%;}
 
@@ -286,9 +285,8 @@ h	/*---website name---*/
 {
 .container
 	{ width:unset;}
-.sContainer
-	{
-	} 
+ #menu	{ height:60px;}
+	
 }
 /* Smartphones (landscape) ----------- */
 @media only screen 
