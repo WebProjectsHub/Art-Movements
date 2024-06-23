@@ -164,6 +164,7 @@ ul	{ list-style:none;}
 	justify-content:center;
 	align-items:center;
 	height:100%;
+	margin-bottom:20px;
 	}
 .fp-table
 	{
@@ -178,6 +179,7 @@ ul	{ list-style:none;}
 	height:100%;
 	padding:20px;
 	}
+/*--
 #containerS1
 	{
 	display:flex;
@@ -187,6 +189,7 @@ ul	{ list-style:none;}
 	justify-content:space-between;
 	height:80vh;
 	}
+--*/
 .sContainer
 	{
 	width:800px;
@@ -283,9 +286,12 @@ h	/*---website name---*/
 @media only screen and (max-width: 615px) 
 {
 .container
+	{ width:unset;}
+.sContainer
 	{
-	width:100%;
-	}
+	width:unset;
+	padding:0 60px;
+	} 
 }
 /* Smartphones (landscape) ----------- */
 @media only screen 
