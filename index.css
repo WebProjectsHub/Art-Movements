@@ -273,8 +273,6 @@ h	/*---website name---*/
 	}
 .sContainer
 	{
-	width:200px;
-	margin:unset;
 	}
 
 .fp-arrow 
@@ -290,8 +288,6 @@ h	/*---website name---*/
 	{ width:unset;}
 .sContainer
 	{
-	width:unset;
-	padding:0 60px;
 	} 
 }
 /* Smartphones (landscape) ----------- */
