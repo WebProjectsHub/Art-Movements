@@ -195,6 +195,9 @@ ul	{ list-style:none;}
 	display:flex;
 	justify-content:center;
 	margin:0 60px;
+
+	align-items:center;
+	background-color:gray;
 	}
 .sContainer h1
 	{
