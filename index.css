@@ -14,11 +14,11 @@
 		- middle >p
 6. header
 7. sections
+	- pre-container
 	- container
-8. header
-9. body
-	- section
-10. buttons
+8. watermark
+9. middle
+10. xxxxxxx
 11. colors
 
 -------*/
@@ -137,6 +137,8 @@ h6	{ font-size: 1.5rem; line-height: 1.6;  }	/*---15px--*/
 /*---06---*/
 /*---------------Style header------------------------*/
 #menu	{
+	margin-top:0;
+	padding-left:20px;
 	display:flex;
 	justify-content:center;
 	height:100px;
@@ -190,39 +192,19 @@ ul	{ list-style:none;}
 	width:800px;
 	display:flex;
 	justify-content:center;
+	margin:0 60px;
+	}
+.sContainer h1
+	{
+	text-align:center;
 	}
 	/*-------END Style container-----------------*/
 /*---------------END Style Sections------------------*/
 /*---08---*/
-/*---------------Style Header------------------------*/
-.header	{
-	display:flex;
-	align-items:center;
-	width:100%;
-	height:100px;
-	z-index:4;
-	position:relative;
-	top:0;
-	}
-	/*-------Left--------------------------------*/
-.headLeft
-	{
-	display:flex;
-	width:50%;
-	height:100%;
-	justify-content:flex-start;
-	}
-	/*-------END Left----------------------------*/
-	/*-------Right-------------------------------*/
-.headRight
-	{
-	display:flex;
-	width:50%;
-	height:100%;
-	justify-content:flex-end;
-	}
-	/*-------END Right---------------------------*/
-/*---------------END Style Header--------------------*/
+/*---------------Style watermark---------------------*/
+.fp-warning, .fp-watermark
+	{display:none}
+/*---------------END Style watermark-----------------*/
 /*---09---*/
 /*---------------Style middle------------------------*/
 .middle	{
@@ -230,31 +212,9 @@ ul	{ list-style:none;}
 	}
 /*---------------END Style middle--------------------*/
 /*---10---*/
-/*---------------Style buttons-----------------------*/
-.bTopics
-	{
-	height:45%;
-	width:45%;
-	margin:20px 0;
-	padding:0 10px 0 10px;
-	border-radius:15px;
-	border:none;
-	font-size: 2.40rem;
-	font-weight:900;
-	font-family: 'NotoSansSymbols', sans-serif;
-	line-height:1.35;
-	cursor:pointer;
-	transition: width 0.2s linear;
-	}
+/*---------------Style xxxxxxx-----------------------*/
 
-.bTopics:hover
-	{
-	width:50%;
-	font-size: 3.6rem;
-	line-height: 1.25;
-	font-weight:900;
-	}
-/*---------------END Style buttons-------------------*/
+/*---------------END Style xxxxxxx-------------------*/
 /*---11---*/
 /*---------------Style colors------------------------*/
 	/*-------Style colors web site name + text---*/
@@ -278,11 +238,7 @@ li >h, .sContainer h1
 	/*-------END link-Topics---------------------*/
 /*---------------END Style colors--------------------*/
 /*---12---*/
-/*---------------Style watermark---------------------*/
 
-/*---------------END Style watermark-----------------*/
-.fp-warning, .fp-watermark
-	{display:none}
 
 /*---------------------------------------------------*/
 /*---------------------------------------------------*/
@@ -313,9 +269,14 @@ h	/*---website name---*/
 	padding-top:0;
 	}
 .sContainer
-	{ width:200px;}
-.sContainer h1
-	{ text-align:center;}
+	{
+	width:200px;
+	margin:unset;
+	}
+
+.fp-arrow 
+	{scale:60%;}
+
 }
 
 /* Smartphones (landscape) ----------- */
