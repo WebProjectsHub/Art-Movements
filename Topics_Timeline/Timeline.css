@@ -1,66 +1,168 @@
 /*---------------Color style------------------------*/
-/*------https://coolors.co/palette/cbefaa-bfe97b-72a424-fca3ad-fa7370-fba685-bfbd91-dfce59-e5ee9a-e3dab7----*/
-/*------https://coolors.co/palette/ef3e56-f65368-feadbd-88c148-60a61f-bede8a-c8d77c-eceddf-eef2f5-e6b4c4----*/
-/*------https://coolors.co/palette/d5d1cd-e6b4c4----*/
+/*------https://coolors.co/palette/000000-14213d-fca311-e5e5e5-ffffff----*/
+/*------https://coolors.co/palette/0015ff-ff00a1-90fe00-8400ff-00fff7-ff7300	----*/
+/*------https://coolors.co/visualizer/0015ff-ff00a1-90fe00-8400ff-00fff7-ff7300	----*/
 /*------
 1. html and body height and width
-2. required
-3. link style
-4. general text size adjustment
-5. font style and sizes
+2. background
+3. container
+4. link style
+5. general text size adjustment
+6. font style and sizes
 	- font styles
 	- font size
 	- custom font size
 		- middle >p
-6. header
 7. sections
-	- pre-container
-	- container
+8. header
+9. body
 	- section
-8. watermark
-9. middle
-10. navigation
+10. buttons
 11. colors
+
 -------*/
 /*---01---*/
 /*---------------set html height to full page--------*/
+html, body
+	{
+	width:100%;
+	height:100%;
+	margin: 0;
+
+	overflow:hidden;
+	}
+
 /*---------------END set html height to full page----*/
 /*---02---*/
-/*---------------Req---------------------------------*/
-/*---------------END Req-----------------------------*/
-/*---03---*/
-/*---------------Style the links---------------------*/
-/*---------------END Style the links-----------------*/
-/*---04---*/
-/*---------------Text size adjustment----------------*/
-/*---------------END Text size adjustment------------*/
-/*---05---*/
-/*---------------Style fonts-------------------------*/
-/*---------------END Style fonts---------------------*/
-/*---06---*/
-/*---------------Style header------------------------*/
-#menu	{ margin-bottom:0;}
-#menu a:hover
-	{text-decoration:underline;}
-/*---------------END Style header--------------------*/
-/*---07---*/
-/*---------------Style Sections----------------------*/
-	/*-------Style preContainer------------------*/
-.fp-overflow
-	{ align-items:unset; }
-	/*-------END Style preContainer--------------*/
-	/*-------Style container---------------------*/
-.timelineContainer
+/*---------------Style background--------------------*/
+.background
 	{
-	margin-top:100px;
+	}
+/*---------------END Style background----------------*/
+/*---03---*/
+/*---------------Style container---------------------*/
+.container
+	{
 	width:1000px;
 	display:flex;
 	flex-direction:row;
 	align-items:center;
 	justify-content:space-between;
 	}
-	/*-------END Style container-----------------*/
-	/*-------Style section_contents_image--------*/
+/*---------------END Style container-----------------*/
+/*---------------Req---------------------------------*/
+* 	{box-sizing: border-box;}
+/*---------------END Req-----------------------------*/
+/*---04---*/
+/*---------------Style the links---------------------*/
+a	{
+	text-decoration:none;
+	color:unset;
+	cursor:pointer;
+	}
+/*---------------END Style the links-----------------*/
+/*---05---*/
+/*---------------Text size adjustment----------------*/
+html	{
+	-ms-text-size-adjust: 100%;		
+	-webkit-text-size-adjust: 100%; 	
+	}
+	/*---Prevent iOS text size adjust after------*/
+	/*---orientation change, without disabling---*/
+	/*---user zoom.------------------------------*/
+
+html	{
+	font-size: 62.5%;
+	}
+	/*---10px--*/
+
+body 	{
+	font-family: 'NotoSansSymbols', sans-serif;
+	}
+/*---------------END Text size adjustment------------*/
+/*---06---*/
+/*---------------Style fonts-------------------------*/
+	/*-------Font styles-------------------------*/
+@font-face
+	{
+	font-family: 'NotoSansSymbols';
+	src: local('NotoSansSymbols'), url('./assets/fonts/Noto_Sans_Symbols/NotoSansSymbols-VariableFont_wght.ttf') format('truetype');
+	}
+
+@font-face 
+	{
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Raleway'), url('./assets/fonts/Raleway/Raleway-Medium.woff') format('woff');
+	}
+
+@font-face 
+	{
+	font-family: 'Montserrat';
+	src: local('Montserrat'), url('./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+	}
+@font-face 
+	{
+	font-family: 'Material Symbols Outlined';
+	font-style: normal;
+	src: url(../Assets/fonts/MaterialSymbolsOutlined[FILL,GRAD,opsz,wght].woff2) format('woff');
+	}
+
+html	{
+	font-family: 'NotoSansSymbols', sans-serif;
+	}
+	/*-------END Font styles---------------------*/
+	/*-------Font size---------------------------*/
+p	{
+	margin: 0;
+	line-height:1.6;
+	}
+
+h	/*---website name---*/	
+	{
+	font-family: 'NotoSansSymbols', sans-serif;
+	font-size: 4.0rem;
+	font-weight:900;
+	line-height: unset;
+	letter-spacing: -.1rem; 
+	margin:0;
+	}
+
+h1, h2, h3, h4, h5, h6
+
+	{
+	font-family: 'NotoSansSymbols', sans-serif;
+	margin-top: 0;
+	margin-bottom: 2rem;
+	}
+
+h1	{ font-size: 4.0rem; line-height: 1.1;  }	/*---40px--*/
+h2	{ font-size: 3.6rem; line-height: 1.25; }	/*---36px--*/
+h3	{ font-size: 3.0rem; line-height: 1.3;  }	/*---30px--*/
+h4	{ font-size: 2.4rem; line-height: 1.35; }	/*---24px--*/
+h5	{ font-size: 1.8rem; line-height: 1.5;  }	/*---18px--*/
+h6	{ font-size: 1.4rem; line-height: 1.4;  }	/*---15px--*/
+
+	/*-------END Font size-----------------------*/
+	/*-------Custom Font size--------------------*/
+.middle >p
+	{
+	font-size: 1.8rem;
+	line-height: 1.5;
+	font-weight:400;
+	}
+.contents >p
+ 	{
+	font-size: 1.5rem;
+	line-height: 1.2;
+	font-weight:400;
+	}
+
+	/*-------END Custom Font size----------------*/
+/*---------------END Style fonts---------------------*/
+/*---07---*/
+/*---------------Style Sections----------------------*/
 .section
 	{
 	height:100vh;
@@ -70,47 +172,42 @@
 .contents
 	{
 	width:65%;
-	background-color:rgba(50,50,50,.5);
 	}
 .image
 	{
 	width:30%;
 	background-color:gray;
+	height:500px;
 	}
-	/*-------END Style section_contents_image----*/
 /*---------------END Style Sections------------------*/
 /*---08---*/
-/*---------------Style watermark---------------------*/
-/*---------------END Style watermark-----------------*/
-/*---09---*/
-/*---------------Style middle------------------------*/
-/*---10---*/
-/*---------------Style navigation--------------------*/
-#fp-nav ul li a span, .fp-slidesNav ul li a span
-	{
-	background: white;
-	}
 
-/*---------------END Style navigation----------------*/
+
+
+
 /*---11---*/
 /*---------------Style colors------------------------*/
-	/*-------Style colors web site name + text---*/
-li >h
-	{color:black;}
-	/*-------END Style colors website name-------*/
+	/*-------website name------------------------*/
+h	{color:#8400FF;}
+	/*-------END website name--------------------*/
 	/*-------page colors-main page---------------*/
-#section0	{ background-color:#72A424;}
-#section1	{ background-color:#FCA3AD;}
-#section2	{ background-color:#FA7370;}
-#section3	{ background-color:#FBA685;}
-#section4	{ background-color:#BFBD91;}
-#section5	{ background-color:#DFCE59;}
-#section6	{ background-color:#E5EE9A;}
-#section7	{ background-color:#E3DAB7;}
-#section8	{ background-color:#E5EE9A;}
-#section9	{ background-color:#E3DAB7;}
-#section10	{ background-color:#5F8B7E;}
+#S1	{ background-color:#00FFF7;}
+#S2	{ background-color:#8400FF;}
 	/*-------END page colors-main page-----------*/
+	/*-------button-Topics-----------------------*/
+.bTopics
+	{
+	background-color:#00FFF7;
+	color:#FFFFFF;
+	}
+.bTopics:hover
+	{
+	background-color:#90FE00;
+	color:#FF7300;
+	}
+	/*-------END button-Topics-------------------*/
+	/*-------button-Topics-----------------------*/
+
 
 /*---------------END Style colors--------------------*/
 
