@@ -6,6 +6,7 @@
    <link rel="stylesheet" href="../fullpage.css">
    <link rel="stylesheet" href="../index.css">
    <link rel="stylesheet" href="Timeline.css">
+   <link rel="stylesheet" href="TimelineAnimation.css">
 
    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -85,6 +86,8 @@ Ancient Greek art can be further categorized into the Archaic, Classical and Hel
 		</div>	<!---END Contents----------------------!>
 			<!---Image-----------------------------!>
 		<div class="image">
+			<img src="../assets/images/Ancient Egyptian Art/Anubis-Egyptian-Book-of-the-Dead-dead-c-1275-bce.webp"
+			 id="egypt01">
 		</div>	<!---END Image-------------------------!>
 	</div>	<!-----------END Container---------------------!>
 </div>	<!-------------------END Section 1---------------------!>
@@ -121,6 +124,8 @@ The medieval period encompasses many sub-classifications of art styles and movem
 		</div>	<!---END Contents----------------------!>
 			<!---Image-----------------------------!>
 		<div class="image">
+			<img src="../assets/images/Ancient Egyptian Art/Anubis-Egyptian-Book-of-the-Dead-dead-c-1275-bce.webp"
+			 id="egypt01">
 		</div>	<!---END Image-------------------------!>
 	</div>	<!-----------END Container---------------------!>
 </div>	<!-------------------END Section 2---------------------!>
@@ -468,7 +473,14 @@ Impressionist artists in France rejected the notion of exhibitions and academies
 
 <script type="text/javascript" src="../fullpage.js"></script>
 <script type="text/javascript" src="./TimelineNavTooltip.js"></script>
+<script>
+var myFullpage = new fullpage
+('#fullpage', 
+	{
+        anchors: ['1', '2', '3', '4', '5'],
+        }
+);
 
-
+</script>
 </body>
 </html>

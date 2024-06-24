@@ -44,5 +44,5 @@ var myFullpage = new fullpage
 			'Digital Art'
 			],
 
-	}
+ 	}
 );

@@ -17,6 +17,8 @@
 	- pre-container
 	- container
 	- section
+	- contents
+	- images
 8. watermark
 9. middle
 10. navigation
@@ -88,11 +90,14 @@
 	}
 .contents
 	{
-	width:65%;
+	width:70%;
 	height:100%;
+	padding-right:20px;
 	padding-bottom:20px;
 	overflow-y: auto;
 	}
+.contents p
+	{ text-align:justify;}
 .image
 	{
 	width:30%;
@@ -166,7 +171,6 @@ ul
 	/*-------END page colors-main page-----------*/
 
 /*---------------END Style colors--------------------*/
-
 
 
 
