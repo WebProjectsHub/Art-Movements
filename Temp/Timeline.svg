@@ -1,0 +1,35 @@
+<!--Scalable Vector Graphic-->
+<svg xmlns="http://www.w3.org/2000/svg" 
+     xmlns:xlink="http://www.w3.org/1999/xlink"  
+     width="1000px" 
+     height="300px" 
+     >
+<link xmlns="http://www.w3.org/1999/xhtml" rel="stylesheet" href="svg.css" type="text/css" />
+	
+	<line id="time" x1="0" x2="1000" y1="5" y2="5"/>
+
+	<line x1="000" x2="000" y1="0" y2="10" stroke="red" stroke-width="1" />
+	<line x1="100" x2="100" y1="0" y2="10" stroke="red" stroke-width="1" />
+	<line x1="200" x2="200" y1="0" y2="10" stroke="red" stroke-width="1" />
+	<line x1="300" x2="300" y1="0" y2="10" stroke="red" stroke-width="1" />
+
+	<line id="BC_AD" x1="400" x2="400" y1="0" y2="10" stroke="red" stroke-width="2" />
+
+	<line x1="500" x2="500" y1="0" y2="10" stroke="red" stroke-width="1" />
+	<line x1="600" x2="600" y1="0" y2="10" stroke="red" stroke-width="1" />
+	<line x1="700" x2="700" y1="0" y2="10" stroke="red" stroke-width="1" />
+	<line x1="800" x2="800" y1="0" y2="10" stroke="red" stroke-width="1" />
+	<line x1="900" x2="900" y1="0" y2="10" stroke="red" stroke-width="1" />
+	<line x1="1000" x2="1000" y1="0" y2="10" stroke="red" stroke-width="1" />
+
+    <!-- Text Labels -->
+
+	<text x="400" y="25"> 0 </text>
+	<text x="300" y="25"> 1000 BC </text>
+	<text x="200" y="25"> 2000 BC </text>
+	<text x="100" y="25"> 3000 BC </text>
+
+    <!-- Ancient Egypt -->
+	<line id="time" x1="90" x2="400" y1="50" y2="50"/>
+
+</svg>
