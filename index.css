@@ -13,8 +13,14 @@
 	- custom font size
 		- middle >p
 6. header
-	- header
-	- dropMenu
+	- 1st page header
+	- menu header
+	- dropmenu
+		- container
+		- icon
+		- list
+		- contents
+		- contents anim
 7. sections
 	- pre-container
 	- container
@@ -154,13 +160,15 @@ h6	{ font-size: 1.5rem; line-height: 1.6;  }	/*---15px--*/
 	/*-------standard menu header----------------*/
 #menu	{
 	margin-top:0;
-	padding-left:20px;
+	padding:0 20px;
 	display:flex;
 	justify-content:center;
 	height:100px;
 	width:100%;
 	position:fixed;
 	z-index:100;
+	margin-left:auto;
+	margin-right:auto;
 	}
 /*---
 #menu a:hover
@@ -198,6 +206,7 @@ ul	{ list-style:none;}
 	width: 35px;
 	height: 5px;
 	margin: 6px 0;
+	cursor:pointer;
 	}
 		/*-------END menu icon---------------*/
 		/*-------menu list-------------------*/
@@ -207,10 +216,12 @@ ul	{ list-style:none;}
 		/*-------menu contents---------------*/
 .dropMenuContent
 	{
+	flex-direction:column;
 	display: none;
+	top:64px;
+	float:right;
 	position: absolute;
 	z-index: 100;
-	min-width:200px;
 	font-size:1.2rem;
 	}
 
@@ -223,35 +234,81 @@ ul	{ list-style:none;}
 	display: block;
 	text-align: left;
 	position:relative;
-
 	opacity:0;
+	min-width:250px;
 	}
 
 .dropMenu:hover .dropMenuContent
 	{
-	top:64px;
-	float:right;
 	display: flex;
+	opacity:1;
+	}
+			/*----related contents-------*/
+.dropMenuRelated
+	{
 	flex-direction:column;
+	display: none;
+	margin-left:5px;
+	float:right;
+	position: relative;
+	z-index: 100;
+	font-size:1.2rem;
 	}
 
-.dropMenu:hover .dropMenuContent a 
-	{ animation:fadeUp 1s ease-in-out forwards;}
+.dropMenuRelated a
+	{
+	padding:5px 10px;
+	margin:2px 0;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	position:relative;
+	opacity:0;
+	min-width:200px;
+	}
 
-.dropMenu:hover .dropMenuContent a:nth-child(1) 
+/*-------------*/
+.parentContainer:hover .dropMenuRelated
+	{
+	display: flex;
+	opacity:1;
+	}
+
+.parentContainer:hover .dropMenuRelated a 
+	{ animation:fadeUp 1s ease-in-out forwards;}
+/*-------------*/
+
+
+
+			/*----END related contents---*/
+		/*-------END menu contents-----------*/
+		/*-------menu contents anim----------*/
+
+
+.dropMenu:hover .dropMenuContent  #dropMenuContent01 
 	{ animation:fadeUp 1s ease-in-out .25s forwards;}
 
-.dropMenu:hover .dropMenuContent a:nth-child(2) 
+.dropMenu:hover .dropMenuContent #dropMenuContent02 
 	{ animation:fadeUp 1s ease-in-out .5s forwards;}
 
-.dropMenu:hover .dropMenuContent a:nth-child(3) 
+.dropMenu:hover .dropMenuContent #dropMenuContent03 
 	{ animation:fadeUp 1s ease-in-out .75s forwards;}
 
-.dropMenu:hover .dropMenuContent a:nth-child(4) 
+.dropMenu:hover .dropMenuContent #dropMenuContent04
 	{ animation:fadeUp 1s ease-in-out 1s forwards;}
 
-.dropMenu:hover .dropMenuContent a:nth-child(5) 
+.dropMenu:hover .dropMenuContent #dropMenuContent05
 	{ animation:fadeUp 1s ease-in-out 1.25s forwards;}
+
+
+.dropMenu:hover .dropMenuContent  #dMR01 
+	{ animation:fadeUp 1s ease-in-out .25s forwards;}
+
+.dropMenu:hover .dropMenuContent #dMR02
+	{ animation:fadeUp 1s ease-in-out .5s forwards;}
+
+.dropMenu:hover .dropMenuContent #dMR03 
+	{ animation:fadeUp 1s ease-in-out .75s forwards;}
 
 @keyframes fadeUp
 	{
@@ -270,9 +327,8 @@ ul	{ list-style:none;}
 	font-weight:900;
 	}
 
-		/*-------menu contents---------------*/
 
-
+		/*-------menu contents anim----------*/
 	/*-------END drop down menu------------------*/
 
 /*---------------END Style header--------------------*/
@@ -298,9 +354,18 @@ ul	{ list-style:none;}
 	width:800px;
 	height:100%;
 	padding:0 20px 20px 20px;
-	padding-top:100px;
 	}
-
+/*--
+#containerS1
+	{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	align-items:center;
+	justify-content:space-between;
+	height:80vh;
+	}
+--*/
 .sContainer
 	{
 	width:800px;
@@ -309,7 +374,6 @@ ul	{ list-style:none;}
 	margin:0 60px;
  	align-items:center;
 	}
-
 .sContainer h1
 	{
 	text-align:center;
@@ -342,14 +406,14 @@ ul	{ list-style:none;}
 /*---11---*/
 /*---------------Style colors------------------------*/
 	/*-------Style colors web site name + text---*/
-h, .middle >p, #sec0H
+h, .middle >p
 	{color:#5F8B7E;}
 li >h, .sContainer h1
 	{color:#F0ECE3;}
 	/*-------END Style colors website name-------*/
 	/*-------page colors-main page---------------*/
 #section0	{ background-color:#F0ECE3;}
-#section1	{ background-color:#5F8B7E;}
+#section1	{ background-color:#5F8B7E;}/*--#5F8B7E--*/
 	/*-------END page colors-main page-----------*/
 	/*-------link-Topics-------------------------*/
 .sContainer h1:hover
@@ -358,9 +422,16 @@ li >h, .sContainer h1
 	}
 	/*-------END link-Topics---------------------*/
 	/*-------drop down menu----------------------*/
-#sec0Icon, #sec0MenuContents a
+.dropMenuIcon div, .dropMenuContent a
 	{background-color:#5F8B7E;}
-#sec0MenuContents a
+/*---
+li .dropMenuIcon:hover div
+	{background-color:#DFD3C3;}
+#dropMenuSec0 .dropMenuIcon:hover div
+	{background-color:#F4C7AB;}
+---*/
+
+.dropMenuContent a
 	{ color:#F0ECE3;}
 	
 li .dropMenuIcon div, li .dropMenuContent a
@@ -384,8 +455,8 @@ li .dropMenuContent a:hover
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
-and (min-width : 320px) 
-and (max-width : 480px) 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
 {
 h	/*---website name---*/	
 	{
@@ -407,9 +478,6 @@ h	/*---website name---*/
 #menu, .header
 	{ height:100px;}
 
-.sContainer
-	{
-	}
 .fp-arrow 
 	{scale:60%;}
 
@@ -486,3 +554,4 @@ and (min-width : 1224px) {
 and (min-width : 1824px) {
 	
 }
+
