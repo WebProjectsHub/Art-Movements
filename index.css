@@ -212,7 +212,6 @@ ul	{ list-style:none;}
 	z-index: 100;
 	min-width:200px;
 	font-size:1.2rem;
-
 	}
 
 .dropMenuContent a
@@ -272,6 +271,8 @@ ul	{ list-style:none;}
 	}
 
 		/*-------menu contents---------------*/
+
+
 	/*-------END drop down menu------------------*/
 
 /*---------------END Style header--------------------*/
@@ -297,18 +298,9 @@ ul	{ list-style:none;}
 	width:800px;
 	height:100%;
 	padding:0 20px 20px 20px;
+	padding-top:100px;
 	}
-/*--
-#containerS1
-	{
-	display:flex;
-	flex-direction:row;
-	flex-wrap:wrap;
-	align-items:center;
-	justify-content:space-between;
-	height:80vh;
-	}
---*/
+
 .sContainer
 	{
 	width:800px;
@@ -317,6 +309,7 @@ ul	{ list-style:none;}
 	margin:0 60px;
  	align-items:center;
 	}
+
 .sContainer h1
 	{
 	text-align:center;
@@ -349,7 +342,7 @@ ul	{ list-style:none;}
 /*---11---*/
 /*---------------Style colors------------------------*/
 	/*-------Style colors web site name + text---*/
-h, .middle >p
+h, .middle >p, #sec0H
 	{color:#5F8B7E;}
 li >h, .sContainer h1
 	{color:#F0ECE3;}
@@ -365,9 +358,9 @@ li >h, .sContainer h1
 	}
 	/*-------END link-Topics---------------------*/
 	/*-------drop down menu----------------------*/
-.dropMenuIcon div, .dropMenuContent a
+#sec0Icon, #sec0MenuContents a
 	{background-color:#5F8B7E;}
-.dropMenuContent a
+#sec0MenuContents a
 	{ color:#F0ECE3;}
 	
 li .dropMenuIcon div, li .dropMenuContent a
@@ -493,4 +486,3 @@ and (min-width : 1224px) {
 and (min-width : 1824px) {
 	
 }
-
