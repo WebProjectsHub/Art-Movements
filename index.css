@@ -481,6 +481,10 @@ h	/*---website name---*/
 .fp-arrow 
 	{scale:60%;}
 
+.dropMenuIcon div
+	{
+	width:20px;
+	}
 }
 
 /* iPhone 14 (landscape) ------------- */
@@ -489,10 +493,42 @@ and (max-width : 615px)
 and (orientation : landscape)
 {
 .container
-	{ width:unset;}
- #menu, .header
-	{ height:90px;}
+	{
+	width:unset;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	}
+h	/*---website name---*/	
+	{
+	font-size: 3.6rem;
+	line spacing:1.25;
+	font-weight:800;
+	}
+.middle >p 
+	{
+	font-size: 1.5rem;
+	line-height: 1.5;
+	text-align:justify;
+	}
 
+ #menu, .header, .dropMenu
+	{ height:60px;}
+
+.container .header
+	{width:450px}
+.container .dropMenu
+	{flex:1}
+
+#menu li:first-child
+	{width:500px}
+#menu li:nth-child(2)
+	{flex:1}
+
+.dropMenuIcon div
+	{
+	width:30px;
+	}
 }
 
 
