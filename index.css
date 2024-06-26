@@ -455,8 +455,8 @@ li .dropMenuContent a:hover
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
-and (min-device-width: 320px) 
-and (max-device-width: 480px)
+and (min-width: 320px) 
+and (max-width: 480px)
 {
 h	/*---website name---*/	
 	{
