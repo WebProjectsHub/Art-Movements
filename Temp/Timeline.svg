@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" 
      xmlns:xlink="http://www.w3.org/1999/xlink"  
      width="2900px" 
-     height="500px" 
+     height="1000px" 
      >
 <link xmlns="http://www.w3.org/1999/xhtml" rel="stylesheet" href="svg.css" type="text/css" />
 	
@@ -249,23 +249,70 @@
 	</g>
     <!-- ... -->
     <!-- ... -->
-
+	<g id="time16">
+	<text x="2350" y="410" > Tonalism </text>
+	<line id="time" x1="2300" x2="2400" y1="410" y2="410"/>
+	</g>
+	
+	<g id="markers">
+	<line x1="2300" x2="2300" y1="405" y2="415" />
+	<line x1="2400" x2="2400" y1="405" y2="415" />
+	</g>
     <!-- ... -->
     <!-- ... -->
-
+	<g id="time17">
+	<text x="2350" y="450" > Symbolism </text>
+	<line id="time" x1="2300" x2="2400" y1="450" y2="450"/>
+	</g>
+	
+	<g id="markers">
+	<line x1="2300" x2="2300" y1="445" y2="455" />
+	<line x1="2400" x2="2400" y1="445" y2="455" />
+	</g>
     <!-- ... -->
     <!-- ... -->
-
+	<g id="time18">
+	<text x="2450" y="90" > Fauvism </text>
+	<line id="time" x1="2400" x2="2500" y1="90" y2="90"/>
+	</g>
+	
+	<g id="markers">
+	<line x1="2400" x2="2400" y1="85" y2="95" />
+	<line x1="2500" x2="2500" y1="85" y2="95" />
+	</g>
     <!-- ... -->
     <!-- ... -->
-
+	<g id="time19">
+	<text x="2400" y="490" > Art Nouveau </text>
+	<line id="time" x1="2300" x2="2500" y1="490" y2="490"/>
+	</g>
+	
+	<g id="markers">
+	<line x1="2300" x2="2300" y1="485" y2="495" />
+	<line x1="2500" x2="2500" y1="485" y2="495" />
+	</g>
     <!-- ... -->
     <!-- ... -->
-
+	<g id="time20">
+	<text x="2450" y="130" > Abstract Expressionism </text>
+	<line id="time" x1="2400" x2="2500" y1="130" y2="130"/>
+	</g>
+	
+	<g id="markers">
+	<line x1="2400" x2="2400" y1="125" y2="135" />
+	<line x1="2500" x2="2500" y1="125" y2="135" />
+	</g>
     <!-- ... -->
     <!-- ... -->
-
-
+	<g id="time21">
+	<text x="2450" y="170" > Art Deco </text>
+	<line id="time" x1="2400" x2="2500" y1="170" y2="170"/>
+	</g>
+	
+	<g id="markers">
+	<line x1="2400" x2="2400" y1="165" y2="175" />
+	<line x1="2500" x2="2500" y1="165" y2="175" />
+	</g>
     <!-- ... -->
     <!-- ... -->
 
