@@ -53,15 +53,11 @@
 /*---------------END Style fonts---------------------*/
 /*---06---*/
 /*---------------Style header------------------------*/
-#menu	{
-	margin-bottom:0;
-	padding-left:0px;
-	}
 #menu a:hover
 	{text-decoration:underline;}
 #menu li
 	{
-	width:1000px;
+	width:500px;
 	}
 /*---------------END Style header--------------------*/
 /*---07---*/
@@ -171,6 +167,45 @@ ul
 	/*-------END page colors-main page-----------*/
 
 /*---------------END Style colors--------------------*/
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*---------------RESPONSIVE DESIGN-------------------*/
+/* when screen is less than 1000px ----------------- */
+@media only screen 
+and (max-width : 1000px)
+{
+.timelineContainer
+	{
+	margin-top:100px;
+	width:unset;
+	padding:0 20px;
+	}
+} 
+/* Smartphones (portrait and landscape) ------------ */
+@media only screen 
+and (min-width: 320px) 
+and (max-width: 480px)
+{
+.timelineContainer
+	{
+	flex-direction:column;
+	overflow-y:auto;
+	padding:0 5px 0 20px;
+	}
 
+.contents
+	{
+	width:100%;
+	padding-right:0;
+	}
+.image
+	{
+	height:100px;
+	width:100%;
+	}
+    #fp-nav {
+        display: none;
+    }
 
-
+}
