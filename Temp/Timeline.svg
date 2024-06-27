@@ -1,35 +1,274 @@
 <!--Scalable Vector Graphic-->
 <svg xmlns="http://www.w3.org/2000/svg" 
      xmlns:xlink="http://www.w3.org/1999/xlink"  
-     width="1000px" 
-     height="300px" 
+     width="2900px" 
+     height="500px" 
      >
 <link xmlns="http://www.w3.org/1999/xhtml" rel="stylesheet" href="svg.css" type="text/css" />
 	
-	<line id="time" x1="0" x2="1000" y1="5" y2="5"/>
+	<line id="time" x1="0" x2="10000" y1="10" y2="10"/>
 
-	<line x1="000" x2="000" y1="0" y2="10" stroke="red" stroke-width="1" />
-	<line x1="100" x2="100" y1="0" y2="10" stroke="red" stroke-width="1" />
-	<line x1="200" x2="200" y1="0" y2="10" stroke="red" stroke-width="1" />
-	<line x1="300" x2="300" y1="0" y2="10" stroke="red" stroke-width="1" />
+	<g id="markers">
+	<line x1="000" x2="000" y1="5" y2="15" />
+	<line x1="100" x2="100" y1="5" y2="15" />
+	<line x1="200" x2="200" y1="5" y2="15" />
+	<line x1="300" x2="300" y1="5" y2="15" />
+	<line x1="400" x2="400" y1="5" y2="15" />
+	</g>
 
-	<line id="BC_AD" x1="400" x2="400" y1="0" y2="10" stroke="red" stroke-width="2" />
+	<line id="BC_AD" x1="500" x2="500" y1="5" y2="15" stroke="red" stroke-width="2" />
 
-	<line x1="500" x2="500" y1="0" y2="10" stroke="red" stroke-width="1" />
-	<line x1="600" x2="600" y1="0" y2="10" stroke="red" stroke-width="1" />
-	<line x1="700" x2="700" y1="0" y2="10" stroke="red" stroke-width="1" />
-	<line x1="800" x2="800" y1="0" y2="10" stroke="red" stroke-width="1" />
-	<line x1="900" x2="900" y1="0" y2="10" stroke="red" stroke-width="1" />
-	<line x1="1000" x2="1000" y1="0" y2="10" stroke="red" stroke-width="1" />
+	<g id="markers">
+	<line x1="600" x2="600" y1="5" y2="15" />
+	<line x1="700" x2="700" y1="5" y2="15" />
+	<line x1="800" x2="800" y1="5" y2="15" />
+	<line x1="900" x2="900" y1="5" y2="15" />
+	<line x1="1000" x2="1000" y1="5" y2="15" />
+	<line x1="1100" x2="1100" y1="5" y2="15" />
+	<line x1="1200" x2="1200" y1="5" y2="15" />
+	<line x1="1300" x2="1300" y1="5" y2="15" />
+	<line x1="1400" x2="1400" y1="5" y2="15" />
+	<line x1="1500" x2="1500" y1="5" y2="15" />
+	<line x1="1600" x2="1600" y1="5" y2="15" />
+	<line x1="1700" x2="1700" y1="5" y2="15" />
+	<line x1="1800" x2="1800" y1="5" y2="15" />
+	<line x1="1900" x2="1900" y1="5" y2="15" />
+	<line x1="2000" x2="2000" y1="5" y2="15" />
+	<line x1="2100" x2="2100" y1="5" y2="15" />
+	<line x1="2200" x2="2200" y1="5" y2="15" />
+	<line x1="2300" x2="2300" y1="5" y2="15" />
+	<line x1="2400" x2="2400" y1="5" y2="15" />
 
+
+
+
+	</g>
     <!-- Text Labels -->
+	<text x="2800" y="25"> 23 </text>
+	<text x="2700" y="25"> 22 </text>
+	<text x="2600" y="25"> 21 </text>
+	<text x="2500" y="25"> 20 </text>
+	<text x="2400" y="25"> 19 </text>
+	<text x="2300" y="25"> 18 </text>
+	<text x="2200" y="25"> 17 </text>
+	<text x="2100" y="25"> 16 </text>
+	<text x="2000" y="25"> 15 </text>
+	<text x="1900" y="25"> 14 </text>
+	<text x="1800" y="25"> 13 </text>
+	<text x="1700" y="25"> 12 </text>
+	<text x="1600" y="25"> 11 </text>
+	<text x="1500" y="25"> 10 </text>
+	<text x="1400" y="25"> 9 </text>
+	<text x="1300" y="25"> 8 </text>
+	<text x="1200" y="25"> 7 </text>
+	<text x="1100" y="25"> 6 </text>
+	<text x="1000" y="25"> 5 </text>
 
-	<text x="400" y="25"> 0 </text>
-	<text x="300" y="25"> 1000 BC </text>
-	<text x="200" y="25"> 2000 BC </text>
-	<text x="100" y="25"> 3000 BC </text>
+	<text x="900" y="25"> 4 </text>
+	<text x="800" y="25"> 3</text>
+	<text x="700" y="25"> 2</text>
+	<text x="600" y="25"> 1</text>
 
-    <!-- Ancient Egypt -->
-	<line id="time" x1="90" x2="400" y1="50" y2="50"/>
+	<text x="500" y="25"> 0 </text>
+	<text x="400" y="25"> 1</text>
+	<text x="300" y="25"> 2</text>
+	<text x="200" y="25"> 3</text>
 
+
+    <!-- ... -->
+	<g id="time1">
+	<text x="375" y="50"> Ancient Egyptian Art </text>
+
+	<line id="time" x1="185" x2="500" y1="50" y2="50"/>
+	<line id="time" x1="500" x2="564" y1="50" y2="50"/>
+
+		<g id="markers">
+	<line x1="185" x2="185" y1="45" y2="55" />
+	<line x1="564" x2="564" y1="45" y2="55" />
+		</g>
+	</g>
+
+    <!-- ... -->
+    <!-- ... -->
+	<g id="time2">
+	<text x="440" y="90"> Greek Art </text>
+	<line id="time" x1="410" x2="470" y1="90" y2="90"/>
+
+		<g id="markers">
+	<line x1="410" x2="410" y1="85" y2="95" />
+	<line x1="470" x2="470" y1="85" y2="95" />
+		</g>
+	</g>
+
+    <!-- ... -->
+    <!-- ... -->
+	<g id="time3">
+	<text x="1450" y="50"> Western Medieval Art </text>
+	<line id="time" x1="900" x2="2000" y1="50" y2="50"/>
+
+		<g id="markers">
+	<line x1="900" x2="900" 	y1="45" y2="55" />
+	<line x1="2000" x2="2000" 	y1="45" y2="55" />
+		</g>
+	</g>
+
+    <!-- ... -->
+    <!-- ... -->
+	<g id="time4">
+	<text x="1950" y="90"> Renaissance </text>
+	<line id="time" x1="1800" x2="2100" y1="90" y2="90"/>
+
+		<g id="markers">
+	<line x1="1800" x2="1800" y1="85" y2="95" />
+	<line x1="2100" x2="2100" y1="85" y2="95" />
+		</g>
+	</g>
+
+    <!-- ... -->
+    <!-- ... -->
+	<g id="time5">
+	<text x="2150" y="50"> Baroque </text>
+	<line id="time" x1="2100" x2="2200" y1="50" y2="50"/>
+
+		<g id="markers">
+	<line x1="2100" x2="2100" y1="45" y2="55" />
+	<line x1="2200" x2="2200" y1="45" y2="55" />
+		</g>
+	</g>
+    <!-- ... -->
+    <!-- ... -->
+	<g id="time6">
+	<text x="2250" y="50" > Rococo </text>
+	<line id="time" x1="2200" x2="2300" y1="50" y2="50"/>
+	</g>
+	
+	<g id="markers">
+	<line x1="2200" x2="2200" y1="45" y2="55" />
+	<line x1="2300" x2="2300" y1="45" y2="55" />
+	</g>
+    <!-- ... -->
+    <!-- ... -->
+	<g id="time7">
+	<text x="2300" y="90" > Neoclassicism </text>
+	<line id="time" x1="2200" x2="2400" y1="90" y2="90"/>
+	</g>
+	
+	<g id="markers">
+	<line x1="2200" x2="2200" y1="85" y2="95" />
+	<line x1="2400" x2="2400" y1="85" y2="95" />
+	</g>
+
+    <!-- ... -->
+    <!-- ... -->
+	<g id="time8">
+	<text x="2300" y="130" > Romanticism </text>
+	<line id="time" x1="2200" x2="2400" y1="130" y2="130"/>
+	</g>
+	
+	<g id="markers">
+	<line x1="2200" x2="2200" y1="125" y2="135" />
+	<line x1="2400" x2="2400" y1="125" y2="135" />
+	</g>
+    <!-- ... -->
+    <!-- ... -->
+	<g id="time9">
+	<text x="2200" y="170" > Academic Art </text>
+	<line id="time" x1="2000" x2="2400" y1="170" y2="170"/>
+	</g>
+	
+	<g id="markers">
+	<line x1="2000" x2="2000" y1="165" y2="175" />
+	<line x1="2400" x2="2400" y1="165" y2="175" />
+	</g>
+    <!-- ... -->
+    <!-- ... -->
+	<g id="time10">
+	<text x="2350" y="210" > Realism </text>
+	<line id="time" x1="2300" x2="2400" y1="210" y2="210"/>
+	</g>
+	
+	<g id="markers">
+	<line x1="2300" x2="2300" y1="205" y2="215" />
+	<line x1="2400" x2="2400" y1="205" y2="215" />
+	</g>
+    <!-- ... -->
+    <!-- ... -->
+	<g id="time11">
+	<text x="2350" y="250" > Impressionism </text>
+	<line id="time" x1="2300" x2="2400" y1="250" y2="250"/>
+	</g>
+	
+	<g id="markers">
+	<line x1="2300" x2="2300" y1="245" y2="255" />
+	<line x1="2400" x2="2400" y1="245" y2="255" />
+	</g>
+
+    <!-- ... -->
+    <!-- ... -->
+	<g id="time12">
+	<text x="2350" y="290" > Post-Impressionism </text>
+	<line id="time" x1="2300" x2="2400" y1="290" y2="290"/>
+	</g>
+	
+	<g id="markers">
+	<line x1="2300" x2="2300" y1="285" y2="295" />
+	<line x1="2400" x2="2400" y1="285" y2="295" />
+	</g>
+    <!-- ... -->
+    <!-- ... -->
+	<g id="time13">
+	<text x="2450" y="50" > Expressionism </text>
+	<line id="time" x1="2400" x2="2500" y1="50" y2="50"/>
+	</g>
+	
+	<g id="markers">
+	<line x1="2400" x2="2400" y1="45" y2="55" />
+	<line x1="2500" x2="2500" y1="45" y2="55" />
+	</g>
+    <!-- ... -->
+    <!-- ... -->
+	<g id="time14">
+	<text x="2350" y="330" > Pointillism </text>
+	<line id="time" x1="2300" x2="2400" y1="330" y2="330"/>
+	</g>
+	
+	<g id="markers">
+	<line x1="2300" x2="2300" y1="325" y2="335" />
+	<line x1="2400" x2="2400" y1="325" y2="335" />
+	</g>
+    <!-- ... -->
+    <!-- ... -->
+	<g id="time15">
+	<text x="2350" y="370" > Naïve Art </text>
+	<line id="time" x1="2300" x2="2400" y1="370" y2="370"/>
+	</g>
+	
+	<g id="markers">
+	<line x1="2300" x2="2300" y1="365" y2="375" />
+	<line x1="2400" x2="2400" y1="365" y2="375" />
+	</g>
+    <!-- ... -->
+    <!-- ... -->
+
+    <!-- ... -->
+    <!-- ... -->
+
+    <!-- ... -->
+    <!-- ... -->
+
+    <!-- ... -->
+    <!-- ... -->
+
+    <!-- ... -->
+    <!-- ... -->
+
+    <!-- ... -->
+    <!-- ... -->
+
+
+    <!-- ... -->
+    <!-- ... -->
+
+    <!-- ... -->
+    <!-- ... -->
 </svg>

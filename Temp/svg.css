@@ -3,9 +3,41 @@
 	stroke-width:2;
 	stroke:black;
 	}
+
+#markers
+	{
+	stroke-width:1;
+	stroke:red;
+	}
+
 text
 	{
 	font-family:Arial;
 	font-size:12px;
 	text-anchor:middle;
 	}
+
+g:hover #time
+	{
+	stroke-width:5;
+	stroke:blue;
+	}
+
+g:hover #markers
+	{
+	stroke-width:5;
+	stroke:blue;
+	}
+g:hover
+	{ cursor:pointer;}
+
+g text
+	{
+	display:none;
+	font-family:Arial;
+	font-size:16px;
+	text-anchor:middle;
+	font-weight:bold;
+	}
+g:hover text
+	{ display:block;}
