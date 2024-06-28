@@ -1,0 +1,221 @@
+/*---------------Color style------------------------*/
+/*------https://coolors.co/palette/cbefaa-bfe97b-72a424-fca3ad-fa7370-fba685-bfbd91-dfce59-e5ee9a-e3dab7----*/
+/*------https://coolors.co/palette/ef3e56-f65368-feadbd-88c148-60a61f-bede8a-c8d77c-eceddf-eef2f5-e6b4c4----*/
+/*------https://coolors.co/palette/d5d1cd-e6b4c4----*/
+/*------
+1. html and body height and width
+2. required
+3. link style
+4. general text size adjustment
+5. font style and sizes
+	- font styles
+	- font size
+	- custom font size
+		- middle >p
+6. header
+7. sections
+	- pre-container
+	- container
+	- section
+	- contents
+	- images
+8. watermark
+9. middle
+10. navigation
+11. colors
+-------*/
+/*---01---*/
+/*---------------set html height to full page--------*/
+/*---------------END set html height to full page----*/
+/*---02---*/
+/*---------------Req---------------------------------*/
+/*---------------END Req-----------------------------*/
+/*---03---*/
+/*---------------Style the links---------------------*/
+/*---------------END Style the links-----------------*/
+/*---04---*/
+/*---------------Text size adjustment----------------*/
+/*---------------END Text size adjustment------------*/
+/*---05---*/
+/*---------------Style fonts-------------------------*/
+	/*-------Custom Font size+style--------------*/
+.section >h3
+	{
+	font-family:Times New Roman;
+	font-weight:400;
+	position:relative;
+	top:70px;
+	font-weight:bold;
+
+	background-color:rgba(20,20,20,.5);
+	width:100%;
+	max-width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+.timelineContainer >div
+	{
+	font-size:1.5rem;
+	line-height:1.5;
+	font-weight:400;
+	margin-bottom:1rem;
+	}
+	/*-------END Custom Font size+style----------*/
+/*---------------END Style fonts---------------------*/
+/*---06---*/
+/*---------------Style header------------------------*/
+#menu	{
+	margin:0;
+	/*---
+	padding: 0 60px;
+		turn on if width<800px
+	---*/
+	display:flex;
+	justify-content:center;
+	height:60px;
+	width:100%;
+	position:fixed;
+	z-index:100;
+
+background-color:rgba(50,50,50,.5)
+	}
+
+#menu a:hover
+	{text-decoration:underline;}
+#menu li
+	{ flex:1;}
+#menu li:first-child
+	{ min-width:350px;}
+#menu li:nth-child(2)
+	{ max-width:50px;}
+/*---------------END Style header--------------------*/
+/*---07---*/
+/*---------------Style Sections----------------------*/
+	/*-------Style preContainer------------------*/
+.fp-overflow
+	{
+	}
+.fp-controlArrow
+	{ margin-top:unset;}
+	/*-------END Style preContainer--------------*/
+	/*-------Style container---------------------*/
+.timelineContainer
+	{
+	/*---
+	padding: 0 60px;
+		turn on if width<800px
+	---*/
+	display:flex;
+	flex-direction:column;
+	align-items:flex-start;
+	justify-content:center;
+
+	max-width:800px;
+
+	background-color:rgba(30,30,30,.5)
+	}
+
+.timelineContainer div
+	{ width:100%}
+	/*-------END Style container-----------------*/
+	/*-------Style section_contents_image--------*/
+
+
+	/*-------END Style section_contents_image----*/
+	/*-------Style images------------------------*/
+#egypt01 { object-position:65%}
+	/*-------END Style images--------------------*/
+
+/*---------------END Style Sections------------------*/
+/*---08---*/
+/*---------------Style watermark---------------------*/
+/*---------------END Style watermark-----------------*/
+/*---09---*/
+/*---------------Style middle------------------------*/
+/*---10---*/
+/*---------------Style navigation--------------------*/
+
+
+/*---------------END Style navigation----------------*/
+/*---11---*/
+/*---------------Style colors------------------------*/
+	/*-------Style colors web site name + text---*/
+li >h
+	{
+	color:black;
+	}
+
+	/*-------END Style colors website name-------*/
+	/*-------page colors-main page---------------*/
+#section0	{ background-color:#72A424;}
+#section1	{ background-color:#FCA3AD;}
+#section2	{ background-color:#FA7370;}
+#section3	{ background-color:#FBA685;}
+#section4	{ background-color:#BFBD91;}
+#section5	{ background-color:#DFCE59;}
+#section6	{ background-color:#E5EE9A;}
+#section7	{ background-color:#E3DAB7;}
+#section8	{ background-color:#E5EE9A;}
+#section9	{ background-color:#EF3E56;}
+#section10	{ background-color:#F65368;}
+
+
+#section11	{ background-color:#FEADBD;}
+#section12	{ background-color:#88C148;}
+#section13	{ background-color:#60A61F;}
+#section14	{ background-color:#BEDE8A;}
+#section15	{ background-color:#C8D77C;}
+#section16	{ background-color:#ECEDDF;}
+#section17	{ background-color:#EEF2F5;}
+#section18	{ background-color:#E6B4C4;}
+#section19	{ background-color:#d5d1cd;}
+#section20	{ background-color:#72A424;}
+	/*-------END page colors-main page-----------*/
+
+/*---------------END Style colors--------------------*/
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*---------------RESPONSIVE DESIGN-------------------*/
+/* when screen is less than 800px ------------------ */
+@media only screen 
+and (max-width : 800px)
+{
+#menu, .timelineContainer
+	{ padding: 0 60px; }
+.section >h3
+	{ margin-left:60px;}
+}
+/* when screen is less than 800px ------------------ */
+/* iphone14 landscape ------------------------------ */
+@media only screen
+and (min-width: 320px) 
+and (max-width: 615px) 
+and (orientation : landscape)
+{
+.fp-overflow
+	{ padding:0 50px;}
+h	/*---website name---*/	
+	{
+	font-size: 2.4rem;
+	font-weight:900;
+	}
+#menu
+	{
+	padding: 0 50px;
+	height:30px;
+	}
+.section >h3
+	{
+	font-size:1.8rem;
+	margin-left:50px;
+	top:35px;
+	}
+.timelineContainer
+	{ padding: 0; }
+.timelineContainer >div
+	{
+	font-size:1.2rem;
+	line-height:1.5;
+	}
+}
