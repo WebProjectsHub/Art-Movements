@@ -1,0 +1,218 @@
+/*---------------Color style------------------------*/
+/*------https://coolors.co/palette/dfd3c3-f0ece3-f4c7ab-b2b8a3-5f8b7e----*/
+/*------https://coolors.co/palette/bc7f61-e99b73-606751-7c8568-9d8a71-c3af95	----*/
+/*------https://coolors.co/visualizer/0015ff-ff00a1-90fe00-8400ff-00fff7-ff7300	----*/
+/*------
+1. html and body height and width
+2. required
+3. link style
+4. general text size adjustment
+5. font style and sizes
+	- font styles
+	- font size
+	- custom font size
+		- middle >p
+6. header
+	- 1st page header
+	- menu header
+	- dropmenu
+		- container
+		- icon
+		- list
+		- contents
+		- contents anim
+7. sections
+	- pre-container
+	- container
+8. watermark
+9. middle
+10. xxxxxxx
+11. colors
+
+-------*/
+/*---01---*/
+/*---------------set html height to full page--------*/
+/*---------------END set html height to full page----*/
+/*---02---*/
+/*---------------Req---------------------------------*/
+/*---------------END Req-----------------------------*/
+/*---03---*/
+/*---------------Style the links---------------------*/
+/*---------------END Style the links-----------------*/
+/*---04---*/
+/*---------------Text size adjustment----------------*/
+/*---------------END Text size adjustment------------*/
+/*---05---*/
+/*---------------Style fonts-------------------------*/
+	/*-------Font styles-------------------------*/
+
+h1	{ font-size: 4.0rem; line-height: 1.2;  }	/*---40px--*/
+h2	{ font-size: 3.6rem; line-height: 1.25; }	/*---36px--*/
+h3	{ font-size: 3.0rem; line-height: 1.3;  }	/*---30px--*/
+h4	{ font-size: 2.4rem; line-height: 1.35; }	/*---24px--*/
+h5	{ font-size: 1.8rem; line-height: 1.5;  }	/*---18px--*/
+h6	{ font-size: 1.5rem; line-height: 1.6;  }	/*---15px--*/
+
+	/*-------END Font size-----------------------*/
+	/*-------Custom Font size--------------------*/
+#fp-nav ul li .fp-tooltip.fp-right
+	{
+
+	font-size:1.2rem;
+	font-weight:bold;
+	}
+
+h:hover	{text-decoration:underline}
+	/*-------END Custom Font size----------------*/
+/*---------------END Style fonts---------------------*/
+/*---06---*/
+/*---------------Style header------------------------*/
+	/*-------main page 1st page header-----------*/
+	/*-------END main page 1st page header-------*/
+	/*-------standard menu header----------------*/
+	/*-------END standard menu header------------*/
+	/*-------drop down menu----------------------*/
+		/*-------menu container--------------*/
+		/*-------END menu container----------*/
+		/*-------menu icon-------------------*/
+		/*-------END menu icon---------------*/
+		/*-------menu list-------------------*/
+		/*-------menu list-------------------*/
+		/*-------menu contents---------------*/
+			/*----related contents-------*/
+			/*----END related contents---*/
+		/*-------END menu contents-----------*/
+		/*-------menu contents anim----------*/
+		/*-------menu contents anim----------*/
+	/*-------END drop down menu------------------*/
+/*---------------END Style header--------------------*/
+/*---07---*/
+/*---------------Style Sections----------------------*/
+	/*-------Style preContainer------------------*/
+	/*-------END Style preContainer--------------*/
+	/*-------Style container---------------------*/
+	/*-------END Style container-----------------*/
+/*---------------END Style Sections------------------*/
+/*---08---*/
+/*---------------Style watermark---------------------*/
+/*---------------END Style watermark-----------------*/
+/*---09---*/
+/*---------------Style middle------------------------*/
+/*---------------END Style middle--------------------*/
+/*---10---*/
+/*---------------Style xxxxxxx-----------------------*/
+
+/*---------------END Style xxxxxxx-------------------*/
+/*---11---*/
+/*---------------Style colors------------------------*/
+	/*-------Style colors web site name + text---*/
+h, .middle >p
+	{color:black;}
+
+	/*-------END Style colors website name-------*/
+	/*-------page colors-main page---------------*/
+#section0	{ background-color:#DFD3C3;}
+
+#section1 { background-color:#B2B8A3;}
+
+#section2	{ background-color:#F4C7AB;}
+
+
+	/*-------END page colors-main page-----------*/
+	/*-------header color------------------------*/
+
+#section0 .dropMenuIcon div, #section0 .dropMenuContent a
+	{background-color:#9D8A71;}
+
+#section0 h, #section0 .middle >p, #section0 h4
+	{color:#9D8A71;}
+
+#section1 .dropMenuIcon div, #section1 .dropMenuContent a
+	{background-color:#7C8568;}
+#section1 h, #section1 .middle >p, #section1 h4
+	{color:#606751;}
+
+#section2 .dropMenuIcon div, #section2 .dropMenuContent a
+	{background-color:#BC7F61;}
+#section2 h, #section2 .middle >p, #section2 h4
+	{color:#BC7F61;}
+
+
+/*--
+.header, .dropMenu
+	{mix-blend-mode:soft-light;}
+--*/
+	/*-------END header color--------------------*/
+	/*-------drop down menu----------------------*/
+#fp-nav ul li .fp-tooltip.fp-right
+	{color:white; }
+	/*-------END drop down menu------------------*/
+/*---------------END Style colors--------------------*/
+/*---12---*/
+
+
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*---------------RESPONSIVE DESIGN-------------------*/
+/* iphone14 landscape ------------------------------ */
+@media only screen
+and (min-width: 320px) 
+and (max-width: 615px) 
+and (orientation : landscape)
+{
+h	/*---website name---*/	
+	{
+	font-size: 2.4rem;
+	font-weight:900;
+	}
+.header, .dropMenu
+	{ height:30px;}
+
+h4	{ font-size:2rem;}
+
+#fp-nav.fp-right 
+	{ right: -5px;}
+#fp-nav ul li .fp-tooltip.fp-right
+	{display:none;}
+}
+
+/* iphone14 landscape ------------------------------ */
+@media only screen
+and (min-width: 320px) 
+and (max-width: 615px) 
+and (orientation : portrait)
+{
+.container
+	{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	align-content:flex-start;
+	}
+h	/*---website name---*/	
+	{
+	font-size: 1.8rem;
+	font-weight:900;
+	}
+.header, .dropMenu
+	{ height:40px;}
+.header
+	{
+	display:flex;
+	flex:1;
+	min-width:175px;
+	}
+.dropMenu
+	{
+	display:flex;
+	flex:1;
+	min-width:50px;
+	}
+h4	{font-size: 1.8rem;}
+
+#fp-nav.fp-right 
+	{ right: -5px;}
+#fp-nav ul li .fp-tooltip.fp-right
+	{display:none;}
+}
