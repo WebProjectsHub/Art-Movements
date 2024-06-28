@@ -186,7 +186,7 @@ and (max-width : 800px)
 .section >h3
 	{ margin-left:60px;}
 }
-/* when screen is less than 800px ------------------ */
+
 /* iphone14 landscape ------------------------------ */
 @media only screen
 and (min-width: 320px) 
@@ -209,13 +209,59 @@ h	/*---website name---*/
 	{
 	font-size:1.8rem;
 	margin-left:50px;
+	margin-bottom:0;
 	top:35px;
 	}
 .timelineContainer
 	{ padding: 0; }
 .timelineContainer >div
 	{
-	font-size:1.2rem;
+	font-size:1.25rem;
 	line-height:1.5;
 	}
+.fp-arrow 
+	{ scale:75%;}
+
+}
+/* iphone14 landscape ------------------------------ */
+@media only screen
+and (min-width: 320px) 
+and (max-width: 615px) 
+and (orientation : portrait)
+{
+.fp-overflow
+	{ padding:10px 30px 10px 30px;}
+h	/*---website name---*/	
+	{
+	font-size: 1.8rem;
+	font-weight:900;
+	}
+#menu
+	{
+	padding: 0 20px;
+	height:40px;
+	}
+#menu li:first-child
+	{ min-width:unset;}
+#menu li:nth-child(2)
+	{ max-width:30px;}
+.section >h3
+	{
+	font-size:1.8rem;
+	margin-left:20px;
+	margin-bottom:0;
+	top:45px;
+	}
+.timelineContainer
+	{ padding: 0; }
+.timelineContainer >div
+	{
+	font-size:1.25rem;
+	line-height:1.5;
+	text-align:justify;
+	}
+.fp-arrow 
+	{ scale:50% 75%;}
+.fp-next{ right:0;}
+.fp-prev{ left:0;}
 }
