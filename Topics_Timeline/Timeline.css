@@ -55,10 +55,19 @@
 	}
 .timelineContainer >div
 	{
-	font-size:1.5rem;
-	line-height:1.5;
+	font-size:1.7rem;
+	line-height:1.6;
 	font-weight:400;
 	margin-bottom:1rem;
+	}
+
+.timelineContainer >h6
+	{ margin:0;}
+
+.timelineContainer >h5
+	{
+	width:100%;
+	text-align:center;
 	}
 	/*-------END Custom Font size+style----------*/
 /*---------------END Style fonts---------------------*/
