@@ -129,6 +129,7 @@ The Ancient Egyptian period spanned thousands of years and can be divided into e
 		</div>	<!---END Contents----------------------!>
 			<!---Image-----------------------------!>
 		<div class="image">
+			<p id="demo"></p>     <!---insert in <body>--->
 		</div>	<!---END Image-------------------------!>
 	</div>	<!-----------END Container---------------------!>
 </div>	<!-------------------END Section 15---------------------!>
@@ -146,6 +147,14 @@ var myFullpage = new fullpage
 
 );
 
+</script>
+
+<script>
+var w = window.innerWidth;
+var h = window.innerHeight;
+
+	var x = document.getElementById("demo");
+	x.innerHTML = "Browser width: " + w + ", height: " + h + ".";
 </script>
 </body>
 </html>
