@@ -171,6 +171,9 @@ h	/*---website name---*/
 
 h4	{ font-size:2rem;}
 
+.middle >p
+	{ padding-bottom:50px;}
+
 #fp-nav.fp-right 
 	{ right: -5px;}
 #fp-nav ul li .fp-tooltip.fp-right
@@ -210,6 +213,9 @@ h	/*---website name---*/
 	min-width:50px;
 	}
 h4	{font-size: 1.8rem;}
+
+.middle >p
+	{ padding-bottom:50px;}
 
 #fp-nav.fp-right 
 	{ right: -5px;}
