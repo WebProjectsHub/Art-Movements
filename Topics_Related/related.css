@@ -177,7 +177,7 @@ h4	{ font-size:2rem;}
 	{display:none;}
 }
 
-/* iphone14 landscape ------------------------------ */
+/* iphone14 portrait ------------------------------ */
 @media only screen
 and (min-width: 320px) 
 and (max-width: 528px) 
