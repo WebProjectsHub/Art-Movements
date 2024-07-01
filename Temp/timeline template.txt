@@ -20,11 +20,11 @@
 		<div class="timelineContainer" id="timelineContainerS2">
 			<h6>	Time period			</h6>
 				<h5>
-					Ancient
+					Modern
 				</h5>
 			<h6>	Centuries			</h6>
 				<h5>
-					**************
+					19th Century
 				</h5>
 			<h6>	Characteristics			</h6>
 				<h5>
