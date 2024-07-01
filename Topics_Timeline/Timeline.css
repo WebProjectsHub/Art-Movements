@@ -23,6 +23,7 @@
 9. middle
 10. navigation
 11. colors
+12. svg
 -------*/
 /*---01---*/
 /*---------------set html height to full page--------*/
@@ -71,6 +72,14 @@
 	width:100%;
 	text-align:center;
 	}
+#section7 .timelineContainer >div
+	{
+	font-size:1.7rem;
+	line-height:1.5;
+	font-weight:400;
+	margin-bottom:1rem;
+	} 
+
 	/*-------END Custom Font size+style----------*/
 /*---------------END Style fonts---------------------*/
 /*---06---*/
@@ -120,12 +129,21 @@ background-color:rgba(50,50,50,.5)
 .timelineContainer
 	{
 	max-width:800px;
-
 	background-color:rgba(30,30,30,.5)
 	}
-
 .timelineContainer div
-	{ width:100%}
+	{ max-width:100%;}
+		/*-------Style iframe container------*/
+.timelineContainer iframe
+	{
+	width:800px;
+	height:200px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	}
+
+		/*-------END Style iframe container--*/
 	/*-------END Style container-----------------*/
 	/*-------Style section_contents_image--------*/
 
@@ -180,8 +198,17 @@ li >h
 #section19	{ background-color:#d5d1cd;}
 #section20	{ background-color:#72A424;}
 	/*-------END page colors-main page-----------*/
-
 /*---------------END Style colors--------------------*/
+
+/*---12---*/
+/*---------------Style SVG---------------------------*/
+#timesvg
+	{
+	width:500px;
+	overflow:auto;
+	}
+
+/*---------------END Style SVG-----------------------*/
 /*---------------------------------------------------*/
 /*---------------------------------------------------*/
 /*---------------------------------------------------*/
@@ -280,7 +307,7 @@ h	/*---website name---*/
 /* iphone14 portrait ------------------------------- */
 @media only screen
 and (min-width: 320px) 
-and (max-width: 615px) 
+and (max-width: 528px) 
 and (orientation : portrait), 
 @media only screen
 and (min-width: 320px) 
@@ -332,3 +359,4 @@ h	/*---website name---*/
 .fp-next{ right:0;}
 .fp-prev{ left:0;}
 }
+
