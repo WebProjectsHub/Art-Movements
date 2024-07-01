@@ -16,12 +16,40 @@
 <body>
 	<!------------Section header-----------!>
 <ul id="menu">
+		<!----Webname------------------!>
 	<li>
 		<h><a href="../index.html">
 			Art Movements
 		</a></h>
-	</li>
-	<li>
+	</li>	<!----END Webname--------------!>
+
+		<!----pageSelect---------------!>
+	<select id="selectPage">
+ 		<option selected>Jump to.......</option>
+		<option id="1">Ancient Egyptian Art</option>
+		<option id="2">Ancient Greek Art</option>
+		<option id="3">Western Medieval Art</option>
+		<option id="4">Renaissance</option>
+		<option id="5">Baroque</option>
+		<option id="6">Rococo</option>
+		<option id="7">Neoclassicism</option>
+		<option id="8">Romanticism</option>
+		<option id="9">Academic Art</option>
+		<option id="10">Realism</option>
+		<option id="4">Impressionism</option>
+		<option id="4">Renaissance</option>
+		<option id="4">Renaissance</option>
+		<option id="4">Renaissance</option>
+		<option id="4">Renaissance</option>
+		<option id="4">Renaissance</option>
+		<option id="4">Renaissance</option>
+		<option id="4">Renaissance</option>
+		<option id="4">Renaissance</option>
+		<option id="4">Renaissance</option>
+
+	</select>	<!----END pageSelect---!>
+
+	<li>	<!----dropdown-----------------!>
 		<div class="dropMenu">
 			<div class="dropMenuIcon">
 				<div></div>
@@ -49,7 +77,7 @@
 				</div>
 			</div>
   		</div>
-	</li>
+	</li>	<!----END dropdown-------------!>
 </ul>
 	<!------------END Section header-------!>
 <div id="fullpage">
@@ -2221,6 +2249,7 @@ The genre came about in the late 20th century with the development of computer t
 
 
 <script type="text/javascript" src="../fullpage.js"></script>
+<script type="text/javascript" src="./TimeJump.js"></script>
 <script type="text/javascript" src="./TimelineNavTooltip.js.txt"></script>
 <script>
 var myFullpage = new fullpage

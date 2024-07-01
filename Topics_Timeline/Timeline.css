@@ -97,17 +97,31 @@
 	position:fixed;
 	z-index:100;
 
-background-color:rgba(50,50,50,.5)
 	}
 
 #menu a:hover
 	{text-decoration:underline;}
+
 #menu li
 	{ flex:1;}
+
 #menu li:first-child
 	{ min-width:350px;}
 #menu li:nth-child(2)
 	{ max-width:50px;}
+#menu li:nth-child(3)
+	{ max-width:50px;}
+
+select	{
+	width:100px;
+	height:35px;
+	align-self:center;
+	background-color:rgba(10,10,10,0.25);
+	border:none;
+	border-radius:5px;
+	}
+
+
 /*---------------END Style header--------------------*/
 /*---07---*/
 /*---------------Style Sections----------------------*/
@@ -198,6 +212,16 @@ li >h
 #section19	{ background-color:#d5d1cd;}
 #section20	{ background-color:#72A424;}
 	/*-------END page colors-main page-----------*/
+
+option 
+	{ background-color:#F0ECE3;}
+
+option:hover, option:focus
+	{ background-color:#5F8B7E;}
+
+
+
+
 /*---------------END Style colors--------------------*/
 
 /*---12---*/
@@ -302,6 +326,7 @@ h	/*---website name---*/
 .dropMenuContent a
 	{ padding:0 10px;}
 
+
 }
 
 /* iphone14 portrait ------------------------------- */
@@ -358,5 +383,8 @@ h	/*---website name---*/
 	{ scale:50% 75%;}
 .fp-next{ right:0;}
 .fp-prev{ left:0;}
+
+select	{ max-width:70px; }
+
 }
 
