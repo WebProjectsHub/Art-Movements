@@ -33,6 +33,12 @@
 /*---------------END Req-----------------------------*/
 /*---03---*/
 /*---------------Style the links---------------------*/
+.timeContaner div a
+	{
+	text-decoration:unset;
+	color:unset;
+	cursor:pointer;
+	}
 /*---------------END Style the links-----------------*/
 /*---04---*/
 /*---------------Text size adjustment----------------*/
@@ -387,4 +393,3 @@ h	/*---website name---*/
 select	{ max-width:70px; }
 
 }
-
