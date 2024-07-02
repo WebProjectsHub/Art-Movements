@@ -35,7 +35,7 @@
 /*---------------Style the links---------------------*/
 .timelineContainer div a
 	{
-	text-decoration:unset;
+	text-decoration:underline;
 	color:unset;
 	cursor:pointer;
 	}
