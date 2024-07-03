@@ -438,10 +438,16 @@ h, .middle >p
 	{color:#5F8B7E;}
 li >h, .sContainer h1
 	{color:#F0ECE3;}
+
+#section2 h, #section2 .middle >p, #section2 h2
+	{color:#B20000;}
+
 	/*-------END Style colors website name-------*/
 	/*-------page colors-main page---------------*/
 #section0	{ background-color:#F0ECE3;}
 #section1	{ background-color:#5F8B7E;}/*--#5F8B7E--*/
+#section2	{ background-color:#FFC59E;}
+
 	/*-------END page colors-main page-----------*/
 	/*-------link-Topics-------------------------*/
 .sContainer h1:hover
@@ -470,6 +476,11 @@ li .dropMenuContent a
 li .dropMenuContent a:hover
 	{ text-decoration:none;}
 
+
+	/*-----*/
+#section2 .dropMenuIcon div, .dropMenuContent a
+	{background-color:#B20000;}
+
 	/*-------END drop down menu------------------*/
 /*---------------END Style colors--------------------*/
 /*---12---*/
@@ -481,10 +492,15 @@ li .dropMenuContent a:hover
 /*---------------RESPONSIVE DESIGN-------------------*/
 
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen 
+/* iphone14 portrait ------------------------------ */
+@media only screen
 and (min-width: 320px) 
-and (max-width: 480px)
+and (max-width: 528px) 
+and (orientation : portrait), 
+@media only screen
+and (min-width: 320px) 
+and (max-width: 532px) 
+and (orientation : portrait)
 {
 h	/*---website name---*/	
 	{
@@ -513,11 +529,18 @@ h	/*---website name---*/
 	{
 	width:20px;
 	}
+
+
 }
 
-/* iPhone 14 (landscape) ------------- */
-@media only screen 
-and (max-width : 615px) 
+/* iphone14 landscape ------------------------------ */
+@media only screen
+and (min-width: 216px) 
+and (max-width: 615px) 
+and (orientation : landscape), 
+@media only screen
+and (min-width: 248px) 
+and (max-width: 693px) 
 and (orientation : landscape)
 {
 .container
@@ -557,64 +580,4 @@ h	/*---website name---*/
 	{
 	width:30px;
 	}
-}
-
-
-/* Smartphones (landscape) ----------- */
-@media only screen 
-and (min-width : 321px) {
-
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen 
-and (max-width : 320px) {
-
-}
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-
-}
-
-/* iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-
-}
-
-/* iPads (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-	
-}
-
-/* iPad 3 (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (-webkit-min-device-pixel-ratio : 2),
-only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (min-resolution: 192dpi) { 
-
-}
-
-/* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
-	
-}
-
-/* Large screens ----------- */
-@media only screen 
-and (min-width : 1824px) {
-	
 }
