@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+.scroll-shadows {
+  height: 200px;
+	width:500px;
+  overflow: auto;
+}
+
+iframe {width:3500px;
+	overflow:hidden;}
+
+  </style>
+</head>
+<body>
+<div class="scroll-shadows">
+	<iframe src="svg.html"></iframe>
+</div>
+<script>
+// just so demo loads scrolled down a little.
+document.querySelector(".scroll-shadows").scrollLeft = 300;
+</script>
+</body>
+</html>
