@@ -478,7 +478,7 @@ li .dropMenuContent a:hover
 
 
 	/*-----*/
-#section2 .dropMenuIcon div, .dropMenuContent a
+#section2 .dropMenuIcon div, #section2 .dropMenuContent a
 	{background-color:#B20000;}
 
 	/*-------END drop down menu------------------*/
