@@ -36,9 +36,12 @@
 .timelineContainer div a
 	{
 	text-decoration:underline;
-	color:unset;
+	font-weight:600;
 	cursor:pointer;
 	}
+.timelineContainer div a:hover
+	{ color:black;}
+
 /*---------------END Style the links-----------------*/
 /*---04---*/
 /*---------------Text size adjustment----------------*/
@@ -54,7 +57,7 @@
 	top:60px;
 	font-weight:bold;
 	height:40px;
-	background-color:rgba(20,20,20,.5);
+	/*--background-color:rgba(20,20,20,.5);--*/
 	width:100%;
 	max-width:800px;
 	margin-top:0;
@@ -142,28 +145,39 @@ select	{
 	height:calc(100% - 100px);
 	top:60px;
 	position:relative;
-	background-color:rgba(100,0,0, .2)
+	/*--background-color:rgba(100,0,0, .2)--*/
 	}
 	/*-------END Style preContainer--------------*/
 	/*-------Style container---------------------*/
 .timelineContainer
 	{
 	max-width:800px;
-	background-color:rgba(30,30,30,.5)
+	/*--background-color:rgba(30,30,30,.5)--*/
 	}
 .timelineContainer div
 	{ max-width:100%;}
-		/*-------Style iframe container------*/
-.timelineContainer iframe
+
+#timelineContainerS2
 	{
-	width:800px;
-	height:200px;
 	display:flex;
-	align-items:center;
-	justify-content:center;
+	flex-direction:row;
+	flex-wrap:wrap;
 	}
 
-		/*-------END Style iframe container--*/
+#timelineContainerS2 h5, #timelineContainerS2 h6
+	{ flex:50%;}
+
+#timelineContainerS2 h6
+	{
+	text-align:right;
+	padding-right:20px;
+	line-height:unset;
+	}
+
+#timelineContainerS2 h5
+	{ text-align:left;}
+
+
 	/*-------END Style container-----------------*/
 	/*-------Style section_contents_image--------*/
 
@@ -187,47 +201,65 @@ select	{
 /*---11---*/
 /*---------------Style colors------------------------*/
 	/*-------Style colors web site name + text---*/
-li >h
-	{
-	color:black;
-	}
+li >h	{ color:black;}
 
 	/*-------END Style colors website name-------*/
 	/*-------page colors-main page---------------*/
-#section0	{ background-color:#72A424;}
-#section1	{ background-color:#FCA3AD;}
-#section2	{ background-color:#FA7370;}
-#section3	{ background-color:#FBA685;}
-#section4	{ background-color:#BFBD91;}
-#section5	{ background-color:#DFCE59;}
-#section6	{ background-color:#E5EE9A;}
-#section7	{ background-color:#E3DAB7;}
-#section8	{ background-color:#E5EE9A;}
-#section9	{ background-color:#EF3E56;}
-#section10	{ background-color:#F65368;}
+#section0	{ background: #FFE785 ;}
+#section1	{ background: #FFDA59 ;}
+#section2	{ background: #FBC15D ;}
+#section3	{ background: #FFC340 ;}
+#section4	{ background: #FAA300 ;}
+#section5	{ background: #D35000 ;}
+#section6	{ background: #EB5F24 ;}
+#section7	{ background: #FF7F1A ;}
+#section8	{ background: #FF9B57 ;}
+#section9	{ background: #FFC59E ;}
+#section10	{ background: #FF8A89 ;}
 
 
-#section11	{ background-color:#FEADBD;}
-#section12	{ background-color:#88C148;}
-#section13	{ background-color:#60A61F;}
-#section14	{ background-color:#BEDE8A;}
-#section15	{ background-color:#C8D77C;}
-#section16	{ background-color:#ECEDDF;}
-#section17	{ background-color:#EEF2F5;}
-#section18	{ background-color:#E6B4C4;}
-#section19	{ background-color:#d5d1cd;}
-#section20	{ background-color:#72A424;}
+#section11	{ background: #F85454 ;}
+#section12	{ background: #E41100 ;}
+#section13	{ background: #820000 ;}
+#section14	{ background: #910100 ;}
+#section15	{ background: #ED408B ;}
+#section16	{ background: #F2799B ;}
+#section17	{ background: #F1AOAF ;}  /*F1A0AF*/
+#section18	{ background: #FFA9CB ;}
+#section19	{ background: #FFC20B ;}
+#section20	{ background: #DDAEE4 ;}
+
+#section21	{ background: #A577B8 ;}
+#section22	{ background: #765F93 ;}
+#section23	{ background: #A858C8 ;}
+#section24	{ background: #7B4384 ;}
+#section25	{ background: #2874A6 ;}
+#section26	{ background: #83A8D4 ;}
+#section27	{ background: #BAE3EA ;}
+#section28	{ background: #9BD9DO ;}
+#section29	{ background: #9AD4BC ;}
+#section30	{ background: #328C8D ;}
+
+#section31	{ background: #396C6A ;}
+#section32	{ background: #E41100 ;}
+#section33	{ background: #FF8A89 ;}
+#section34	{ background: #FF9257 ;}
+#section35	{ background: #FF7F1A ;}
 	/*-------END page colors-main page-----------*/
-
+	/*-------select menu color-------------------*/
 option 
 	{ background-color:#F0ECE3;}
 
 option:hover, option:focus
 	{ background-color:#5F8B7E;}
+	/*-------END select menu color---------------*/
+	/*-------dropMenu icon color-----------------*/
+li .dropMenuIcon div
+	{background-color:black;}
 
-
-
-
+li .dropMenuContent a
+	{color:black;}
+	/*-------END dropMenu icon color-------------*/
 /*---------------END Style colors--------------------*/
 
 /*---12---*/
@@ -245,13 +277,25 @@ option:hover, option:focus
 /*---------------RESPONSIVE DESIGN-------------------*/
 /* when screen is less than 800px ------------------ */
 @media only screen 
-and (max-width : 800px)
+and (max-width : 900px)
 {
 #menu, .timelineContainer
 	{ padding: 0 60px; }
 .section >h3
 	{ margin-left:60px;}
 }
+
+/* when screen height is less than 655px ----------- */
+@media only screen 
+and (max-height : 655px)
+{
+#section3 .fp-overflow,
+#section7 .fp-overflow,
+#section10 .fp-overflow   
+	{ align-items:flex-start; }
+
+}
+
 
 /* iphone14 landscape ------------------------------ */
 @media only screen
@@ -322,6 +366,7 @@ h	/*---website name---*/
 	text-align:left;
 	margin-bottom:1rem;
 	}
+
 .fp-arrow 
 	{ scale:60%;}
 
