@@ -1,0 +1,253 @@
+/*---------------Color style------------------------*/
+/*------https://coolors.co/palette/dfd3c3-f0ece3-f4c7ab-b2b8a3-5f8b7e----*/
+/*------https://coolors.co/palette/0015ff-ff00a1-90fe00-8400ff-00fff7-ff7300	----*/
+/*------https://coolors.co/visualizer/0015ff-ff00a1-90fe00-8400ff-00fff7-ff7300	----*/
+/*------
+1. html and body height and width
+2. required
+3. link style
+4. general text size adjustment
+5. font style and sizes
+	- font styles
+	- font size
+	- custom font size
+		- middle >p
+6. header
+	- 1st page header
+	- menu header
+	- dropmenu
+		- container
+		- icon
+		- list
+		- contents
+		- contents anim
+7. sections
+	- pre-container
+	- container
+8. watermark
+9. middle
+10. xxxxxxx
+11. colors
+
+-------*/
+/*---01---*/
+/*---------------set html height to full page--------*/
+/*---------------END set html height to full page----*/
+/*---02---*/
+/*---------------Req---------------------------------*/
+/*---------------END Req-----------------------------*/
+/*---03---*/
+/*---------------Style the links---------------------*/
+/*---------------END Style the links-----------------*/
+/*---04---*/
+/*---------------Text size adjustment----------------*/
+/*---------------END Text size adjustment------------*/
+/*---05---*/
+/*---------------Style fonts-------------------------*/
+	/*-------Font styles-------------------------*/
+	/*-------END Font styles---------------------*/
+	/*-------Font size---------------------------*/
+	/*-------END Font size-----------------------*/
+	/*-------Custom Font size--------------------*/
+h:hover	{text-decoration:underline}
+
+h1	{font-weight:400;}
+
+h4	{font-weight:450;}
+
+h6	{margin-bottom:1rem;}
+
+.middle >p
+	{
+	font-size: 1.5rem;
+	line-height: 1.6;
+	font-weight:350;
+	}
+
+.contentContainer .middle >p
+	{
+	font-size: 1.8rem;
+	line-height: 1.5;
+	font-weight:350;
+	}
+
+blockquote
+	{
+	font-style:italic;
+	font-size: 1.6rem;
+	line-height: 1.5;
+	font-weight:350;
+	text-align:justify;
+	}
+
+	/*-------END Custom Font size----------------*/
+/*---------------END Style fonts---------------------*/
+/*---06---*/
+/*---------------Style header------------------------*/
+	/*-------main page 1st page header-----------*/
+	/*-------END main page 1st page header-------*/
+	/*-------standard menu header----------------*/
+	/*-------END standard menu header------------*/
+	/*-------drop down menu----------------------*/
+		/*-------menu container--------------*/
+		/*-------END menu container----------*/
+		/*-------menu icon-------------------*/
+		/*-------END menu icon---------------*/
+		/*-------menu list-------------------*/
+		/*-------menu list-------------------*/
+		/*-------menu contents---------------*/
+			/*----related contents-------*/
+/*-------------*/
+			/*----END related contents---*/
+		/*-------END menu contents-----------*/
+		/*-------menu contents anim----------*/
+		/*-------menu contents anim----------*/
+	/*-------END drop down menu------------------*/
+
+/*---------------END Style header--------------------*/
+/*---07---*/
+/*---------------Style Sections----------------------*/
+	/*-------Style preContainer------------------*/
+	/*-------END Style preContainer--------------*/
+	/*-------Style container---------------------*/
+.contentContainer
+	{
+	display:flex;
+	justify-content:center;
+	width:100%;
+	}
+
+.contentContainer .middle
+	{
+	width:800px;
+	padding:20px;
+	}
+	/*-------END Style container-----------------*/
+/*---------------END Style Sections------------------*/
+/*---08---*/
+/*---------------Style watermark---------------------*/
+/*---------------END Style watermark-----------------*/
+/*---09---*/
+/*---------------Style middle------------------------*/
+/*---------------END Style middle--------------------*/
+/*---10---*/
+/*---------------Style xxxxxxx-----------------------*/
+
+/*---------------END Style xxxxxxx-------------------*/
+/*---11---*/
+/*---------------Style colors------------------------*/
+	/*-------Style colors web site name + text---*/
+h, h1, h6, .middle >p
+	{color:#5F8B7E;}
+
+
+.contentContainer .middle >p, blockquote
+	{color:gray;}
+	/*-------END Style colors website name-------*/
+	/*-------page colors-main page---------------*/
+#section0	{ background-color:#F0ECE3;}
+
+	/*-------END page colors-main page-----------*/
+	/*-------link-Topics-------------------------*/
+	/*-------END link-Topics---------------------*/
+	/*-------drop down menu----------------------*/
+	/*-------END drop down menu------------------*/
+/*---------------END Style colors--------------------*/
+/*---12---*/
+
+
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*---------------RESPONSIVE DESIGN-------------------*/
+
+
+/* iphone14 portrait ------------------------------ */
+@media only screen
+and (min-width: 320px) 
+and (max-width: 528px) 
+and (orientation : portrait), 
+@media only screen
+and (min-width: 320px) 
+and (max-width: 532px) 
+and (orientation : portrait)
+{
+h	/*---website name---*/	
+	{
+	font-size: 3.6rem;
+	line spacing:1.25;
+	font-weight:800;
+	}
+.middle >p 
+	{
+	font-size: 1.5rem;
+	line-height: 1.5;
+	text-align:justify;
+	}
+.container
+	{
+	width:300px;
+	padding-top:0px;
+	}
+#menu, .header
+	{ height:100px;}
+
+.fp-arrow 
+	{scale:60%;}
+
+.dropMenuIcon div
+	{
+	width:20px;
+	}
+
+
+}
+
+/* iphone14 landscape ------------------------------ */
+@media only screen
+and (min-width: 216px) 
+and (max-width: 615px) 
+and (orientation : landscape), 
+@media only screen
+and (min-width: 248px) 
+and (max-width: 693px) 
+and (orientation : landscape)
+{
+.container
+	{
+	width:unset;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	}
+h	/*---website name---*/	
+	{
+	font-size: 3.6rem;
+	line spacing:1.25;
+	font-weight:800;
+	}
+.middle >p 
+	{
+	font-size: 1.5rem;
+	line-height: 1.5;
+	text-align:justify;
+	}
+
+ #menu, .header, .dropMenu
+	{ height:60px;}
+
+.container .header
+	{width:450px}
+.container .dropMenu
+	{flex:1}
+
+#menu li:first-child
+	{width:500px}
+#menu li:nth-child(2)
+	{flex:1}
+
+.dropMenuIcon div
+	{
+	width:30px;
+	}
+}
