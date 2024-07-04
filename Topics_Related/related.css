@@ -238,3 +238,36 @@ h4	{font-size: 1.8rem;}
 .dropMenuContent a
 	{ padding:0 10px;}
 }
+
+
+
+/* iphone14 landscape -edge browser---------------- */
+@media only screen
+and (min-width: 248px) 
+and (max-width: 693px) 
+and (orientation : landscape)
+{
+h	/*---website name---*/	
+	{
+	font-size: 2.4rem;
+	font-weight:900;
+	}
+.header, .dropMenu
+	{ height:30px;}
+
+h4	{ font-size:2rem;}
+
+.middle >p
+	{ padding-bottom:50px;}
+
+#fp-nav.fp-right 
+	{ right: -5px;}
+#fp-nav ul li .fp-tooltip.fp-right
+	{display:none;}
+
+.dropMenuContent
+	{ top:30px;}
+
+.dropMenuContent a
+	{ padding:0 10px;}
+}
