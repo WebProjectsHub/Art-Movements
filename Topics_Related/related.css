@@ -38,6 +38,30 @@
 /*---------------END Req-----------------------------*/
 /*---03---*/
 /*---------------Style the links---------------------*/
+
+.middle a:hover
+	{
+	text-decoration:underline;
+	font-weight:bold;
+	color:blue;
+	}
+	/*-------Related button----------------------*/
+#principleList a
+	{
+	display:block;
+	width:100%;
+	border-radius:5px;
+	margin: 10px 0;
+	padding:5px;
+	text-align:center;
+	}
+
+.middleLeft h5 a:hover
+	{text-decoration:underline;}
+
+	/*-------END Related button------------------*/
+
+
 /*---------------END Style the links-----------------*/
 /*---04---*/
 /*---------------Text size adjustment----------------*/
@@ -57,12 +81,32 @@ h6	{ font-size: 1.5rem; line-height: 1.6;  }	/*---15px--*/
 	/*-------Custom Font size--------------------*/
 #fp-nav ul li .fp-tooltip.fp-right
 	{
-
 	font-size:1.2rem;
 	font-weight:bold;
 	}
 
 h:hover	{text-decoration:underline}
+
+h1	{font-weight:400;}
+
+.container p, #principleList li 
+	{
+	font-size: 1.8rem;
+	line-height: 1.5;
+	font-weight: 350;
+	}
+
+.middleLeft h5
+	{margin:0}
+
+blockquote
+	{
+	font-style:italic;
+	font-size: 1.4rem;
+	line-height: 1.5;
+	font-weight:350;
+	text-align:justify;
+	}
 	/*-------END Custom Font size----------------*/
 /*---------------END Style fonts---------------------*/
 /*---06---*/
@@ -90,8 +134,51 @@ h:hover	{text-decoration:underline}
 /*---------------Style Sections----------------------*/
 	/*-------Style preContainer------------------*/
 	/*-------END Style preContainer--------------*/
-	/*-------Style container---------------------*/
-	/*-------END Style container-----------------*/
+	/*-------Style Slide-------------------------*/
+#slideContainer
+	{
+	display:flex;
+	flex-direction:row;
+	padding-top:20px;
+	}
+
+.middleLeft
+	{
+	width:50%;
+	display:flex;
+	flex-direction:column;
+	}
+.middleRight
+	{
+	width:50%;
+	height:100%;
+	}
+img	{
+	position:relative;
+	top:95px;
+	width:100%;
+	object-fit:contain;
+	}
+
+	/*-------END Style Slide---------------------*/
+	/*-------Related button----------------------*/
+#principleList
+	{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	margin:0;
+	padding:10px 0 0 0;
+	}
+
+#principleList li 
+	{
+	width:48%;
+	margin:10px 0;
+	}
+
+	/*-------END Related button------------------*/
 /*---------------END Style Sections------------------*/
 /*---08---*/
 /*---------------Style watermark---------------------*/
@@ -109,11 +196,14 @@ h:hover	{text-decoration:underline}
 h, .middle >p
 	{color:black;}
 
+h1	{font-weight:400;}
+
 	/*-------END Style colors website name-------*/
 	/*-------page colors-main page---------------*/
+
 #section0	{ background-color:#DFD3C3;}
 
-#section1 { background-color:#B2B8A3;}
+#section1	{ background-color:#B2B8A3;}
 
 #section2	{ background-color:#F4C7AB;}
 
@@ -121,32 +211,59 @@ h, .middle >p
 	/*-------END page colors-main page-----------*/
 	/*-------header color------------------------*/
 
-#section0 .dropMenuIcon div, #section0 .dropMenuContent a
+#section0 .dropMenuIcon div,
+#section0 .dropMenuContent a
 	{background-color:#9D8A71;}
 
-#section0 h, #section0 .middle >p, #section0 h4
+	/*-------END header color--------------------*/
+	/*-------text color--------------------------*/
+#section0 h,
+#section0 h1,
+#section0 .middle >p,
+#section0 h4
 	{color:#9D8A71;}
 
-#section1 .dropMenuIcon div, #section1 .dropMenuContent a
+
+#section1 .dropMenuIcon div, 
+#section1 .dropMenuContent a
 	{background-color:#7C8568;}
-#section1 h, #section1 .middle >p, #section1 h4
+
+#section1 h, 
+#section1 h1,
+#section1 h4,
+#section1 h5,
+#section1 blockquote,
+#section1 .middle >p,
+#section0 .middleLeft >p
 	{color:#606751;}
 
-#section2 .dropMenuIcon div, #section2 .dropMenuContent a
+#section2 .dropMenuIcon div, 
+#section2 .dropMenuContent a
 	{background-color:#BC7F61;}
-#section2 h, #section2 .middle >p, #section2 h4
+
+#section2 h, 
+#section2 .middle >p, 
+#section2 h4
 	{color:#BC7F61;}
 
 
-/*--
-.header, .dropMenu
-	{mix-blend-mode:soft-light;}
---*/
-	/*-------END header color--------------------*/
+	/*-------END text color----------------------*/
+	/*-------Related button----------------------*/
+#principleList a
+	{ background-color:#F0ECE3;}
+
+#principleList a:hover
+	{ background-color:#F4C7AB; }
+
+
+	/*-------END Related button------------------*/
 	/*-------drop down menu----------------------*/
 #fp-nav ul li .fp-tooltip.fp-right
 	{color:white; }
 	/*-------END drop down menu------------------*/
+
+
+
 /*---------------END Style colors--------------------*/
 /*---12---*/
 
@@ -159,10 +276,6 @@ h, .middle >p
 @media only screen
 and (min-width: 216px) 
 and (max-width: 615px) 
-and (orientation : landscape), 
-@media only screen
-and (min-width: 248px) 
-and (max-width: 693px) 
 and (orientation : landscape)
 {
 h	/*---website name---*/	
@@ -173,6 +286,18 @@ h	/*---website name---*/
 .header, .dropMenu
 	{ height:30px;}
 
+	/*--- related arts and architecture------*/
+
+h1	{ font-size:2.4rem;}
+
+.fp-slides .container .middle >p
+	{
+	font-size:1.5rem;
+	line-height:1.5;
+	text-align:justify;
+	}
+
+	/*--- END related arts and architecture---*/
 h4	{ font-size:2rem;}
 
 .middle >p
@@ -194,12 +319,24 @@ h4	{ font-size:2rem;}
 @media only screen
 and (min-width: 320px) 
 and (max-width: 528px) 
-and (orientation : portrait), 
-@media only screen
-and (min-width: 320px) 
-and (max-width: 532px) 
 and (orientation : portrait)
 {
+	/*---middle for related-------*/
+h1	{ 
+	font-size:1.8rem;
+	font-weight:bold;
+	}
+
+.fp-arrow 
+	{ scale:50% 75%;}
+.fp-next{ right:0;}
+.fp-prev{ left:0;}
+
+blockquote
+	{ margin: 0 10px 0 10px;}
+
+	/*---END middle for related---*/
+
 .container
 	{
 	display:flex;
@@ -227,6 +364,33 @@ h	/*---website name---*/
 	min-width:50px;
 	}
 h4	{font-size: 1.8rem;}
+	
+	/*---middle for references-------*/
+
+
+.middle { width:100%;}
+.middle >p
+	{ word-wrap:break-word;}
+
+.middleLeft
+	{
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	}
+.middleRight
+	{
+	width:100%;
+	height:auto;
+	margin-top:20px;
+	}
+
+.middleLeft p
+	{ text-align:justify;}
+
+img	{top:0;}
+
+	/*---END middle for references---*/
 
 .middle >p
 	{ padding-bottom:50px;}
@@ -255,6 +419,18 @@ h	/*---website name---*/
 .header, .dropMenu
 	{ height:30px;}
 
+	/*--- related arts and architecture------*/
+
+h1	{ font-size:2.4rem;}
+
+.fp-slides .container .middle >p
+	{
+	font-size:1.5rem;
+	line-height:1.5;
+	text-align:justify;
+	}
+
+	/*--- END related arts and architecture---*/
 h4	{ font-size:2rem;}
 
 .middle >p
