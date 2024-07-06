@@ -50,6 +50,23 @@ a	{
 	color:unset;
 	cursor:pointer;
 	}
+
+p a,
+blockquote a	
+	{
+	text-decoration:underline;
+	font-weight:450;
+	color:black
+	}
+
+p a:hover,
+blockquote a:hover
+	{
+	font-weight:bold;
+	color:blue;
+	}
+
+
 /*---------------END Style the links-----------------*/
 /*---04---*/
 /*---------------Text size adjustment----------------*/
@@ -139,6 +156,15 @@ h6	{ font-size: 1.5rem; line-height: 1.6;  }	/*---15px--*/
 	font-size: 1.8rem;
 	line-height: 1.5;
 	font-weight:400;
+	}
+
+blockquote
+	{
+	font-style:italic;
+	font-size: 1.6rem;
+	line-height: 1.5;
+	font-weight:350;
+	text-align:justify;
 	}
 	/*-------END Custom Font size----------------*/
 /*---------------END Style fonts---------------------*/
@@ -402,6 +428,13 @@ ul	{ list-style:none;}
 	margin:0 60px;
  	align-items:center;
 	}
+
+#refContainer
+	{
+	display:flex;
+	flex-direction:column;
+	}
+
 .sContainer h1
 	{
 	text-align:center;
@@ -436,10 +469,14 @@ ul	{ list-style:none;}
 	/*-------Style colors web site name + text---*/
 h, .middle >p
 	{color:#5F8B7E;}
-li >h, .sContainer h1
+li >h,
+.sContainer h1
 	{color:#F0ECE3;}
 
-#section2 h, #section2 .middle >p, #section2 h2
+
+#section2 h,
+#section2 .middle >p,
+#section2 h2
 	{color:#B20000;}
 
 	/*-------END Style colors website name-------*/
@@ -451,9 +488,14 @@ li >h, .sContainer h1
 	/*-------END page colors-main page-----------*/
 	/*-------link-Topics-------------------------*/
 .sContainer h1:hover
-	{
-	color:#F4C7AB;
-	}
+	{ color:#F4C7AB; }
+
+#refContainer h6
+	{color:#F0ECE3;}
+
+#refContainer h6:hover
+	{color:#F4C7AB;}
+
 	/*-------END link-Topics---------------------*/
 	/*-------drop down menu----------------------*/
 .dropMenuIcon div, .dropMenuContent a
@@ -470,6 +512,7 @@ li .dropMenuIcon:hover div
 	
 li .dropMenuIcon div, li .dropMenuContent a
 	{background-color:#F0ECE3;}
+
 li .dropMenuContent a
 	{ color:#5F8B7E;}
 
@@ -478,7 +521,8 @@ li .dropMenuContent a:hover
 
 
 	/*-----*/
-#section2 .dropMenuIcon div, #section2 .dropMenuContent a
+#section2 .dropMenuIcon div,
+#section2 .dropMenuContent a
 	{background-color:#B20000;}
 
 	/*-------END drop down menu------------------*/
