@@ -38,29 +38,35 @@
 /*---------------END Req-----------------------------*/
 /*---03---*/
 /*---------------Style the links---------------------*/
+	/*-------Related button----------------------*/
+.middle h1 a:hover
+	{
+	text-decoration:underline;
+	}
 
-h6 li a	
+.middle li a:hover
+	{
+	text-decoration:underline;
+	font-weight:bold;
+	color:blue;
+	}
+
+#topicsList a
+	{
+	display:block;
+	width:100%;
+	border-radius:5px;
+	margin: 10px 0;
+	padding:5px;
+	text-align:center;
+	border-color:black;
+	border-width:1px;
+	}
+
+.middleLeft h5 a:hover
 	{text-decoration:underline;}
 
-h6 li a:hover
-	{
-	font-weight:bold;
-	color:blue;
-
-	}
-/*---moved to index.css---
-.contentContainer p a, blockquote a	
-	{
-	font-weight:450;
-	color:black
-	}
-
-h6 li a:hover, .contentContainer p a:hover, blockquote a:hover
-	{
-	font-weight:bold;
-	color:blue;
-	}
----*/
+	/*-------END Related button------------------*/
 /*---------------END Style the links-----------------*/
 /*---04---*/
 /*---------------Text size adjustment----------------*/
@@ -72,41 +78,20 @@ h6 li a:hover, .contentContainer p a:hover, blockquote a:hover
 	/*-------Font size---------------------------*/
 	/*-------END Font size-----------------------*/
 	/*-------Custom Font size--------------------*/
-h:hover	{text-decoration:underline}
-
-h1	{font-weight:400;}
-
-h4, h5, h6
-	{font-weight:450;}
-
-h4, h5, h6
-	{margin-bottom:1rem;}
-
-
-.middle >p
-	{
-	font-size: 1.5rem;
-	line-height: 1.6;
-	font-weight:350;
-	}
-
-.contentContainer .middle >p
+#topicsList li 
 	{
 	font-size: 1.8rem;
 	line-height: 1.5;
-	font-weight:350;
+	font-weight: 350;
 	}
 
-/*----moved to index.css
-blockquote
+h1	{font-weight:400;}
+
+#slideContainer p
 	{
-	font-style:italic;
-	font-size: 1.6rem;
-	line-height: 1.5;
-	font-weight:350;
-	text-align:justify;
+	font-size: 1.8rem;
 	}
----*/
+
 	/*-------END Custom Font size----------------*/
 /*---------------END Style fonts---------------------*/
 /*---06---*/
@@ -137,20 +122,28 @@ blockquote
 	/*-------Style preContainer------------------*/
 	/*-------END Style preContainer--------------*/
 	/*-------Style container---------------------*/
-#section0 .middle
-	{ padding-bottom:50px;}
-
-.contentContainer
+#topicsList
 	{
 	display:flex;
-	justify-content:center;
-	width:100%;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	margin:0;
+	padding:10px 0 0 0;
 	}
 
-.contentContainer .middle
+#topicsList li 
 	{
-	width:800px;
-	padding:20px;
+	width:48%;
+	margin:10px 0;
+	}
+
+#slideContainer
+	{ height:unset;}
+
+#imhotep .fp-overflow
+	{
+	align-items:unset;
 	}
 	/*-------END Style container-----------------*/
 /*---------------END Style Sections------------------*/
@@ -167,21 +160,15 @@ blockquote
 /*---11---*/
 /*---------------Style colors------------------------*/
 	/*-------Style colors web site name + text---*/
-h, h1, h6, .middle >p, #section0 h4, #section0 h5
-	{color:#5F8B7E;}
-
-
-.contentContainer .middle >p,
-.contentContainer h4,
-.contentContainer h5,
-blockquote
-	{color:gray;}
 	/*-------END Style colors website name-------*/
 	/*-------page colors-main page---------------*/
-#section0	{ background-color:#F0ECE3;}
-
 	/*-------END page colors-main page-----------*/
 	/*-------link-Topics-------------------------*/
+#topicsList a
+	{ background-color:#B2B8A3;}
+
+#topicsList a:hover
+	{ background-color:#5F8B7E; }
 	/*-------END link-Topics---------------------*/
 	/*-------drop down menu----------------------*/
 	/*-------END drop down menu------------------*/
@@ -205,45 +192,7 @@ and (min-width: 320px)
 and (max-width: 532px) 
 and (orientation : portrait)
 {
-.container
-	{
-	display:flex;
-	flex-direction:row;
-	flex-wrap:wrap;
-	align-content:flex-start;
-	}
-.header
-	{
-	display:flex;
-	flex:1;
-	min-width:175px;
-	}
-.dropMenu
-	{
-	display:flex;
-	flex:1;
-	min-width:50px;
-	}
 
-h	/*---website name---*/	
-	{
-	font-size: 1.8rem;
-	font-weight:900;
-	}
-.header, .dropMenu
-	{ height:40px;}
-h1
-	{
-	font-size: 2.4rem;
-	line spacing:1.25;
-	font-weight:bold;
-	}
-.middle >p, .contentContainer .middle >p 
-	{
-	font-size: 1.5rem;
-	line-height: 1.5;
-	text-align:justify;
-	}
 }
 
 /* iphone14 landscape ------------------------------ */
@@ -252,21 +201,7 @@ and (min-width: 216px)
 and (max-width: 615px) 
 and (orientation : landscape),
 {
-h	/*---website name---*/	
-	{
-	font-size: 2.4rem;
-	font-weight:900;
-	}
-.header, .dropMenu
-	{ height:30px;}
 
-
-.middle >p, .contentContainer .middle >p
-	{
-	font-size: 1.5rem;
-	line-height: 1.5;
-	text-align:justify;
-	}
 }
 
 
@@ -276,19 +211,6 @@ and (min-width: 248px)
 and (max-width: 693px) 
 and (orientation : landscape)
 {
-h	/*---website name---*/	
-	{
-	font-size: 2.4rem;
-	font-weight:900;
-	}
-.header, .dropMenu
-	{ height:30px;}
 
-.middle >p, .contentContainer .middle >p
-	{
-	font-size: 1.5rem;
-	line-height: 1.5;
-	text-align:justify;
-	}
 }
 

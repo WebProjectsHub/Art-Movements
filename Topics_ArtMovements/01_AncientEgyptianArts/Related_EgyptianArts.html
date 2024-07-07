@@ -5,6 +5,8 @@
    <link rel="stylesheet" href="../../fullpage.css">
    <link rel="stylesheet" href="../../index.css">
    <link rel="stylesheet" href="AncientEgyptianArts.css">
+   <link rel="stylesheet" href="Related_EgyptianArts.css">
+
 
    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,7 +43,7 @@
 					<div class="dropMenuRelated">
 						<a href="../../Topics_Related/Related_ArtStyles.html" id="dMR01">
 							Art Styles</a>
-						<a href="#" id="dMR02">Art and Architecture</a>
+						<a href="../../Topics_Related/Related_ArtsArchitecture.html" id="dMR02">Art and Architecture</a>
 						<a href="#" id="dMR03">Test your Skills</a>
 					</div>
 				</div>
@@ -54,37 +56,38 @@
 			<h1><a href="./AncientEgyptianArts.html">
 Ancient Egyptian Art			<!----****************************************************CSS for hover**********---!>
 			</a></h1>
-			<h4>
-Summary
-			</h4>
-			<p>
-<b>Functional Art:</b> Ancient Egyptian art was primarily functional, serving practical purposes such as holding the spirit of a god or the deceased, protecting from harm, or guiding the soul in the afterlife.
-	<br><br>
-
-			</p>
 			<!------------END Summary-----------!>
 			<!------------Related Topics--------!>
-			<div id="relatedTopics">
-				<h5>
-					Related Topics
-				</h5>
-				<h6>
-					<ul>
-						<li><a href="">
-							Ancient Egyptian Architecture
-						</a></li>
-						<li><a href="">
-							Egyptian Gods and Goddesses
-						</a></li>
-						<li><a href="">
-							Egyptian Hieroglyphs
-						</a></li>
-						<li><a href="">
-							Other Items
-						</a></li>
-					</ul>
-				</h6>
-			</div>
+			<h4>
+Related Topics
+			</h4>
+			<ul id="topicsList">
+				<li><a href="#phideas">
+					Phideas
+				</a></li>
+				<li><a href="#unification">
+					Unification of Upper and Lower Egypt
+				</a></li>
+				<li><a href="#imhotep">
+					Imhotep
+				</a></li>
+				<li><a href="#-">
+					-
+				</a></li>
+				<li><a href="#-">
+					-
+				</a></li>
+				<li><a href="#-">
+					-
+				</a></li>
+				<li><a href="#-">
+					-
+				</a></li>
+				<li><a href="#-">
+					-
+				</a></li>
+			</ul>
+
 			<!------------END Related Topics----!>
 		</div>
 		<!------------END Middle------------!>
@@ -99,8 +102,49 @@ Summary
 				Phideas
 			</h2>	
 		</div>
-		<div class="slide">		<h2>Only text</h2>	</div>
-		<div class="slide">		<h2>And text</h2>	</div>
+		<div class="slide" id="unification">
+			<!------------Container-optional-------!>	
+			<div class="container"  id="slideContainer">
+
+			<h2>
+				Unification of Upper and Lower Egypt by King Narmer
+			</h2>
+			<p>
+The Two Lands (Upper and Lower Egypt) became united around 3000 BC under a single king, Narmer (or Menes), who ruled as the first king of Upper and Lower Egypt. Already in this early period, many of the distinct characteristics of Egyptian culture, including kingship ideology, writing system, social structure, religious beliefs, and modes of artistic representation were introduced and codified.
+			</p>
+			</div>
+			<!------------END Container------------!>
+		</div>
+		<div class="slide" id="imhotep">
+			<!------------Container-optional-------!>	
+			<div class="container"  id="slideContainer">
+
+			<h2>
+				Imhotep
+			</h2>
+			<p>
+Imhotep (born 27th or 26th century BC) was a vizier, sage, architect, astrologer, and chief minister to Djoser (reigned c. 2592–c. 2566 BC), the first king of Egypt’s Third Dynasty.  He was later worshipped as the god of medicine in Egypt and in Greece, where he was identified with the Greek god of medicine, Asclepius. He is considered to be the architect of the step pyramid built at the necropolis of Ṣaqqārah in Memphis. It is the oldest extant monument of hewn stone known to the world.
+		<br><br>
+Imhotep’s high standing in Djoser’s court is affirmed by an inscription bearing his name on a statue of Djoser found at the site of the Ṣaqqārah pyramid. The inscription lists a variety of titles, including chief of the sculptors and chief of the seers. Although no contemporary account has been found that refers to Imhotep as a practicing physician, documents on Egyptian society and medicine during the Old Kingdom (c. 2543–c. 2120 BC) show that the chief magician of the pharaoh’s court also frequently served as the nation’s chief physician. Imhotep’s reputation as the reigning genius of the time, his position in the court, his training as a scribe, and his becoming known as a medical demigod only 100 years after his death are strong indications that he must have been a physician of considerable skill.
+		<br><br>
+			</p>
+			</div>
+			<!------------END Container------------!>
+		</div>
+		<div class="slide" id="******">
+			<!------------Container-optional-------!>	
+			<div class="container"  id="slideContainer">
+
+			<h2>
+				----
+			</h2>
+			<p>
+--------------
+			</p>
+			</div>
+			<!------------END Container------------!>
+		</div>
+
 		<div class="slide">		<h2>And more text	</h2></div>
 </div>
 <!------------END Section 1------------!>
@@ -108,12 +152,14 @@ Summary
 
 <script type="text/javascript" src="../../fullpage.js"></script>
 <script type="text/javascript">
-	var myFullpage = new fullpage('#fullpage', 
-    {
-		sectionsColor: [],
-        controlArrows: true,
-       loopBottom: true,
-	});
+var myFullpage = new fullpage
+	('#fullpage', 
+    		{
+		anchors: ['Section0', 'phideas', 'unification'],
+		controlArrows: true,
+		loopBottom: true,
+		}
+	);
 </script>
 </body>
 </html>
