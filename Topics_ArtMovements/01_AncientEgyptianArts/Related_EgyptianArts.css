@@ -51,6 +51,11 @@
 	color:blue;
 	}
 
+#topicsList li a:hover
+	{
+	text-decoration:none;
+	}
+
 #topicsList a
 	{
 	display:block;
@@ -165,7 +170,10 @@ h1	{font-weight:400;}
 	/*-------END page colors-main page-----------*/
 	/*-------link-Topics-------------------------*/
 #topicsList a
-	{ background-color:#B2B8A3;}
+	{
+	background-color:#B2B8A3;
+	color:#F0ECE3;
+	}
 
 #topicsList a:hover
 	{ background-color:#5F8B7E; }

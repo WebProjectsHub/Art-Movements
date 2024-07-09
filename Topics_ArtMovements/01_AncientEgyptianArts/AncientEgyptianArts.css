@@ -1,7 +1,5 @@
 /*---------------Color style------------------------*/
 /*------https://coolors.co/palette/dfd3c3-f0ece3-f4c7ab-b2b8a3-5f8b7e----*/
-/*------https://coolors.co/palette/0015ff-ff00a1-90fe00-8400ff-00fff7-ff7300	----*/
-/*------https://coolors.co/visualizer/0015ff-ff00a1-90fe00-8400ff-00fff7-ff7300	----*/
 /*------
 1. html and body height and width
 2. required
@@ -90,7 +88,11 @@ h4, h5, h6
 	font-weight:350;
 	}
 
-.contentContainer .middle >p
+
+
+.contentContainer .middle >p,
+
+.contentContainer .middle li
 	{
 	font-size: 1.8rem;
 	line-height: 1.5;
@@ -167,13 +169,21 @@ blockquote
 /*---11---*/
 /*---------------Style colors------------------------*/
 	/*-------Style colors web site name + text---*/
-h, h1, h6, .middle >p, #section0 h4, #section0 h5
+h,
+h1,
+h6,
+.middle >p,
+.middle li a,
+#section0 h4,
+#section0 h5,
+#backLink a
 	{color:#5F8B7E;}
 
 
 .contentContainer .middle >p,
 .contentContainer h4,
 .contentContainer h5,
+.middle li,
 blockquote
 	{color:gray;}
 	/*-------END Style colors website name-------*/
