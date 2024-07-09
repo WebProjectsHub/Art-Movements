@@ -56,16 +56,23 @@ blockquote a
 	{
 	text-decoration:underline;
 	font-weight:450;
-	color:black
+	color:#333333;
 	}
 
 p a:hover,
+#backLink:hover,
 blockquote a:hover
 	{
 	font-weight:bold;
 	color:blue;
 	}
 
+#backLink	
+	{
+	text-decoration:underline;
+	font-weight:450;
+	padding:5px 0;
+	}
 
 /*---------------END Style the links-----------------*/
 /*---04---*/
@@ -158,6 +165,12 @@ h6	{ font-size: 1.5rem; line-height: 1.6;  }	/*---15px--*/
 	font-weight:400;
 	}
 
+#refList p	/*---list of references---*/
+	{
+	font-size: 1.2rem;
+	line-height: 1.5;
+	font-weight:350;
+	}
 blockquote
 	{
 	font-style:italic;
