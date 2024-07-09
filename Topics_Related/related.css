@@ -56,6 +56,10 @@
 	text-align:center;
 	}
 
+#principleList li a:hover
+	{ text-decoration:none;}
+
+
 .middleLeft h5 a:hover
 	{text-decoration:underline;}
 
