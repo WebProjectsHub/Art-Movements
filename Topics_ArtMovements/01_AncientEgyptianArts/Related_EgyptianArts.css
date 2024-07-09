@@ -51,12 +51,12 @@
 	color:blue;
 	}
 
-#topicsList li a:hover
-	{
-	text-decoration:none;
-	}
+#topicsList li a:hover,
+#topicsList2 li a:hover
+	{ text-decoration:none;}
 
-#topicsList a
+#topicsList a,
+#topicsList2 a
 	{
 	display:block;
 	width:100%;
@@ -83,7 +83,8 @@
 	/*-------Font size---------------------------*/
 	/*-------END Font size-----------------------*/
 	/*-------Custom Font size--------------------*/
-#topicsList li 
+#topicsList li,
+#topicsList2 li
 	{
 	font-size: 1.8rem;
 	line-height: 1.5;
@@ -95,6 +96,7 @@ h1	{font-weight:400;}
 #slideContainer p
 	{
 	font-size: 1.8rem;
+	font-weight:350;
 	}
 
 	/*-------END Custom Font size----------------*/
@@ -127,7 +129,8 @@ h1	{font-weight:400;}
 	/*-------Style preContainer------------------*/
 	/*-------END Style preContainer--------------*/
 	/*-------Style container---------------------*/
-#topicsList
+#topicsList,
+#topicsList2
 	{
 	display:flex;
 	flex-direction:row;
@@ -142,7 +145,15 @@ h1	{font-weight:400;}
 	width:48%;
 	margin:10px 0;
 	}
+		/*---Egyptian gods list--------------*/
+#topicsList2 li 
+	{
+	flex-basis:20%;
+	flex-grow:1;
+	margin:10px 5px;
+	}
 
+		/*---Egyptian gods list--------------*/
 #slideContainer
 	{ height:unset;}
 
@@ -167,16 +178,20 @@ h1	{font-weight:400;}
 	/*-------Style colors web site name + text---*/
 	/*-------END Style colors website name-------*/
 	/*-------page colors-main page---------------*/
+#section1
+	{background-color:#90979B;}
 	/*-------END page colors-main page-----------*/
 	/*-------link-Topics-------------------------*/
-#topicsList a
+#topicsList a,
+#topicsList2 a
 	{
-	background-color:#B2B8A3;
-	color:#F0ECE3;
+	background-color:#01455E;
+	color:#F6F0E2;
 	}
 
-#topicsList a:hover
-	{ background-color:#5F8B7E; }
+#topicsList a:hover,
+#topicsList2 a:hover
+	{ background-color:#BF2D32; }
 	/*-------END link-Topics---------------------*/
 	/*-------drop down menu----------------------*/
 	/*-------END drop down menu------------------*/

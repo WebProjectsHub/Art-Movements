@@ -169,6 +169,7 @@ blockquote
 /*---11---*/
 /*---------------Style colors------------------------*/
 	/*-------Style colors web site name + text---*/
+
 h,
 h1,
 h6,
@@ -177,7 +178,10 @@ h6,
 #section0 h4,
 #section0 h5,
 #backLink a
-	{color:#5F8B7E;}
+	{color:#2F2F30;}
+
+h:hover
+	{color:#BF2D32;}	
 
 
 .contentContainer .middle >p,
@@ -186,14 +190,25 @@ h6,
 .middle li,
 blockquote
 	{color:gray;}
+
+
 	/*-------END Style colors website name-------*/
 	/*-------page colors-main page---------------*/
-#section0	{ background-color:#F0ECE3;}
+#section0	{ background-color:#01B0BB;}
 
 	/*-------END page colors-main page-----------*/
 	/*-------link-Topics-------------------------*/
+#backLink a:hover
+	{ color:#BF2D32;}
+
 	/*-------END link-Topics---------------------*/
 	/*-------drop down menu----------------------*/
+	/*-------drop down menu----------------------*/
+.dropMenuIcon div
+	{background-color:#2F2F30;}
+
+.dropMenuContent a
+	{background-color:#BF2D32;}
 	/*-------END drop down menu------------------*/
 /*---------------END Style colors--------------------*/
 /*---12---*/
