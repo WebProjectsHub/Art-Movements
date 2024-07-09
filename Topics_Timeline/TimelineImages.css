@@ -1,0 +1,57 @@
+
+/*---------------set html height to full page--------*/
+/*---------------slide background image--------------*/
+.section #imageSlide
+	{
+	margin-top:5px;
+	background-size: cover;
+	}
+
+#section0 #imageSlide
+	{
+	background-image: url(../assets/images/AncientEgyptianArt/Anubis-Egyptian-Book-of-the-Dead-dead-c-1275-bce.webp);
+	}
+
+#section1 #imageSlide
+	{
+	background-image: url(../assets/images/AncientGreekArt/gigantomachy-treasury-of-the-siphians-delphi-417.jpg);
+	}
+
+#section2 #imageSlide
+	{
+	background-image: url(../assets/images/WesternMedievalArt/12th-century_painters_-_Epistles_of_St_Paul_with_Gloss_-_WGA15727.jpg);
+
+	}
+
+/*---------------END slide background image----------*/
+/*---------------slide image description-------------*/
+
+.section #imageSlide div
+	{
+	height:0;
+	width:100%;
+	display:flex;
+	background-color:rgba(0, 0, 0, .3);
+	margin:0;
+	padding:0;
+	transition: all	.5s ease;
+	}
+
+.section #imageSlide div p
+	{
+	height:0;
+	color:white;
+	font-weight:500;
+	font-size:1.5rem;
+	width:100%;
+	max-width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:15px 0;
+	transition: all	.5s ease;
+	}
+
+.section #imageSlide:hover div, .section #imageSlide:hover p
+	{ height:80px;}
+
+/*---------------END slide image description---------*/
