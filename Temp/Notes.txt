@@ -1,23 +1,10 @@
 Notes:
 **To do
-- Proofread text introduction, journey through..., and art styles.
-- investigate more
-	- art styles
-- collect samples for homepage
-	- styles
-	- images
-
-
-for drop down menu
-Timeline
-Artist
-Arts
-Art Movements
-Related Topics
-	- Art Styles
-	- Art and Architecture
-
-Text Yourself
+- add black abd white logi
+- review color scheme
+- review font size
+- change link colors from black to dark gray
+- animation for drop down link
 
 --------------------------------
 Ancient Egyptian Arts and Culture
