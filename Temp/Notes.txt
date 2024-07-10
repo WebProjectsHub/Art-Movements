@@ -1,6 +1,6 @@
 Notes:
 **To do
-- add black abd white logi
+- add black and white logo
 - review color scheme
 - review font size
 - change link colors from black to dark gray
