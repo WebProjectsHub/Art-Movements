@@ -3,7 +3,7 @@ Notes:
 - add black and white logo
 - review color scheme
 - review font size
-- change link colors from black to dark gray
+- /change link colors from black to dark gray
 - animation for drop down link
 
 --------------------------------
