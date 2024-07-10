@@ -1,0 +1,94 @@
+/*---------------RESPONSIVE DESIGN-------------------*/
+/* iphone14 portrait ------------------------------ */
+@media only screen
+and (min-width: 320px) 
+and (max-width: 528px) 
+and (orientation : portrait)
+{
+.header, .dropMenu
+	{ height:40px;}
+.header
+	{
+	display:flex;
+	flex:1;
+	min-width:175px;
+	}
+h	/*---website name---*/	
+	{
+	font-size: 2rem;
+	font-weight:900;
+	}
+.dropMenu
+	{
+	display:flex;
+	flex:1;
+	min-width:50px;
+	}
+
+.container
+	{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	align-content:flex-start;
+	}
+h1
+	{
+	font-size: 2.4rem;
+	line spacing:1.25;
+	font-weight:bold;
+	}
+
+.middle >p, .contentContainer .middle >p 
+	{
+	font-size: 1.5rem;
+	line-height: 1.5;
+	text-align:justify;
+	}
+}
+
+/* iphone14 landscape ------------------------------ */
+@media only screen
+and (min-width: 216px) 
+and (max-width: 615px) 
+and (orientation : landscape),
+{
+h	/*---website name---*/	
+	{
+	font-size: 2.4rem;
+	font-weight:900;
+	}
+.header, .dropMenu
+	{ height:30px;}
+
+
+.middle >p, .contentContainer .middle >p
+	{
+	font-size: 1.5rem;
+	line-height: 1.5;
+	text-align:justify;
+	}
+}
+
+
+/* iphone14 landscape -edge browser----------------- */
+@media only screen
+and (min-width: 248px) 
+and (max-width: 693px) 
+and (orientation : landscape)
+{
+h	/*---website name---*/	
+	{
+	font-size: 2.4rem;
+	font-weight:900;
+	}
+.header, .dropMenu
+	{ height:30px;}
+
+.middle >p, .contentContainer .middle >p
+	{
+	font-size: 1.5rem;
+	line-height: 1.5;
+	text-align:justify;
+	}
+}
