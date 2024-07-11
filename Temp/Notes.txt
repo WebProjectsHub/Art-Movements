@@ -1,28 +1,12 @@
 Notes:
 **To do
-- add black and white logo
+- / add black and white logo
 - review color scheme
-- review font size
-- /change link colors from black to dark gray
-- animation for drop down link
-
+- / review font size
+- / change link colors from black to dark gray
+- x animation for drop down link
 --------------------------------
-Ancient Egyptian Arts and Culture
-Architecture
-	Hieroglyphics
-	Sculpture
-Characteristics
-
-Culture
-	Egyptian Gods
-	Its influence in arts
-	
-Ancient Egypt
-	Dynasties and periods
-	Influence of Greek and Romans
-	Biblical Era
-Notable Figures
-In Modern Times
+- review links for Ancient Egyptian Arts
 --------------------------------
 https://www.worldhistory.org/Egyptian_Art/
 
