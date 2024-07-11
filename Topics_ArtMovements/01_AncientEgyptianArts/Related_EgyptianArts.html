@@ -6,7 +6,12 @@
    <link rel="stylesheet" href="../../index.css">
    <link rel="stylesheet" href="AncientEgyptianArts.css">
    <link rel="stylesheet" href="Related_EgyptianArts.css">
+   <link rel="stylesheet" href="./responsive.css">
 
+<link rel="apple-touch-icon" sizes="180x180" href="../../assets/images/Logo/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../../assets/images/Logo/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/Logo/favicon/favicon-16x16.png">
+<link rel="manifest" href="../../assets/images/Logo/favicon/site.webmanifest">
 
    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,6 +23,7 @@
 	<div class="container">
 		<!------------Header----------------!>
 		<div class="header">
+			<img src=../../assets/images/Logo/logo.png></img>
 			<h><a href="../../index.html">	
 				Art Movements
 			</a></h>
@@ -52,15 +58,16 @@
 		<!------------END Header------------!>
 		<!------------Middle----------------!>
 		<div class="middle">
+			<p id="backLink"><a href="./AncientEgyptianArts.html">
+Ancient Egyptian Art
+			</a></p>
 			<!------------Summary---------------!>
-			<h1><a href="./AncientEgyptianArts.html">
-Ancient Egyptian Art			<!----****************************************************CSS for hover**********---!>
-			</a></h1>
+			<h1>
+Related Topics
+			</h1>
 			<!------------END Summary-----------!>
 			<!------------Related Topics--------!>
-			<h4>
-Related Topics
-			</h4>
+
 			<ul id="topicsList">
 				<li><a href="#djed">
 					Djed
@@ -217,7 +224,7 @@ The ancient Egyptians used mineral compounds to add color to their art. As a res
 var myFullpage = new fullpage
 	('#fullpage', 
     		{
-		anchors: ['Section0', 'phideas', 'unification'],
+		anchors: ['Section0', 'djed', 'unification', 'imhotep', 'shabti', 'colors' ],
 		controlArrows: true,
 		loopBottom: true,
 		}

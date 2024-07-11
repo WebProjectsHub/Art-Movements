@@ -91,7 +91,6 @@ h4, h5, h6
 
 
 .contentContainer .middle >p,
-
 .contentContainer .middle li
 	{
 	font-size: 1.8rem;
@@ -99,6 +98,10 @@ h4, h5, h6
 	font-weight:350;
 	}
 
+.contentContainer .middle li	
+	{
+	list-style-type:square;
+	}
 /*----moved to index.css
 blockquote
 	{
@@ -209,6 +212,9 @@ blockquote
 
 .dropMenuContent a
 	{background-color:#BF2D32;}
+
+.dropMenuIcon:hover ~ #horbar
+	{background-color:green;}
 	/*-------END drop down menu------------------*/
 /*---------------END Style colors--------------------*/
 /*---12---*/
