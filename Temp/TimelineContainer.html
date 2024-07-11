@@ -2,24 +2,38 @@
 <html>
 <head>
   <style>
-.scroll-shadows {
-  height: 200px;
-	width:500px;
-  overflow: auto;
-}
+.timeContainer1,
+.timeContainer2
+	{
+	height: 200px;
+	width:800px;
+	overflow:auto;
+	}
 
-iframe {width:3500px;
-	overflow:hidden;}
+iframe {
+	width:3500px;
+	overflow:auto;
+	}
 
   </style>
 </head>
 <body>
-<div class="scroll-shadows">
+<div class="timeContainer1">
 	<iframe src="svg.html"></iframe>
 </div>
+
+<div class="timeContainer2">
+	<iframe src="svg.html"></iframe>
+</div>
+
 <script>
-// just so demo loads scrolled down a little.
-document.querySelector(".scroll-shadows").scrollLeft = 300;
+//---------------timeContainer1-------------//
+document.querySelector(".timeContainer1").scrollLeft = 00;
+
+
+//---------------timeContainer2-------------//
+document.querySelector(".timeContainer2").scrollLeft = 500;
+document.querySelector(".timeContainer2").scrollTop = 50;
 </script>
 </body>
 </html>
