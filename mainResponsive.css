@@ -1,0 +1,265 @@
+/*---------------RESPONSIVE DESIGN-------------------*/
+/* iphone14 portrait ------------------------------ */
+@media only screen
+and (min-width: 320px) 
+and (max-width: 528px) 
+and (orientation : portrait)
+{
+.header, .dropMenu
+	{ height:40px;}
+.header
+	{
+	display:flex;
+	flex:1;
+	min-width:220px;
+	}
+#webName
+	{
+	display:flex;
+	flex:1;
+	min-width:220px;
+	}
+
+h	/*---website name---*/	
+	{
+	font-size: 2rem;
+	font-weight:900;
+	}
+
+ /*---logo---*/
+.header img,
+li img
+	{
+	width:35px;
+	top:2px;
+	}
+
+.dropMenu
+	{
+	display:flex;
+	flex:1;
+	min-width:30px;
+	}
+
+.dropMenuIcon div
+	{
+	width:20px;
+	height:2px;
+	margin:4px 0;
+	}
+
+ /*---END logo---*/
+
+.container
+	{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	align-content:flex-start;
+	}
+
+.middle >p
+	{
+	font-size: 1.5rem;
+	line-height: 1.5;
+	text-align:justify;
+	}
+
+#menu	{
+	height:40px;
+	}
+#menu li
+	{
+	width:unset;
+	}
+
+.dropMenu:hover .dropMenuContent
+	{
+	top:40px;
+	}
+
+ /*---slides---*/
+.fp-arrow 
+	{scale:60%;}
+
+ /*---slides---*/
+
+.sContainer h1 
+	{ font-size:3.0rem;}
+
+
+}
+
+/* iphone14 landscape ------------------------------ */
+@media only screen
+and (min-width: 216px) 
+and (max-width: 615px) 
+and (orientation : landscape)
+{
+.header, .dropMenu
+	{ height:40px;}
+.header
+	{
+	display:flex;
+	flex:1;
+	min-width:220px;
+	}
+#webName
+	{
+	display:flex;
+	flex:1;
+	min-width:220px;
+	}
+
+h	/*---website name---*/	
+	{
+	font-size: 2rem;
+	font-weight:900;
+	}
+
+ /*---logo---*/
+.header img,
+li img
+	{
+	width:35px;
+	top:2px;
+	}
+
+.dropMenu
+	{
+	display:flex;
+	flex:1;
+	min-width:30px;
+	}
+
+.dropMenuIcon div
+	{
+	width:20px;
+	height:2px;
+	margin:4px 0;
+	}
+
+.container
+	{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	align-content:flex-start;
+	}
+
+.middle >p
+	{
+	font-size: 1.5rem;
+	line-height: 1.5;
+	text-align:justify;
+	}
+
+#menu	{
+	height:40px;
+	}
+#menu li
+	{
+	width:unset;
+	}
+
+.dropMenu:hover .dropMenuContent
+	{ top:40px;}
+
+ /*---slides---*/
+.fp-arrow 
+	{scale:60%;}
+
+ /*---slides---*/
+
+
+.sContainer h1 
+	{ font-size:3.6rem; }
+
+}
+
+/* iphone14 landscape -edge browser----------------- */
+@media only screen
+and (min-width: 248px) 
+and (max-width: 693px) 
+and (orientation : landscape)
+{
+.header, .dropMenu
+	{ height:40px;}
+.header
+	{
+	display:flex;
+	flex:1;
+	min-width:220px;
+	}
+#webName
+	{
+	display:flex;
+	flex:1;
+	min-width:220px;
+	}
+
+h	/*---website name---*/	
+	{
+	font-size: 2rem;
+	font-weight:900;
+	}
+
+ /*---logo---*/
+.header img,
+li img
+	{
+	width:35px;
+	top:2px;
+	}
+
+.dropMenu
+	{
+	display:flex;
+	flex:1;
+	min-width:30px;
+	}
+
+.dropMenuIcon div
+	{
+	width:20px;
+	height:2px;
+	margin:4px 0;
+	}
+
+.container
+	{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	align-content:flex-start;
+	}
+
+.middle >p
+	{
+	font-size: 1.5rem;
+	line-height: 1.5;
+	text-align:justify;
+	}
+
+#menu	{
+	height:40px;
+	}
+#menu li
+	{
+	width:unset;
+	}
+
+.dropMenu:hover .dropMenuContent
+	{ top:40px;}
+
+ /*---slides---*/
+.fp-arrow 
+	{scale:60%;}
+
+ /*---slides---*/
+
+
+.sContainer h1 
+	{ font-size:3.6rem; }
+
+}
