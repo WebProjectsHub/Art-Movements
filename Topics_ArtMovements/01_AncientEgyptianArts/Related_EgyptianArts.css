@@ -143,7 +143,6 @@ h1	{font-weight:400;}
 #topicsList li 
 	{
 	width:48%;
-	margin:10px 0;
 	}
 		/*---Egyptian gods list--------------*/
 #topicsList2 li 
@@ -157,7 +156,11 @@ h1	{font-weight:400;}
 #slideContainer
 	{ height:unset;}
 
-#imhotep .fp-overflow
+#imhotep .fp-overflow,
+#colors .fp-overflow,
+#tomb .fp-overflow,
+#Egyptomania .fp-overflow,
+#Sphinx .fp-overflow
 	{
 	align-items:unset;
 	}
