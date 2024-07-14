@@ -26,7 +26,7 @@
 /*---------------END slide background image----------*/
 /*---------------slide image description-------------*/
 
-.section #imageSlide div
+.section #imageSlide >div
 	{
 	height:0;
 	width:100%;
@@ -41,7 +41,7 @@
 	{
 	height:0;
 	color:white;
-	font-weight:500;
+	font-weight:400;
 	font-size:1.5rem;
 	width:100%;
 	max-width:800px;

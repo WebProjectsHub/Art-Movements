@@ -1,0 +1,448 @@
+/*---------------RESPONSIVE DESIGN-------------------*/
+/* iphone14 portrait ------------------------------ */
+@media only screen
+and (min-width: 320px) 
+and (max-width: 528px) 
+and (orientation : portrait)
+{
+.fp-slides
+	{
+	height:calc(100% - 65px);
+	top:40px;
+	}
+.fp-overflow
+	{
+	align-items:flex-start;
+	padding:10px 30px;
+	}
+
+.header, .dropMenu
+	{ height:40px;}
+.header
+	{
+	display:flex;
+	flex:1;
+	min-width:220px;
+	}
+#webName
+	{
+	display:flex;
+	flex:1;
+	min-width:220px;
+	}
+
+h	/*---website name---*/	
+	{
+	font-size: 2rem;
+	font-weight:900;
+	}
+
+ /*---logo---*/
+.header img,
+li img
+	{
+	width:35px;
+	top:2px;
+	}
+
+.dropMenu
+	{
+	display:flex;
+	flex:1;
+	min-width:30px;
+	}
+
+.dropMenuIcon div
+	{
+	width:20px;
+	height:2px;
+	margin:4px 0;
+	}
+
+ /*---END logo---*/
+#menu
+	{
+	padding: 0 20px;
+	height:40px;
+	}
+
+#menu li:first-child
+	{ min-width:200px;}
+
+#menu li:nth-child(2)
+	{ max-width:30px;}
+
+.section >h3
+	{
+	font-size:1.8rem;
+	margin-left:30px;
+	margin-bottom:0;
+	height:25px;
+	top:40px;
+	}
+
+.timelineContainer
+	{ padding: 0 0 30px 0; }
+.timelineContainer >div
+	{
+	font-size:1.5rem;
+	line-height:1.5;
+	text-align:justify;
+	}
+
+#timelineContainerS2
+	{
+	flex-direction:column;
+	width:300px;
+	}
+
+#timelineContainerS2 h6
+	{
+	text-align:left;
+	font-size: 1.5rem;
+	font-weight:350;
+	line-height:1;
+	}
+
+#timelineContainerS2 h5
+	{
+	font-size: 1.6rem;
+	font-weight:450;
+	}
+
+/*---imageslide---*/
+
+.section #imageSlide
+	{
+	background-size:contain;
+	background-position:center;
+	background-repeat:no-repeat;
+	}
+
+.section #imageSlide div
+	{ padding:0 10px;}
+
+.section #imageSlide div p 
+	{
+	font-weight:350;
+	line-height:1.2;
+	padding:5px 0;
+	}
+
+.section #imageSlide:hover div,
+.section #imageSlide:hover p 
+	{ height:auto;}
+
+/*---END imageslide---*/
+.fp-arrow 
+	{ scale:50% 75%;}
+.fp-next{ right:0;}
+.fp-prev{ left:0;}
+
+select	{ max-width:70px; }
+
+
+}
+
+/* iphone14 landscape ------------------------------ */
+@media only screen
+and (min-width: 216px) 
+and (max-width: 615px) 
+and (orientation : landscape)
+{
+.fp-slides
+	{
+	height:calc(100% - 65px);
+	top:40px;
+	}
+.fp-overflow
+	{
+	align-items:flex-start;
+	padding:10px 30px;
+	}
+
+.header, .dropMenu
+	{ height:40px;}
+.header
+	{
+	display:flex;
+	flex:1;
+	min-width:220px;
+	}
+#webName
+	{
+	display:flex;
+	flex:1;
+	min-width:220px;
+	}
+
+h	/*---website name---*/	
+	{
+	font-size: 2rem;
+	font-weight:900;
+	}
+
+ /*---logo---*/
+.header img,
+li img
+	{
+	width:35px;
+	top:2px;
+	}
+
+.dropMenu
+	{
+	display:flex;
+	flex:1;
+	min-width:30px;
+	}
+
+.dropMenuIcon div
+	{
+	width:20px;
+	height:2px;
+	margin:4px 0;
+	}
+
+ /*---END logo---*/
+#menu
+	{
+	padding: 0 20px;
+	height:40px;
+	}
+
+#menu li:first-child
+	{ min-width:200px;}
+
+#menu li:nth-child(2)
+	{ max-width:30px;}
+
+.section >h3
+	{
+	font-size:1.8rem;
+	margin-left:30px;
+	margin-bottom:0;
+	height:25px;
+	top:40px;
+	}
+
+.timelineContainer
+	{ padding: 0 0 30px 0; }
+.timelineContainer >div
+	{
+	font-size:1.5rem;
+	line-height:1.5;
+	text-align:justify;
+	}
+
+
+
+#timelineContainerS2 h6
+	{
+	font-size: 1.5rem;
+	font-weight:350;
+	line-height:1.6;
+	}
+
+#timelineContainerS2 h5
+	{
+	font-size: 1.6rem;
+	font-weight:450;
+	}
+
+/*---imageslide---*/
+
+.section #imageSlide
+	{
+	background-size:contain;
+	background-position:center;
+	background-repeat:no-repeat;
+	}
+
+.section #imageSlide div
+	{ padding:0 10px;}
+
+.section #imageSlide div p 
+	{
+	font-weight:350;
+	line-height:1.2;
+	padding:5px 0;
+	}
+
+.section #imageSlide:hover div
+	{
+	height:100%;
+	width:30vw;
+	padding:0;
+	margin:0;
+	}
+
+.section #imageSlide:hover p 
+	{
+        padding: 5px 5px 5px 30px;
+        height: auto;
+	}
+
+
+/*---END imageslide---*/
+.fp-arrow 
+	{ scale:60%;}
+.fp-next{ right:0;}
+.fp-prev{ left:0;}
+
+select	{ max-width:70px; }
+
+
+}
+
+
+/* iphone14 landscape -edge browser----------------- */
+@media only screen
+and (min-width: 248px) 
+and (max-width: 693px) 
+and (orientation : landscape)
+{
+.fp-slides
+	{
+	height:calc(100% - 65px);
+	top:40px;
+	}
+.fp-overflow
+	{
+	align-items:flex-start;
+	padding:10px 30px;
+	}
+
+.header, .dropMenu
+	{ height:40px;}
+.header
+	{
+	display:flex;
+	flex:1;
+	min-width:220px;
+	}
+#webName
+	{
+	display:flex;
+	flex:1;
+	min-width:220px;
+	}
+
+h	/*---website name---*/	
+	{
+	font-size: 2rem;
+	font-weight:900;
+	}
+
+ /*---logo---*/
+.header img,
+li img
+	{
+	width:35px;
+	top:2px;
+	}
+
+.dropMenu
+	{
+	display:flex;
+	flex:1;
+	min-width:30px;
+	}
+
+.dropMenuIcon div
+	{
+	width:20px;
+	height:2px;
+	margin:4px 0;
+	}
+
+ /*---END logo---*/
+#menu
+	{
+	padding: 0 20px;
+	height:40px;
+	}
+
+#menu li:first-child
+	{ min-width:200px;}
+
+#menu li:nth-child(2)
+	{ max-width:30px;}
+
+.section >h3
+	{
+	font-size:1.8rem;
+	margin-left:30px;
+	margin-bottom:0;
+	height:25px;
+	top:40px;
+	}
+
+.timelineContainer
+	{ padding: 0 0 30px 0; }
+.timelineContainer >div
+	{
+	font-size:1.5rem;
+	line-height:1.5;
+	text-align:justify;
+	}
+
+
+
+#timelineContainerS2 h6
+	{
+	font-size: 1.5rem;
+	font-weight:350;
+	line-height:1.6;
+	}
+
+#timelineContainerS2 h5
+	{
+	font-size: 1.6rem;
+	font-weight:450;
+	}
+
+/*---imageslide---*/
+
+.section #imageSlide
+	{
+	background-size:contain;
+	background-position:center;
+	background-repeat:no-repeat;
+	}
+
+.section #imageSlide div
+	{ padding:0 10px;}
+
+.section #imageSlide div p 
+	{
+	font-weight:350;
+	line-height:1.2;
+	padding:5px 0;
+	}
+
+.section #imageSlide:hover div
+	{
+	height:100%;
+	width:30vw;
+	padding:0;
+	margin:0;
+	}
+
+.section #imageSlide:hover p 
+	{
+        padding: 5px 5px 5px 30px;
+        height: auto;
+	}
+
+
+/*---END imageslide---*/
+.fp-arrow 
+	{ scale:60%;}
+.fp-next{ right:0;}
+.fp-prev{ left:0;}
+
+select	{ max-width:70px; }
+
+
+}
