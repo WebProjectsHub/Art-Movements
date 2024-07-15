@@ -25,6 +25,16 @@ h	/*---website name---*/
 	font-size: 2rem;
 	font-weight:900;
 	}
+	
+	/*---for all pages---*/
+h1
+	{
+	font-size: 2.4rem;
+	line-height:1.25;
+	}
+
+
+	/*---for all pages---*/
 
  /*---logo---*/
 .header img,
@@ -65,6 +75,8 @@ li img
 	text-align:justify;
 	}
 
+#pBreak	{ word-break:break-word;}
+
 #menu	{
 	height:40px;
 	}
@@ -87,6 +99,8 @@ li img
 .sContainer h1 
 	{ font-size:3.0rem;}
 
+	/*----navigation button off at portrait---*/
+#fp-nav { display:none;}
 
 }
 
@@ -117,6 +131,16 @@ h	/*---website name---*/
 	font-weight:900;
 	}
 
+	/*---for all pages---*/
+h1
+	{
+	font-size: 2.4rem;
+	line-height:1.25;
+	}
+
+
+	/*---for all pages---*/
+
  /*---logo---*/
 .header img,
 li img
@@ -174,6 +198,9 @@ li img
 
 .sContainer h1 
 	{ font-size:3.6rem; }
+
+	/*----navigation button off at landscape---*/
+#fp-nav { display:none;}
 
 }
 
@@ -204,6 +231,17 @@ h	/*---website name---*/
 	font-weight:900;
 	}
 
+
+	/*---for all pages---*/
+h1
+	{
+	font-size: 2.4rem;
+	line-height:1.25;
+	}
+
+
+	/*---for all pages---*/
+
  /*---logo---*/
 .header img,
 li img
@@ -261,5 +299,8 @@ li img
 
 .sContainer h1 
 	{ font-size:3.6rem; }
+
+	/*----navigation button off at landscape---*/
+#fp-nav { display:none;}
 
 }
