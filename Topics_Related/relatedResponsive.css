@@ -1,0 +1,83 @@
+/*---------------RESPONSIVE DESIGN-------------------*/
+/* iphone14 portrait ------------------------------ */
+@media only screen
+and (min-width: 320px) 
+and (max-width: 528px) 
+and (orientation : portrait)
+{
+
+#principles .container,
+#slideContainer
+	{
+	padding-left:50px;
+	padding-right:50px;
+	}
+
+#slideContainer
+	{
+	flex-direction:column;
+	flex-wrap:nowrap;
+	}
+
+.middleLeft,
+.middleRight
+	{
+	width:100%;
+	text-align:justify;
+	}
+
+.middleRight img
+	{
+	top:0;
+	padding-top:10px;
+	}
+
+#middleRelated blockquote
+	{ margin:5px 10px  0 10px;}
+
+.container p
+	{ font-size:1.5rem;}
+
+#principleList li
+	{
+	font-size:1.5rem;
+	margin:5px;
+	flex-grow:1;
+	}
+
+}
+
+/* iphone14 landscape ------------------------------ */
+@media only screen
+and (min-width: 216px) 
+and (max-width: 615px) 
+and (orientation : landscape)
+{
+
+#principles .container,
+#slideContainer
+	{
+	padding-left:50px;
+	padding-right:50px;
+	}
+
+.middleRight img
+ 	{ top: 80px;}
+
+.middleLeft
+	{
+	padding-right:10px;
+	text-align:justify;
+	}
+
+.container p
+	{ font-size:1.5rem;}
+
+#principleList li
+	{
+	font-size:1.5rem;
+	margin:5px;
+	flex-grow:1;
+	}
+
+}
