@@ -66,6 +66,15 @@ h6 li a:hover, .contentContainer p a:hover, blockquote a:hover
 /*---05---*/
 /*---------------Style fonts-------------------------*/
 	/*-------Font styles-------------------------*/
+ib	{
+	font-size:1.6rem;
+	font-style:italic;
+	font-weight:350;
+	color:black;
+	}
+ib:before,
+ib:after
+	{ content:'"';}
 	/*-------END Font styles---------------------*/
 	/*-------Font size---------------------------*/
 	/*-------END Font size-----------------------*/
@@ -102,6 +111,8 @@ h4, h5, h6
 	{
 	list-style-type:square;
 	}
+li::marker
+	{ font-size:1rem;}
 /*----moved to index.css
 blockquote
 	{
