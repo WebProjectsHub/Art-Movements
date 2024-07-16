@@ -36,11 +36,14 @@
 /*---------------END Req-----------------------------*/
 /*---03---*/
 /*---------------Style the links---------------------*/
+#listLink li a	
+	{text-decoration:underline;}
 
 h6 li a	
 	{text-decoration:underline;}
 
-h6 li a:hover
+h6 li a:hover,
+#listLink li a:hover
 	{
 	font-weight:bold;
 	color:blue;
