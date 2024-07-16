@@ -5,6 +5,7 @@ Notes:
 - / review font size
 - / change link colors from black to dark gray
 - x animation for drop down link
+- link References > Related
 --------------------------------
 - review links for Ancient Egyptian Arts
 --------------------------------
