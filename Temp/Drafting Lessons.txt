@@ -1,0 +1,32 @@
+1. Freehand Line exercises
+	Horizontal
+	Vertical
+	Diagonal
+	Curve
+
+2. Shades and Shadows
+	Study (single-point, multi point, sunlight)
+	Exercise using freehand lines
+
+3. Axonometric views
+	Study
+	Exercise + Shadows (single-point, multi point, sunlight)
+		- Cubes and rectangles
+		- Rounded shapes
+		- Sim City
+
+4. Perspective
+	Study
+	Exercise
+		- Basic shapes
+
+5. Sections
+	Study
+	Exercise
+		Axonometric + shadows
+		Perspective + shadows
+
+
+Other Studies
+
+Principles of Composition
