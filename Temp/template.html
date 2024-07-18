@@ -11,9 +11,14 @@
 <style>
 #container
 	{ width:800px;}
-img
+#pImage2
 	{
 	Width:50%;
+	}
+
+img
+	{
+	Width:100%;
 	Height:auto;
 	}
 #pImage
@@ -22,6 +27,9 @@ img
 	display:flex;
 	flex-direction:row;
 	}
+#pImage2:hover img
+	{ scale:110%;}
+
 #caption
 	{
 	width:30%;
@@ -37,7 +45,9 @@ img
 
 <!---------------------------!>
 	<div id="pImage">
-		<img src='image.png'>
+		<div id="pImage2">
+			<img src='image.png'>
+		</div>
 		<div id="caption">
 			<p>
 At the end of Stage 1, the Consultant shall compile a report Part 2 Stage 1 Report: General Housing Typology Architectural Character. 
