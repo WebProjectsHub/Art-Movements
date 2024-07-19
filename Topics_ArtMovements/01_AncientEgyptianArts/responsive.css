@@ -105,7 +105,46 @@ blockquote
 	font-weight:350;
 	text-align:justify;
 	width:100%;
-	}	
+	}
+
+
+.contentContainer .middle
+	{
+	width:320px;
+	}
+		/*-------image layout----------------*/
+#imgContainer
+	{
+	flex-direction:column;
+	}
+
+#imgContainer2
+	{
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	}
+
+
+#imgContainer2 #pImageBookOfDead
+	{ width:45%;}
+
+#pImage
+	{
+	max-height:200px;
+	margin-right:auto;
+	margin-left:auto;
+	}
+
+#pImage img
+	{ width:100%}
+
+#pImageShen
+	{
+	width:100%;
+	}
+
+		/*-------image layout----------------*/
 	
 }
 
@@ -218,6 +257,24 @@ blockquote
 	}
 .fp-arrow
 	{ scale:60%;}
+
+		/*-------image layout----------------*/
+#pImage
+	{
+	max-width:200px;
+	max-height:200px;
+	overflow:clip;
+	display:flex;
+	justify-content:center;
+	}
+
+#imageCaption,
+#imageCaption2
+	{ padding-left:10px;}
+		/*-------image layout----------------*/
+
+
+
 }
 
 
@@ -330,6 +387,17 @@ blockquote
 	}
 .fp-arrow
 	{ scale:60%;}
+
+		/*-------image layout----------------*/
+#pImage
+	{
+	max-width:200px;
+	max-height:200px;
+	overflow:clip;
+	display:flex;
+	justify-content:center;
+	}
+		/*-------image layout----------------*/
 
 }
 
