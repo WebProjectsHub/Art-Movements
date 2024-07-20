@@ -269,6 +269,7 @@ blockquote
 		/*-------image layout----------------*/
 #pImage
 	{
+	display:block;
 	height:200px;
 	width:auto;
 	overflow:clip;
@@ -405,6 +406,7 @@ blockquote
 		/*-------image layout----------------*/
 #pImage
 	{
+	display:block;
 	height:200px;
 	width:auto;
 	overflow:clip;
