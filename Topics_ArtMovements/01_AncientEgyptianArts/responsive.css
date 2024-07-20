@@ -276,6 +276,12 @@ blockquote
 	justify-content:center;
 	}
 
+#pImage img
+	{
+	height:200px;
+	width:auto;
+	}
+
 #imageCaption,
 #imageCaption2
 	{ padding-left:10px;}
@@ -404,6 +410,12 @@ blockquote
 	overflow:clip;
 	display:flex;
 	justify-content:center;
+	}
+
+#pImage img
+	{
+	height:200px;
+	width:auto;
 	}
 
 #imageCaption,
