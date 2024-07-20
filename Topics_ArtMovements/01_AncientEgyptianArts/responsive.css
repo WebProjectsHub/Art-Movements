@@ -141,7 +141,11 @@ blockquote
 	}
 
 #pImage img
-	{ width:100%}
+	{
+	height:200px;
+	width:auto;
+	max-width:100%;
+	}
 
 #pImageShen
 	{

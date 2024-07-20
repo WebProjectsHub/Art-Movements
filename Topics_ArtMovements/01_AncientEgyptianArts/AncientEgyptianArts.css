@@ -194,6 +194,7 @@ blockquote
 	flex-direction:row;
 	width:100%;
 	padding:20px 0;
+	overflow:hidden;
 	}
 
 #imgContainer2 	/*---wide image---*/
@@ -207,6 +208,7 @@ blockquote
 	width:auto;
 	height:300px;
 	padding-right:10px;
+	object-fit:contain;
 	}
 
 #pImage img
