@@ -278,8 +278,9 @@ blockquote
 
 #pImage img
 	{
-	height:auto;
-	width:200px;
+	height:200px;
+	width:auto;
+	max-width:200px;
 	}
 
 #imageCaption,
@@ -414,8 +415,9 @@ blockquote
 
 #pImage img
 	{
-	height:auto;
-	width:200px;
+	height:200px;
+	width:auto;
+	max-width:200px;
 	}
 
 #imageCaption,
