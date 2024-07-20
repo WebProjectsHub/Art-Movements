@@ -196,6 +196,11 @@ blockquote
 	padding:20px 0;
 	}
 
+#imgContainer2 	/*---wide image---*/
+	{
+	flex-direction:row;
+	flex-wrap:wrap;
+	}
 
 #pImage
 	{
@@ -222,13 +227,7 @@ blockquote
 	text-align:justify;
 	}
 
-#imgContainer2	/*---wide image---*/
-	{
-	display:flex;
-	flex-direction:column;
-	width:100%;
-	padding:20px 0;
-	}
+
 #pImage2
 	{
 	width:auto;

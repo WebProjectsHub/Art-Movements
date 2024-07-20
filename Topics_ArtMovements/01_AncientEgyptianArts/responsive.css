@@ -118,16 +118,19 @@ blockquote
 	flex-direction:column;
 	}
 
-#imgContainer2
+#imgContainer2	/*---wide image---*/
 	{
-	flex-direction:row;
-	flex-wrap:wrap;
+	width:100%;
+	padding:20px 0;
 	justify-content:space-between;
 	}
 
 
 #imgContainer2 #pImageBookOfDead
 	{ width:45%;}
+
+#pImageBookOfDead
+	{ margin-right:0;}
 
 #pImage
 	{
