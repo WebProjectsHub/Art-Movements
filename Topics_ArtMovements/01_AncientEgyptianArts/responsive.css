@@ -269,23 +269,22 @@ blockquote
 		/*-------image layout----------------*/
 #pImage
 	{
-	display:block;
-	height:200px;
-	width:auto;
+	height:auto;
+	width:200px;
 	overflow:clip;
-	/*--display:flex;--*/
+	display:flex;
 	justify-content:center;
 	}
 
 #pImage img
 	{
-	height:200px;
-	width:auto;
+	height:auto;
+	width:200px;
 	}
 
 #imageCaption,
 #imageCaption2
-	{ padding-left:10px;}
+	{ padding-left:0;}
 		/*-------image layout----------------*/
 
 
@@ -406,23 +405,22 @@ blockquote
 		/*-------image layout----------------*/
 #pImage
 	{
-	display:block;
-	height:200px;
-	width:auto;
+	height:auto;
+	width:200px;
 	overflow:clip;
-	/*--display:flex;--*/
+	display:flex;
 	justify-content:center;
 	}
 
 #pImage img
 	{
-	height:200px;
-	width:auto;
+	height:auto;
+	width:200px;
 	}
 
 #imageCaption,
 #imageCaption2
-	{ padding-left:10px;}
+	{ padding-left:0;}
 		/*-------image layout----------------*/
 
 }
