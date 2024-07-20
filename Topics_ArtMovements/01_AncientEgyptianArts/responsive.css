@@ -273,7 +273,7 @@ blockquote
 	height:200px;
 	width:auto;
 	overflow:clip;
-	display:flex;
+	/*--display:flex;--*/
 	justify-content:center;
 	}
 
@@ -410,7 +410,7 @@ blockquote
 	height:200px;
 	width:auto;
 	overflow:clip;
-	display:flex;
+	/*--display:flex;--*/
 	justify-content:center;
 	}
 
