@@ -68,6 +68,19 @@ h6 li a:hover, .contentContainer p a:hover, blockquote a:hover
 /*---------------END Text size adjustment------------*/
 /*---05---*/
 /*---------------Style fonts-------------------------*/
+@font-face 
+	{
+	font-family: 'Hieroglyphs';
+	font-style: normal;
+	src: local('Hieroglyphs'), url('../../assets/fonts/Noto_Sans_EgyptianHieroglyphs/NotoSansEgyptianHieroglyphs-Regular.ttf') format('truetype');
+	}
+
+.Hieroglyphs
+	{
+	font-family: 'Hieroglyphs', sans-serif;
+	font-weight:550;
+	}
+
 	/*-------Font styles-------------------------*/
 ib	{
 	font-size:1.6rem;
@@ -306,6 +319,9 @@ h:hover
 #pImage p,
 blockquote
 	{color:gray;}
+
+.Hieroglyphs
+	{ color:black;}
 
 		/*-------image layout----------------*/
 #imageCaption p
