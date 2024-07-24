@@ -42,6 +42,23 @@
 h6 li a	
 	{text-decoration:underline;}
 
+/*------***********************----*/
+#listLink
+	{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	width:100%;
+	height:auto;
+	}
+#listLink li
+	{
+	width:50%;
+	}
+
+/*------***********************----*/
+
+
 h6 li a:hover,
 #listLink li a:hover
 	{
