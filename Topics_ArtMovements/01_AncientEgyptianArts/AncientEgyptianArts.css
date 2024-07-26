@@ -36,36 +36,17 @@
 /*---------------END Req-----------------------------*/
 /*---03---*/
 /*---------------Style the links---------------------*/
-#listLink li a	
+h6 li a,
+#listLink li a
 	{text-decoration:underline;}
-
-h6 li a	
-	{text-decoration:underline;}
-
-/*------***********************----*/
-#listLink
-	{
-	display:flex;
-	flex-direction:row;
-	flex-wrap:wrap;
-	width:100%;
-	height:auto;
-	}
-#listLink li
-	{
-	width:50%;
-	}
-
-/*------***********************----*/
-
 
 h6 li a:hover,
 #listLink li a:hover
 	{
 	font-weight:bold;
 	color:blue;
-
 	}
+
 /*---moved to index.css---
 .contentContainer p a, blockquote a	
 	{
@@ -92,7 +73,8 @@ h6 li a:hover, .contentContainer p a:hover, blockquote a:hover
 	src: local('Hieroglyphs'), url('../../assets/fonts/Noto_Sans_EgyptianHieroglyphs/NotoSansEgyptianHieroglyphs-Regular.ttf') format('truetype');
 	}
 
-.Hieroglyphs
+.Hieroglyphs,
+#iconBox
 	{
 	font-family: 'Hieroglyphs', sans-serif;
 	font-weight:550;
@@ -199,7 +181,6 @@ blockquote
 /*---07---*/
 /*---------------Style Sections----------------------*/
 	/*-------Style preContainer------------------*/
-	/*-------END Style preContainer--------------*/
 #section0 .middle
 	{ padding-bottom:50px;}
 
@@ -216,7 +197,7 @@ blockquote
 	padding:20px;
 	}
 	/*-------END Style preContainer--------------*/	
-		/*-------image layout----------------*/
+	/*-------image layout------------------------*/
 #imgContainer,
 #imgContainer2
 	{
@@ -257,6 +238,7 @@ blockquote
 	{
 	align-self:flex-end;
 	text-align:justify;
+	flex:1;
 	}
 
 
@@ -285,7 +267,7 @@ blockquote
 	background-position-y:20%;
 	}
 
-#pImageBookOfDead
+#pImage150_250
 	{
 	display:block;
 	width:150px;
@@ -297,9 +279,52 @@ blockquote
 	position:relative;
 	}
 
+#pImage250_250
+	{
+	display:block;
+	width:250px;
+	height:250px;
+	background-repeat:no-repeat;
+	overflow:hidden;
+	margin-right:10px;
+	position:relative;
+	}
 
-		/*-------END image layout------------*/
-	/*-------END Style container-----------------*/
+
+
+
+	/*-------END image layout--------------------*/
+	/*-------symbol list-------------------------*/
+#listLink
+	{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	padding:0;
+	}
+
+#listLink li
+	{
+	width:50%;
+	height:50px;
+	display:flex;
+	align-items:center;
+	}
+
+#iconBox
+	{
+	height:50px;
+	width:50px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	font-weight:800;
+	font-size:3.5rem;
+	padding-right:20px;
+	}
+
+	/*-------END symbol list---------------------*/
+
 /*---------------END Style Sections------------------*/
 /*---08---*/
 /*---------------Style watermark---------------------*/
@@ -337,7 +362,8 @@ h:hover
 blockquote
 	{color:gray;}
 
-.Hieroglyphs
+.Hieroglyphs,
+#iconBox
 	{ color:black;}
 
 		/*-------image layout----------------*/
