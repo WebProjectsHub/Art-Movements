@@ -116,6 +116,7 @@ blockquote
 #imgContainer
 	{
 	flex-direction:column;
+	align-items:center;
 	}
 
 #imgContainer2	/*---wide image---*/
@@ -126,10 +127,10 @@ blockquote
 	}
 
 
-#imgContainer2 #pImageBookOfDead
+#imgContainer2 #pImage150_250
 	{ width:45%;}
 
-#pImageBookOfDead
+#pImage150_250
 	{ margin-right:0;}
 
 #pImage
@@ -278,14 +279,13 @@ blockquote
 
 #pImage img
 	{
-	height:200px;
-	width:auto;
-	max-width:200px;
+	height:auto;
+	width:200px;
 	}
 
 #imageCaption,
 #imageCaption2
-	{ padding-left:0;}
+	{ padding-left:10px;}
 		/*-------image layout----------------*/
 
 
@@ -415,14 +415,13 @@ blockquote
 
 #pImage img
 	{
-	height:200px;
-	width:auto;
-	max-width:200px;
+	height:auto;
+	width:200px;
 	}
 
 #imageCaption,
 #imageCaption2
-	{ padding-left:0;}
+	{ padding-left:10px;}
 		/*-------image layout----------------*/
 
 }
