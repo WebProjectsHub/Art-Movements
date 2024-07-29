@@ -68,7 +68,8 @@
 	border-width:1px;
 	}
 
-.middleLeft h5 a:hover
+.middleLeft h5 a:hover,
+#imageSlideContainerText h5 a:hover
 	{text-decoration:underline;}
 
 	/*-------END Related button------------------*/
@@ -93,7 +94,8 @@
 
 h1	{font-weight:400;}
 
-#slideContainer p
+#slideContainer p,
+#imageSlideContainerText p
 	{
 	font-size: 1.8rem;
 	font-weight:350;
@@ -152,9 +154,41 @@ h1	{font-weight:400;}
 	margin:10px 5px;
 	}
 
+
+
 		/*---Egyptian gods list--------------*/
 #slideContainer
 	{ height:unset;}
+
+#imageSlideContainer
+	{ 
+	display:flex;
+	flex-direction:row;
+	align-items:flex-start;
+	padding-top:20px;
+	}
+
+#imageSlideContainerText
+	{
+	display:flex;
+	flex-direction:column;
+	height:auto;
+	}
+
+#imgContainer
+	{
+	padding-top:105px;
+	padding-bottom:0;
+	min-width:150px;
+	margin-left:10px;
+	max-width:150px;
+	}
+
+#pImage150_250
+	{
+	margin:0;
+	min-width:150px;
+	}
 
 #imhotep .fp-overflow,
 #colors .fp-overflow,
@@ -218,7 +252,13 @@ and (min-width: 320px)
 and (max-width: 532px) 
 and (orientation : portrait)
 {
-
+#imgContainer
+	{
+	padding:20px 0;
+	min-width:210px;
+	max-width:210px;
+	margin:0;
+	}
 }
 
 /* iphone14 landscape ------------------------------ */
