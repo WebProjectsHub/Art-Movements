@@ -253,15 +253,18 @@ blockquote
 	{
 	align-items:flex-start;
 	}
-#slideContainer
+#slideContainer,
+#imageSlideContainer
 	{ padding:10px 50px 20px 50px;}
 
-#slideContainer h2
+#slideContainer h2,
+#imageSlideContainer h2
 	{
 	font-size:2.4rem;
 	font-weight:500;
 	}
-#slideContainer p
+#slideContainer p,
+#imageSlideContainer p
 	{
 	font-size:1.5rem;
 	font-weight:350;
@@ -389,15 +392,18 @@ blockquote
 	{
 	align-items:flex-start;
 	}
-#slideContainer
+#slideContainer,
+#imageSlideContainer
 	{ padding:10px 50px 20px 50px;}
 
-#slideContainer h2
+#slideContainer h2,
+#imageSlideContainer h2
 	{
 	font-size:2.4rem;
 	font-weight:500;
 	}
-#slideContainer p
+#slideContainer p,
+#imageSlideContainer p
 	{
 	font-size:1.5rem;
 	font-weight:350;
@@ -521,15 +527,18 @@ blockquote
 	{
 	align-items:flex-start;
 	}
-#slideContainer
+#slideContainer,
+#imageSlideContainer
 	{ padding:10px 50px 20px 50px;}
 
-#slideContainer h2
+#slideContainer h2,
+#imageSlideContainer h2
 	{
 	font-size:2.4rem;
 	font-weight:500;
 	}
-#slideContainer p
+#slideContainer p,
+#imageSlideContainer p
 	{
 	font-size:1.5rem;
 	font-weight:350;
@@ -635,12 +644,14 @@ blockquote
 #imageSlideContainer
 	{ padding:10px 50px 20px 50px;}
 
-#slideContainer h2
+#slideContainer h2,
+#imageSlideContainer h2
 	{
 	font-size:2.4rem;
 	font-weight:500;
 	}
-#slideContainer p
+#slideContainer p,
+#imageSlideContainer p
 	{
 	font-size:1.5rem;
 	font-weight:350;
