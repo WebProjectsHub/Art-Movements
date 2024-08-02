@@ -322,3 +322,43 @@ Website Name	anthropologyreview.org
 Publisher	anthropologyreview.org
 URL		https://anthropologyreview.org/history/ancient-egypt/ancient-egyptian-gods/#Ma'at
 Access Date	Aug 02, 2024
+*****************************************************
+*****************************************************
+Hatshepsut temple.jpg
+
+The original approach to the temple was by an avenue of sphinxes leading up the plain.  This led up to the first portal, now almost completely destroyed.
+
+Media Title	Hatshepsut temple
+Media Type	Image
+Website Name	blogspot.com
+Publisher	blogspot.com
+URL		https://the-ancient-pharaohs.blogspot.com/2016/09/the-entrance-and-first-courtyard-of.html
+Access Date	Aug 02, 2024
+
+*****************************************************
+*****************************************************
+Etruscan_-_Pyxis_and_lid_with_sphinx-shaped_handle_-_Walters_71489_-_Three_Quarter.jpg
+
+This pyxis (box) was fashioned in imitation of Phoenician luxury goods imported from the Near East. Although it incorporates many Near Eastern elements in its decoration, including sphinxes, a lotus plant, and chariots, the style of the figures shows it is clearly the product of a local Etruscan workshop. The handle of the lid takes the form of a standing sphinx wearing a lotus crown. The 7th and early 6th centuries BC are known as the Orientalizing period because of the many eastern, or "Oriental," elements in the art. In this prosperous era of international trade, Etruscan artists manufactured luxury goods, such as those seen in this case, that reflect influences from the art of the eastern Mediterranean.
+
+Media Title	Etruscan ivory pyxis and lid with sphinx-shaped handle, 650–625 BC
+Media Type	Image
+Website Name	wikipedia.org
+Publisher	wikipedia.org
+URL		https://en.wikipedia.org/wiki/Orientalizing_period#/media/File:Etruscan_-_Pyxis_and_lid_with_sphinx-shaped_handle_-_Walters_71489_-_Three_Quarter.jpg
+Access Date	Aug 02, 2024
+
+*****************************************************
+*****************************************************
+rosetta-stone-2198.jpg
+
+The Rosetta Stone is an incomplete grey and pink granodiorite stela dating from 196 BCE which presents a priestly decree concerning King Ptolemy V of Egypt. The text is in three different versions: Hieroglyphic, Demotic and Greek. The stone was discovered at Port Saint Julien, el-Rashid (Rosetta) on the Nile Delta in Egypt in 1799 CE by Pierre Francois Xavier Bouchard. Thomas Young first identified some of the hieroglyphs related to Ptolemy V but the full text was deciphered by Jean-François Champollion in the early 1820s CE and so the meaning of Egyptian hieroglyphs, lost for 1600 years, was finally re-discovered
+
+Media Title	Rosetta Stone
+Media Type	Image
+Website Name	worldhistory.org
+Publisher	worldhistory.org
+URL		https://www.worldhistory.org/image/2198/rosetta-stone/
+Access Date	Aug 02, 2024
+
+*****************************************************
