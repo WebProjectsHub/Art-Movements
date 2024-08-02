@@ -253,6 +253,16 @@ blockquote
 	{
 	align-items:flex-start;
 	}
+
+#imageSlideContainer
+	{
+	flex-direction:row;
+	flex-wrap:nowrap
+	}
+
+#imageSlideContainer #imgContainer
+	{ padding-top:85px;}
+
 #slideContainer,
 #imageSlideContainer
 	{ padding:10px 50px 20px 50px;}

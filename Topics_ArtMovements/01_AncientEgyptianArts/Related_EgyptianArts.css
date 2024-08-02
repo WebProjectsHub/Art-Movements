@@ -190,6 +190,12 @@ h1	{font-weight:400;}
 	min-width:150px;
 	}
 
+#pImage250_250
+	{
+	margin:0;
+	min-width:250px;
+	}
+
 #imhotep .fp-overflow,
 #colors .fp-overflow,
 #tomb .fp-overflow,
