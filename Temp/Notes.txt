@@ -10,7 +10,8 @@ Notes:
 - Off Topics
   - History of Architecture
   - 7 Wonders of the Ancient World
-  -
+- Timeline
+  - Timeline fonts and colors
 
 
 
