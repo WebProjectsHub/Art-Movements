@@ -1,42 +1,18 @@
 Notes:
 **To do
-- / add black and white logo
-- review color scheme
-- / review font size
-- / change link colors from black to dark gray
-- x animation for drop down link
-- link References > Related
---------------------------------
-- review links for Ancient Egyptian Arts
-https://www.lexilogos.com/keyboard/hieroglyph.php#
-https://www.academia.edu/4180892
---------------------------------
-https://www.worldhistory.org/Egyptian_Art/
+- add references for Greek Arts
+- Greek color scheme
+- Topic Summary
+- Additional Ancient Egypt Arts Topics
+  - Ptolemaic Egypt
+  - Lighthouse of Alexandria
+  - Terminologies in Egyptian Architect
+- Off Topics
+  - History of Architecture
+  - 7 Wonders of the Ancient World
+  -
 
-https://www.worldhistory.org/Egyptian_Hieroglyphs/
 
-https://www.britannica.com/art/Egyptian-architecture
-
-https://www.britannica.com/list/11-egyptian-gods-and-goddesses
---------------------------------
-https://www.getty.edu/education/teachers/building_lessons/principles_design.pdf
-
-https://www.architecturemaker.com/what-is-composition-in-architecture/
-
-https://arch121.cankaya.edu.tr/uploads/files/Week%204-lecture%20notes.pdf
-
-https://openoregon.pressbooks.pub/art101/chapter/elements-of-architecture/
-
-https://human.libretexts.org/Bookshelves/Art/Introduction_to_Art_History_I_(Myers)/03%3A_The_Visual_Elements_and_Principles_of_Composition/3.02%3A_Principles_of_Composition
---------------------------------
-
-https://artincontext.org/greek-art/
-
---------------------------------
-https://www.theartstory.org/movement/jugendstil/
-
---------------------------------
-https://artincontext.org/medieval-art/
 
 --------------------------------
 https://www.metmuseum.org/art/collection/search/548476
