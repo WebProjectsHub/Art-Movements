@@ -1,0 +1,46 @@
+**Recognizing Hieroglyphics from Different Periods of Ancient Egypt**
+
+1. **Early Dynastic Period (c. 3100-2686 BCE)**:
+   - **Characteristics**: Simple and less standardized.
+   - **Usage**: Found on pottery and tomb labels.
+   - **Example**: Tomb U-j at Abydos¹.
+
+2. **Old Kingdom (c. 2686-2181 BCE)**:
+   - **Characteristics**: Standardized forms, used extensively in pyramid texts.
+   - **Usage**: Inscriptions in pyramids and temples.
+   - **Example**: Pyramid Texts in the Pyramid of Unas⁴.
+
+3. **Middle Kingdom (c. 2055-1650 BCE)**:
+   - **Characteristics**: More refined and detailed.
+   - **Usage**: Monumental inscriptions and literary texts.
+   - **Example**: Coffin Texts².
+
+4. **New Kingdom (c. 1550-1069 BCE)**:
+   - **Characteristics**: Highly detailed and elaborate.
+   - **Usage**: Religious texts like the "Book of the Dead".
+   - **Example**: Tomb of Seti I².
+
+5. **Late Period (c. 664-332 BCE)**:
+   - **Characteristics**: Continued use of detailed hieroglyphs, but with some Greek influences.
+   - **Usage**: Temples and official inscriptions.
+   - **Example**: Temple of Philae².
+
+6. **Ptolemaic and Roman Periods (332 BCE - 395 CE)**:
+   - **Characteristics**: Blend of Egyptian and Greek styles.
+   - **Usage**: Temples and public monuments.
+   - **Example**: Rosetta Stone¹.
+
+**Key Points to Identify**:
+- **Stylistic Changes**: Look for the level of detail and standardization.
+- **Context of Use**: Consider where the hieroglyphs are found (e.g., tombs, temples).
+- **Historical Context**: Recognize the influence of foreign cultures, especially during the Ptolemaic and Roman periods².
+
+¹: [World History Encyclopedia](https://www.worldhistory.org/Egyptian_Hieroglyphs/)
+²: [Wikipedia](https://en.wikipedia.org/wiki/Egyptian_hieroglyphs)
+⁴: [World History Edu](https://worldhistoryedu.com/hieroglyphic-writing-in-ancient-egypt-history-and-facts/)
+
+Source: Conversation with Copilot, 8/21/2024
+(1) Egyptian Hieroglyphs - World History Encyclopedia. https://www.worldhistory.org/Egyptian_Hieroglyphs/.
+(2) Hieroglyphic Writing in Ancient Egypt – History and Facts. https://worldhistoryedu.com/hieroglyphic-writing-in-ancient-egypt-history-and-facts/.
+(3) Egyptian hieroglyphs - Wikipedia. https://en.wikipedia.org/wiki/Egyptian_hieroglyphs.
+(4) Script and Language of Ancient Egypt | Pharaoh.se. https://pharaoh.se/ancient-egypt/hieroglyphs/.
