@@ -1,0 +1,130 @@
+/*------ TOC -------
+1. html
+2. time line
+3. main time period
+4. time periods
+----------*/
+
+/*---01---*/
+/*---------------html--------------------------------*/
+html
+	{
+	overflow-y:hidden;
+	}
+
+svg	{width:2900px;}
+/*---------------END html----------------------------*/
+
+/*---02---*/
+/*---------------time line---------------------------*/
+.mainTimeline
+	{
+	width:auto;
+	height:30px;
+	}
+
+#time
+	{
+	stroke-width:2;
+	stroke:black;
+	}
+#timeBC
+	{
+	stroke-width:2;
+	stroke:gray;
+	}
+
+#timeMarkers
+	{
+	stroke-width:1;
+	stroke:red;
+	}
+
+text	/*--general text--*/
+	{
+	font-family:Arial;
+	font-size:12px;
+	text-anchor:middle;
+	}
+
+#centuryLabel
+	{
+	font-family:Arial;
+	font-size:10px;
+	text-anchor:middle;
+	fill:blue;
+	}
+/*---------------END time line-----------------------*/
+
+/*---03---*/
+/*---------------main time period--------------------*/
+#Time1 text
+	{
+	font-family:Arial;
+	font-size:14px;
+	text-anchor:middle;
+	font-weight:bold;
+	}
+
+#Time1 #markers
+	{
+	stroke-width:2;
+	stroke:black;
+	}
+
+#Time1 #centuryLabel
+	{
+	font-family:Arial;
+	font-size:10px;
+	text-anchor:middle;
+	fill:blue;
+	}
+
+#Time1 #sText
+	{
+	font-size:12px;
+	}
+/*---------------END main time period----------------*/
+
+/*---04---*/
+/*---------------time periods------------------------*/
+.Time2 #periodLabel
+	{
+	font-family:Arial;
+	font-size:10px;
+	text-anchor:start;
+	fill:red;
+	font-weight:bold;
+	}
+
+.Time2 #markers
+	{
+	stroke-width:2;
+	stroke:red;
+	}
+
+.Time2 #centuryLabel
+	{
+	font-weight:bold;
+	}
+
+.Time2 #centuryLabel2
+	{
+	font-family:Arial;
+	font-size:10px;
+	text-anchor:start;
+	fill:blue;
+	font-weight:bold;
+	}
+
+#periodFill
+	{
+	fill:silver;
+	}
+
+#influenceLine
+	{
+	stroke-width:1;
+	stroke:gray;
+	stroke-dasharray:10;
+	}
