@@ -1,0 +1,67 @@
+#time
+	{
+	stroke-width:2;
+	stroke:black;
+	}
+#timeBC
+	{
+	stroke-width:2;
+	stroke:gray;
+	}
+
+#markers
+	{
+	stroke-width:1;
+	stroke:red;
+	}
+
+text
+	{
+	font-family:Arial;
+	font-size:12px;
+	text-anchor:middle;
+	}
+
+g:hover #time
+	{
+	stroke-width:5;
+	stroke:blue;
+	}
+
+g:hover #markers
+	{
+	stroke-width:5;
+	stroke:blue;
+	}
+g:hover
+	{ cursor:pointer;}
+
+g text
+	{
+	display:none;
+	font-family:Arial;
+	font-size:16px;
+	text-anchor:middle;
+	font-weight:bold;
+	}
+g:hover text
+	{ display:block;}
+
+
+#Ptmarkers circle 
+	{
+	r:3px;
+	stroke:black;
+	stroke-width:1;
+	fill:blue;
+	}
+
+#Ptmarkers line 
+	{
+	display:none;
+	stroke-width:2;
+	stroke:gray;
+	}
+
+#PointID:hover line
+	{ display:block;}
