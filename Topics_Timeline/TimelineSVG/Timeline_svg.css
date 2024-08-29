@@ -12,7 +12,7 @@ html
 	overflow-y:hidden;
 	}
 
-svg	{width:2900px;}
+svg	{width:2700px;}
 /*---------------END html----------------------------*/
 
 /*---02---*/
@@ -105,6 +105,15 @@ text	/*--general text--*/
 
 .Time2 #centuryLabel
 	{
+	font-weight:bold;
+	}
+
+.Time2 #centuryLabel0
+	{
+	font-family:Arial;
+	font-size:10px;
+	text-anchor:end;
+	fill:blue;
 	font-weight:bold;
 	}
 
