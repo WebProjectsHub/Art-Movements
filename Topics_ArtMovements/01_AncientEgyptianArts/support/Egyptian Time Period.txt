@@ -1,34 +1,60 @@
 Predynastic Period
 	6000 - 3150 BC
 
-1. Early Dynastic Period 
+Early Dynastic Period 
 	3150 - 2613 BC
 
-2. Old Kingdom of Egypt
+Old Kingdom of Egypt
 	2613 - 2181 BC
 
-3. First Intermediate Period
+First Intermediate Period
 	2181 - 2040 BC
 
-4. Middle Kingdom of Egypt
+Middle Kingdom of Egypt
 	2040 - 1782 BC
 	The high point of Egyptian culture.
 
-5. Second Intermediate Period
+Second Intermediate Period
 	1782 - 1570 BC
 
-6. New Kingdom
+New Kingdom
 	1570 - 1069 BC
 	The best-known period from Egypt's history and produced some of the finest and most famous works of art. 
 
-7. Third Intermediate Period
+Third Intermediate Period
 	1069 - 525 BC
 
-8. Late Period of Ancient Egypt
+Late Period of Ancient Egypt
 	525 - 332 BC
 
-9. Ptolemaic Dynasty
+Ptolemaic Dynasty
 	323 - 30 BC
 
-10.Roman Egypt
+Roman Egypt
 	30 BC - 646 AD
+
+
+**********
+Influences
+Archaemenid Empire
+	550 - 	330 BC
+
+	Archaemenid Egypt
+		525 - 	332 BC - This is the Late Period of Ancient Egypt
+			333 BC - Battle of Issus. Satrat of Egypt surrenders to 
+				Alexander the Great 
+Greek Influence
+ 		356 -	323 BC - Alexander the Great
+					Taught to fight and ride by Leonidas 
+						(hero of Battle of Thermopylae in 480 against Xerxes)
+					Tutored by Aristotle
+			331 BC - Alexander the Great visits Rhakotis and founded 
+				the city of Alexandria
+			323 BC - Death of Alexander the Great
+		323 - 	 30 BC - Ptolemaic Dynasty
+		300 -	280 BC - Lighthouse of Alexandria was built
+			 30 BC - Battle of Actium
+				Antony and Cleopatra's forces destroyed by Augustus
+				End of Ptolemic Dynasty
+		       1330 AD - Earthquake presumably topples the Lighthouse of Alexandria
+	
