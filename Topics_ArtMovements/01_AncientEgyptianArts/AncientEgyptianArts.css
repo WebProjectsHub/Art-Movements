@@ -1,5 +1,6 @@
 /*---------------Color style------------------------*/
 /*------https://coolors.co/palette/dfd3c3-f0ece3-f4c7ab-b2b8a3-5f8b7e----*/
+/*------https://coolors.co/palette/596368-90979b-bf2d32-01455e-2f2f30-b16a37-69482c-f6f0e2-01b0bb-d9ad7f----*/
 /*------
 1. html and body height and width
 2. required
@@ -24,7 +25,7 @@
 	- container
 8. watermark
 9. middle
-10. xxxxxxx
+10. timeline
 11. colors
 
 -------*/
@@ -113,6 +114,16 @@ h4, h5, h6
 	font-weight:350;
 	}
 
+.middle li
+	{
+	font-size: 1.5rem;
+	line-height: 1.6;
+	font-weight:350;
+	}
+
+#sumList
+	{ list-style-type:square; }
+
 		/*---END summary page----------------*/
 		/*---body text-----------------------*/
 .contentContainer .middle >p,
@@ -126,7 +137,8 @@ h4, h5, h6
 		/*---END body text-------------------*/
 		/*---caption text--------------------*/
 #imageCaption p,
-#imageCaption2 p
+#imageCaption2 p,
+#timeDescription ul li
 	{
 	font-size: 1.25rem;
 	line-height: 1.5;
@@ -142,17 +154,6 @@ li::marker
 	{ font-size:1rem;}
 
 		/*---END bullet points---------------*/
-
-/*----moved to index.css
-blockquote
-	{
-	font-style:italic;
-	font-size: 1.6rem;
-	line-height: 1.5;
-	font-weight:350;
-	text-align:justify;
-	}
----*/
 	/*-------END Custom Font size----------------*/
 /*---------------END Style fonts---------------------*/
 /*---06---*/
@@ -344,9 +345,57 @@ blockquote
 /*---------------Style middle------------------------*/
 /*---------------END Style middle--------------------*/
 /*---10---*/
-/*---------------Style xxxxxxx-----------------------*/
+/*---------------Style timeline----------------------*/
+.divContainer
+	{
+	display:flex;
+	flex-direction:row;
+	width:760px;
+	margin-bottom:10px;
+	}
 
-/*---------------END Style xxxxxxx-------------------*/
+.timeContainer
+	{
+	width:760px;
+	overflow:auto;
+	margin-bottom:10px;
+	}
+.timeContainer2,
+.timeContainer3
+	{
+	width:500px;
+	overflow-x:auto;
+	overflow-y:hidden;
+	}
+
+#timeIframe
+	{
+	width:3000px;
+	height:425px;
+	border:none;
+	background-color:none;
+	overflow:hidden;
+	}
+
+#timeIframe2,
+#timeIframe3
+	{
+	width:3000px;
+	height:-webkit-fill-available;
+	border:none;
+	background-color:none;
+	overflow:auto;
+	}
+#timeDescription
+	{
+	width:250px;
+	height:auto;
+	display:block;
+	border: 1px gray solid;
+	margin-left:10px;
+	}
+
+/*---------------END Style timeline------------------*/
 /*---11---*/
 /*---------------Style colors------------------------*/
 	/*-------Style colors web site name + text---*/
@@ -377,8 +426,12 @@ blockquote
 #iconBox
 	{ color:black;}
 
+#sumList li
+	{color:#2F2F30;}
+
 		/*-------image layout----------------*/
-#imageCaption p
+#imageCaption p,
+#timeDescription ul li
 	{
 	color:black;
 	}
@@ -395,7 +448,6 @@ blockquote
 
 	/*-------END link-Topics---------------------*/
 	/*-------drop down menu----------------------*/
-	/*-------drop down menu----------------------*/
 .dropMenuIcon div
 	{background-color:#2F2F30;}
 
@@ -405,6 +457,13 @@ blockquote
 .dropMenuIcon:hover ~ #horbar
 	{background-color:green;}
 	/*-------END drop down menu------------------*/
+	/*-------time iframe-------------------------*/
+#timeIframe,
+#timeIframe2,
+#timeIframe3
+	{ background-color: #F6F0E2 }
+	/*-------END time iframe---------------------*/
+
 /*---------------END Style colors--------------------*/
 /*---12---*/
 

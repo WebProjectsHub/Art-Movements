@@ -158,7 +158,11 @@ blockquote
 	}
 
 		/*-------image layout----------------*/
-	
+.divContainer,
+.timeContainer
+	{ display:none; }
+
+
 }
 
 /* iphone14 landscape ------------------------------ */
@@ -304,6 +308,9 @@ blockquote
 #imageCaption2
 	{ padding-left:10px;}
 		/*-------image layout----------------*/
+.divContainer,
+.timeContainer
+	{ display:none; }
 
 
 
@@ -443,6 +450,9 @@ blockquote
 #imageCaption2
 	{ padding-left:10px;}
 		/*-------image layout----------------*/
+.divContainer,
+.timeContainer
+	{ display:none; }
 
 }
 
