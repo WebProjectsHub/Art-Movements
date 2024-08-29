@@ -1,12 +1,13 @@
 Notes:
 **To do
-- add references for Greek Arts
+- /add references for Greek Arts
 - Greek color scheme
 - Topic Summary
 - Additional Ancient Egypt Arts Topics
   - Ptolemaic Egypt
   - Lighthouse of Alexandria
   - Terminologies in Egyptian Architect
+  - Obelisk
 - Off Topics
   - History of Architecture
   - 7 Wonders of the Ancient World
