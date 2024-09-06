@@ -1,0 +1,130 @@
+http://www.thebiblicaltimeline.org/joseph/
+
+Joseph
+Introduction
+When was Joseph in Egypt? Can we identify the Pharaoh of Joseph? Is there any archaeological evidence for Joseph?  Joseph is critical to the biblical timeline because the genealogy provided in Genesis ends with Jacob.  Identifying when the events in the Joseph story took place, and therefore when Jacob arrived in Egypt is critical to our ability to extend the timeline back before the exodus.  As with the exodus, no conclusive archaeological evidence of Joseph has been found.  But could this be because we have been looking in the wrong place, or rather the wrong time?
+
+Abraham, Isaac, Jacob, and Joseph
+There are two main theories as to where to date Joseph, and they are known as the short sojourn and the long sojourn.  To begin to understand what those terms mean we need to start with some scripture.  Exodus 12:40-41 states:
+
+40Now the sojourn of the children of Israel who lived in Egypt was four hundred and thirty years. 41And it came to pass at the end of the four hundred and thirty years – on that very same day[1]– it came to pass that all the armies of the Lord went out from the land of Egypt.
+
+This follows the Masoretic text, which is the version of the ancient Hebrew used as the basis for most Christian bibles.  However, the Septuagint, a translation from Hebrew to Greek from the third century BC states:
+
+Now the residence of the sons of Israel during which they dwelt in the land, Egypt, and in the land of Chanaan, was four hundred and thirty years.(Exodus 12:40, Septuagint – NETS)
+
+Josephus, writing in the first century AD, supports the Septuagint version of events in his history of the Jewish people:
+
+They left Egypt in the month Xanthicus, on the fifteenth day of the lunar month; four hundred and thirty years after our forefather Abraham came into Canaan, but two hundred and fifteen years only after Jacob removed into Egypt (Josephus, Ant II 15:2)
+
+The sojourn in Egypt was in fulfillment of the prophecy given to Abraham when God made His covenant with him:
+
+13Then He said to Abram:“Know certainly that your descendants will be strangers in a land that is not theirs, and will serve them, and they will afflict them four hundred years. 14And also the nation whom they serve I will judge; afterward they shall come outwith great possessions. 15Now as for you, you shall go to your fathers in peace; you shall be buried at a good old age.  16But in the fourth generation they shall return here, for the iniquity of the Amorites is not yet complete.(Genesis 15:13-16)
+
+In the New Testament we find a couple of additional references to the length of time the children of Israel spent in Egypt.
+
+But God spoke in this way: that his [Abraham’s] descendants would dwell in a foreign land, and they would bring them into bondage and oppress them four hundred years. (Acts 7:6 – Stephen’s speech)
+
+And this I say that the law, which was four hundred and thirty years later, cannot annul the covenant that was confirmed before by God in Christ, that it should make the promise of no effect. (Galatians 3:17)
+
+This seems clear enough, just count back four hundred and thirty years from the exodus and we are there. The issue though is what is the starting point? The final verse from Galatians, the Septuagint, and Josephus have been used to date the beginning of the four hundred or four hundred and thirty years from the date of Abram’s arrival in Canaan at the age of seventy-five, from Abraham’s brief sojourn in Egypt, from the renewal of the covenant when Abraham was 99 years old, or from the birth of Isaac a year later.  This is known as the short sojourn: the time that the children of Israel were actually in Egypt is reduced by the time from the covenant or the birth of Isaac until the family of Jacob physically arrived in Egypt.  The long sojourn theory takes the literal interpretation of Exodus 12:40-41 and starts counting from Jacob’s arrival.  Thus, in order to understand the two main theories on where to date Joseph, we have to go back a little further, to Abraham and Isaac, and see what this means in terms of our timeline.
+
+Based on what we find in Genesis, we can derive the relative dates shown in Figure 1.  Abraham arrived in Canaan at the age of seventy-five (Genesis 12:4). Isaac was born twenty-five years later when Abraham was one hundred years old.  Isaac was sixty years old when Jacob was born (Genesis 25:26).  Isaac then lived an additional one hundred twenty years and died at the age of one hundred eighty (Genesis 35:28).
+
+Jacob lived for seventeen years after arriving in Egypt and lived a total of one hundred forty-seven years (Genesis 47:28).  Therefore, Jacob arrived in Egypt at the age of one hundred thirty, having buried his father Isaac ten years earlier. 
+
+
+
+Figure 1: Isaac, Jacob, and Joseph
+Joseph was seventeen years old when his brothers sold him into slavery (Genesis 37:2).  He then lived in Egypt for thirteen years, between his time serving Potiphar and his time in prison, and, at the age of thirty was released from prison and set over the land of Egypt (Genesis 41:46).  What is not clear is how much time, if any, passed between Joseph’s promotion and the beginning of the seven years of plenty. For purpose of this timeline I have assumed that at least a partial year elapsed between Joseph’s promotion and the spring of the first year of plenty.  The last piece of the puzzle is where to date Jacob’s arrival relative to Joseph’s age.  When Joseph is speaking to his brothers and extending the invitation for them to join him in Egypt he states that two years of famine have passed and five remain (Genesis 45:6).  Thus, Jacob’s arrival is (7 years of plenty +2 years of famine = 9 years), and perhaps a bit longer, after Joseph’s promotion.  This would make Joseph approximately forty years old at Jacob’s arrival. Joseph ultimately lived to the age of one hundred and ten (Genesis 50:26), or an additional seventy years after Jacob’s arrival in Egypt.  We can also deduce that Jacob was eighty years old when Joseph was born, which supports the statement that he was the child of Jacob’s old age (Genesis 37:3), and that Joseph’s promotion coincides with the year of Isaac’s death (Joseph’s story begins at Genesis 37:2 and this is thirteen years before Isaac’s death in Genesis 35:29).
+
+The consequence of all of this math is that if we start from Abraham’s arrival in Canaan, the length of time actually spent in Egypt is reduced by (25+60+130=215) years.  So, if we follow the Septuagint, Galatians 3:17, and Josephus we have what is known as a ‘short’ sojourn of 215 years. Following the Masoretic text and the Dead Sea Scrolls give us a ‘long’sojourn of 430 years.  In order to choose between these two approaches, we first need to look at Joseph’s activities in Egypt.
+
+Joseph in Egypt
+There are many details in the Joseph story that are consistent with what we know about Egypt in the Middle Kingdom and Second Intermediate Period (2000-1500 BC in the orthodox chronology).  While these details are important, we can’t forget the larger context of the story itself.  As a result of interpreting Pharaoh’s dream and recommending a solution, Joseph is made the Chief Steward of the King, a role that historically supervised the agricultural production of Pharaoh’s estates and was responsible for the royal granaries[2].  This is of course the logical position for Joseph to implement the plan that he had suggested to Pharaoh: to store up a portion of the produce from the years of plenty in preparation for the lean years.  It’s worth thinking about what it would take to implement this plan.
+
+Implementation of Joseph’s plan would require a strong central government for several reasons. First, in order to be able to effectively tax the produce of the land in the years of plenty. Second, in order to conduct the necessary public works projects to prepare for the lean years, primarily the construction and maintenance of additional storage facilities given the amount of grain that would need to be stored.  A final consideration is the protection of that grain particularly during the lean years.  The story tells us that the famine impacted all of Egypt as well as Canaan and perhaps other countries as well.  Consider that if these events occurred during the Second Intermediate Period when upper and lower Egypt had separate governments, then only one part of the country (presumably Lower Egypt– the Nile delta region) would have been prepared.  A starving Upper Egypt would have then looked to capture the stored grain and war would have ensued.  Similarly, invasion from Canaan and elsewhere would have been likely in order to secure the available food.  Absent a strong central government, Egypt would not have been able to defend its grain stores.  Consequently, I believe that the context of the story makes a strong argument that the events described took place in a united Egypt and therefore during the Middle Kingdom period.  This in turn suggests a long sojourn.
+
+Genesis gives us a number of interesting details that suggest that the Pharaoh of the Joseph story was an Egyptian, and not an Asiatic.  These are provided in detail in Charles Aling’s six-part series on the topic[3]and I will summarize them here.
+
+Joseph feels the need to shave when he is released from prison.  Asiatics (e.g. the Hyksos) wore beards while Egyptians remained clean shaven (the stylized beards we see on statues are false).  This suggests that Joseph was appearing before an Egyptian Pharaoh
+Joseph is rewarded by Pharaoh.  The specific rewards given, and in particular the gold chain, is indicative of an Egyptian reward ceremony of the period[4]
+Pharaoh changes Joseph’s name.  The Asiatics that settled in the Nile delta region spoke Canaanite and West Semitic dialects that would be very similar if not identical to ancient Hebrew.  Thus,there would have been no need to change Joseph’s name, and if it were changed the new name would be easily translated into Hebrew.  Instead, Pharaoh gives Joseph an Egyptian name, “Zaphnath-paaneah”. Egyptian slaves were often given Egyptian names and we have texts where they are referred to as [Semitic name] , he who is called,[Egyptian name].  Egyptian for, “he who is called”, is, spelled phonetically, “Zatenaf”.  Kenneth Kitchen and David Rohl have (separately) identified “Zaphnath” as being a corruption of Zatenaf.[5]Thus, the name is more correctly, Joseph, he who is called Pa-Aneah.  This last part is a phonetic spelling for the Egyptian word ‘ankh’, meaning ‘life’, with Pa-Aneah being best translated, ‘the one who lives’.  Thus, if we are looking for Joseph in Egyptian history we should be looking for a variant of the name ‘Ankh’.
+Joseph is given as his wife Ashenath the daughter of Potiphera, priest of On. Ashenath is a good Egyptian female name from this period[6],and On (Greek Heliopolis) was the center of worship for Ra, the sun god who was the primary Egyptian god.  The primary god in the Hyksos pantheon was Thoth (equivalent to Baal), so this would have been a lesser honor if given by a Hyksos king.
+Joseph is given titles: Chief Steward of the King, Father of Pharaoh, and Ruler Throughout All the Land of Egypt. Aling[7]discusses these in depth.  The last title has been equated to Vizier.  All of thes eare clearly Egyptian titles.
+In summary, both the larger context and the specific details provided in the Joseph story indicate that Joseph served under an Egyptian, and not an Asiatic king and that this king was the ruler of all of a united Egypt in a period where Egypt was strong enough to defend herself against foreign invaders.  This again places the story in the Middle Kingdom, and not later in the Second Intermediate Period.
+
+Joseph in Archaeology
+If we assume a long sojourn and use the orthodox or ‘old’chronology for Egypt then Jacob’s arrival in Egypt would, with an Exodus date of 1446 BC, be in 1876 BC (1446+430). This places Joseph in the late twelfth dynasty of the Middle Kingdom,around the time of the pharaohs Senusret II, Senusret III, and Amenemhat III.  Given Joseph’s high position and activities,we would certainly expect to find evidence of him in the archaeological record,and indeed we do, if we look in this time period.  In his book, Exodus: Myth or History?, Egyptologist David Rohl links a number of archaeological finds to Joseph, and these can be summarized as follows:
+
+There is an Egyptian vizier known as ‘Anku’ who served from the reign of Amenemhat III through to the reign of Sobekhotep I in the thirteenth dynasty. This vizier was initially Overseer of the Fields and was responsible for the construction of numerous granaries
+Amenemhat III is credited with the construction of a canal linking the Nile with the Fayoum Oasis, a canal that is known as the Bahr Yussef in Arabic, or Joseph Canal.
+Amenemhat III is credited with reducing the power of regional rulers[8].This aligns with Genesis 47:13-26 where the result of the lean years is a significant increase in the power of Pharaoh.
+A Semitic settlement dating from the late twelfth dynasty has been found at Avaris, in the land of Goshen.  Avaris was later renamed Rameses.
+Excavation at this settlement has revealed a small palace belonging to a high ranking official.  This palace was originally fronted by twelve columns.  Later, the palace was expanded to add two identical sets of living quarters in front of the original structure
+The palace grounds contain twelve tombs, all identified as Semitic burials.  One of these tombs was originally covered by a pyramid.  A very high honor reserved almost exclusively for royalty and unique in this period. Unlike the other tombs, this one is completely empty – no bones, no grave goods, nothing.  Indications are that everything was removed in antiquity. Finally, this tomb contains the remains of a statue of its owner.  The statue is of an Asiatic (Semite) with red hair and wearing a multicolored coat.
+Rohl provides more detail of course, but even from this basic summary it is clear to me that this evidence ties to Joseph and makes Amenemhat III the pharaoh of Joseph.  This confirms that Joseph is correctly placed at the end of the twelfth dynasty in the Middle Kingdom period.  However, this does not necessarily confirm the long sojourn is correct.  Rohl notes that the Semitic settlement at Avaris was abandoned suddenly at the end of the thirteenth dynasty, indicating that the Exodus took place then.  The problem is that this is only about two hundred years after Jacob came into Egypt and, based on the orthodox chronology, two hundred years before the exodus date of 1446 BC.  Rohl has proposed a significant alteration to the Egyptian chronology, a ‘new’ chronology, that removes two hundred years from the orthodox chronology, thereby aligning the archaeological evidence with the 1446 BC exodus date. This new chronology is not widely accepted, though it has significant appeal in that it not only aligns the evidence for the Exodus, but also for the conquest of Canaan, and sheds light on the life of Saul and the plunder of the temple by Shishak in 925 BC.
+
+
+
+Figure 2: Egyptian Pharaohs prior to the Exodus according to the orthodox chronology
+
+
+With respect to Joseph, the convincing archaeological evidence which places Joseph as vizier to Amenhemat III creates an interesting dilemma for biblical scholars with respect to the length of the sojourn.  For those that hold to the orthodox chronology, it is then required to accept a long sojourn of four hundred and thirty years and reject the shorter sojourn. On the contrary, those that accept the new chronology must then accept the short sojourn of two hundred and fifteen years as correct.  Regardless of which chronology and sojourn length is chosen however, we now have a solid anchor point (in the form of the synchronism between Joseph and Amenhemat III) from which to measure earlier events such as Abraham’s brief sojourn in Egypt – though there will still be disagreement on the BC dating of these events.
+
+The Pharaoh Who Did Not Know Joseph
+Exodus begins with a new Pharaoh coming onto the scene who did not know Joseph and his role in saving Egypt. Specifically:
+
+8Now there arose a new king over Egypt, who did not know Joseph. 9And he said to his people, “Look, the people of the children of Israel are more and mightier than we; 10come, let us deal shrewdly with them, lest they multiply, and it happen, in the event of war, that they also join our enemies and fight against us, and so go up out of the land.” (Exodus 1:8-10)
+
+This is the beginning of the period of affliction prophesied in Genesis 15.  The most likely cause of a “new king” is a dynastic transition. Looking at the history of Egypt in this period, according to the orthodox chronology, and the details of the text, there are a couple of candidates for this role.  The most obvious one is Amenhotep I.  Before we consider any candidate, we first must allow sufficient time before the exodus for the events in Moses’ life as shown in Figure 2.  The exodus occurred when Moses was eighty years old which, based on an exodus in 1446 BC, places his birth in 1526 BC at the very end of the reign of Amenhotep I or the beginning of the reign of Thutmose I.  Thus, Amenhotep is the last possible candidate to be the new king. Amenhotep is also the first Pharaoh of a new dynasty, the 18th,even though he was the son of the last 17th dynasty Pharaoh.  Amenhotep was responsible for reasserting control over lower Egypt and the oases of the western desert, beginning a new period of a united Egypt and ending the Second Intermediate period.  Given the duration of the Second Intermediate period (about 250 years) it would be quite natural that he would be unaware of the contribution of Joseph.  At the same time, he would be naturally suspicious of the Asiatic population in the Nile delta, Hebrews and others, having just reasserted control over that area.  This would explain his behavior in Exodus 1:10 in enslaving, or perhaps further enslaving the children of Israel.  There is little doubt that either Amenhotep I or his son Tutmose I is the Pharaoh that gave the command to kill all the newborn Hebrew males (Exodus 1:16).
+
+
+
+Figure 3: The Pharaoh who did not know Joseph in the New Chronology
+Wood[9]suggests that this new king is an unidentified figure somewhere prior to Amenhotep I, perhaps one of the Hyksos kings. The Hyksos dynasty was preceded by one where the kings have Canaanite or Western Semitic names, raising the possibility that some of these may have even been Hebrews. With the rise of the Hyksos they may have seen it advantageous to enslave the Hebrews.  There is an implication in Exodus 1:11 that the children of Israel already had responsibilities, or “burdens” before they were put under Egyptian taskmasters. Wood’s argument is that Pithom and Rameses (at the time known a Avaris) were built before the 18th dynasty indicating that the enslavement began under the Hyksos.
+
+In the new chronology, the Middle Kingdom period is moved later by approximately two hundred years, with the exodus occurring at the end of the thirteenth dynasty under the Pharaoh Dudimose (Manetho’s Tutimaos).  With this adjustment, Rohl places the birth of Moses in the reign of Neferhotep I and his upbringing under Sebekhotep IV.  Consequently, the enslavement of the Hebrews by the, “Pharaoh who did not know Joseph”, would have taken place under Sobekhotep III or shortly before.  Of interest is the fact that Rohl identifies the vizier of Sobekhotep III as Iymeru II, or Ephraim, son of Ephraim, son of Joseph.
+
+The Sojourn, Long or Short?
+The short sojourn theory has been advanced by Christians because of Paul’s statement in Galatians 3:17. This theory, coupled with the orthodox chronology, has been attractive to the secular world because it is presumed that an Asiatic king would be much more likely than an Egyptian one to advance Joseph to such a high position. In addition, the mention of a chariot in Genesis 41:43 has, given that the Hyksos introduced war chariots to Egypt, been used to tie Joseph to the Hyksos period.  While chariots were not present in large numbers prior to the Hyksos, it is unlikely that they were completely unknown in the Middle Kingdom, and it is natural to believe that Pharaoh would have one or two for his use.[10]
+
+However, as noted above, there is overwhelming archaeological, and I think textual, evidence to place Joseph in the late twelfth dynasty of the Middle Kingdom period.  In order to arrive at a date in this period using the orthodox chronology, it is necessary to accept the long sojourn of 430 years. David Rohl, chief proponent of the new chronology (and a self-proclaimed agnostic – which I believe gives him additional credibility), uses the archaeological evidence to support a short sojourn of 215 years with an exodus in the late thirteenth dynasty.  The new chronology then adjusts the regnal dates for this period to align the exodus with the early date of 1446 BC.  I should note here that the new chronology was not created to solve this particular question, rather it was devised as part of Rohl’s work on the Third Intermediate Period in Egyptian History which roughly parallels the period of the Hebrew Kings.  The result however is an amazing alignment between the archaeological evidence and the biblical chronology.
+
+
+
+Figure 4: Joseph in the larger timeline
+My conclusion then is to place Joseph at the end of the twelfth dynasty and in the reign of Amenemhat III, based on the archaeological evidence.  This is compatible with a long sojourn in the orthodox chronology or a short sojourn in the new chronology.  Thus, the choice of sojourn length is dependent on which chronology you are using.  But regardless, we have an anchor point from which to work out alignments between Egyptian and biblical history prior to Joseph, though the exact BC dates will remain in dispute as shown in Figure 4.
+
+Bibliography
+Joseph in Egypt, Part I”, Associates for Biblical Research,February 18, 2010
+Aling,Charles, PhD; “Joseph in Egypt, Part II”, Associates for Biblical Research, February 23,2010
+Aling,Charles, PhD; “Joseph in Egypt, Part III”, Associates for Biblical Research, March 4, 2010
+Aling,Charles, PhD; “Joseph in Egypt, Part IV”, Associates for Biblical Research, March 15, 2010
+Aling,Charles, PhD; “Joseph in Egypt, Part V”, Associates for Biblical Research, April 5, 2010
+Ailing,Charles, PhD; “Joseph in Egypt, Part VI”, Associates for Biblical Research, April 9, 2010
+Wood,Bryant G., PhD; “New Discoveries at Rameses”, Associates for Biblical Research, October26, 2008
+Wood,Bryant G., PhD; “The Rise and Fall of the 13th Century Exodus-Conquest Theory”,Associates for Biblical Research, April 17, 2008
+Rohl,David; Exodus: Myth or History; St.Louis Park, MN, Thinking Man Media, 2015.
+Finegan, Jack; Handbook of Biblical Chronology; Peabody, Massachusetts,Hendrickson Publishers Marketing, LLC, Revised Edition, © 1998; pp 206-244,§364-419.  Finegan supports a late Exodus and places Joseph in the late Second Intermediate Period and is useful to become familiar with those theories.
+
+[1]The exodus took place at Passover which would be in the spring.  Based on this verse the entry into Egypt would have also been in the spring of the third lean year.
+
+[2] Aling, Charles, PhD; “Joseph in Egypt, Part V”, Associates for Biblical Research, April 5, 2010
+
+[3] Aling,Charles, PhD; “Joseph in Egypt, Part I – Part VI”, Associates for Biblical Research.  Originally published in Bible and Spade from 2000 to 2003 the series was republished at www.biblearchaology.orgfrom February through April, 2010.  Links are provided in the bibliography.
+
+[4] Aling, Charles, PhD; “Joseph in Egypt, Part IV”, Associates for Biblical Research, March 15, 2010
+
+[5] Rohl, David; Exodus: Myth or History; St. Louis Park, MN, Thinking Man Media, 2015, pp 103-104
+
+[6] Aling, Charles, PhD; “Joseph in Egypt, Part IV”, Associates for Biblical Research, March 15, 2010
+
+[7] Aling, Charles, PhD; “Joseph in Egypt, Part V”, Associates for Biblical Research, April 5, 2010
+
+[8] See https://en.wikipedia.org/wiki/Senusret_III          
+
+[9] Wood, Bryant G., PhD; “The Rise and Fall of the 13th Century Exodus-Conquest Theory”, Associates for Biblical Research, April 17, 2008. See Section III, 2.
+
+[10] Aling, Charles, PhD; “Joseph in Egypt, Part IV”, Associates for Biblical Research, March 15, 2010
+
