@@ -88,14 +88,21 @@ text	/*--general text--*/
 
 /*---04---*/
 /*---------------time periods------------------------*/
-.Time2 #periodLabel
+.Time2 #periodLabel,
+#PointID text
 	{
 	font-family:Arial;
 	font-size:10px;
 	text-anchor:start;
-	fill:red;
+	fill:black;
 	font-weight:bold;
 	}
+#PointID #connector
+	{
+	stroke-width:1;
+	stroke:red;
+	}
+
 
 .Time2 #markers
 	{
@@ -117,7 +124,8 @@ text	/*--general text--*/
 	font-weight:bold;
 	}
 
-.Time2 #centuryLabel2
+.Time2 #centuryLabel2,
+#PointID #centuryLabel2
 	{
 	font-family:Arial;
 	font-size:10px;
@@ -126,10 +134,30 @@ text	/*--general text--*/
 	font-weight:bold;
 	}
 
+#PointID line
+	{
+	stroke-width:1;
+	stroke:black;
+	}
+
+#PointID circle
+	{
+	stroke-width:1;
+	stroke:black;
+	fill:blue;
+	r:3;
+	}
+
 #periodFill
 	{
 	fill:silver;
 	}
+
+#periodFill2
+	{
+	fill:gray;
+	}
+
 
 #influenceLine
 	{
