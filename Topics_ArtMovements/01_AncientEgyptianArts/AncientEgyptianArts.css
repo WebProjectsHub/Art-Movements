@@ -42,20 +42,24 @@ h6 li a,
 	{text-decoration:underline;}
 
 h6 li a:hover,
-#listLink li a:hover
+#listLink li a:hover,
+#bulletListLink li a:hover
 	{
 	font-weight:bold;
 	color:blue;
 	}
 
 /*---moved to index.css---
-.contentContainer p a, blockquote a	
+.contentContainer p a, 
+blockquote a	
 	{
 	font-weight:450;
 	color:black
 	}
 
-h6 li a:hover, .contentContainer p a:hover, blockquote a:hover
+h6 li a:hover, 
+.contentContainer p a:hover, 
+blockquote a:hover
 	{
 	font-weight:bold;
 	color:blue;
@@ -377,6 +381,16 @@ li::marker
 	overflow:hidden;
 	}
 
+#timeIframe200
+	{
+	width:3000px;
+	height:200px;
+	border:none;
+	background-color:none;
+	overflow:auto;
+	}
+
+
 #timeIframe2,
 #timeIframe3
 	{
@@ -460,7 +474,8 @@ blockquote
 	/*-------time iframe-------------------------*/
 #timeIframe,
 #timeIframe2,
-#timeIframe3
+#timeIframe3,
+#timeIframe200
 	{ background-color: #F6F0E2 }
 	/*-------END time iframe---------------------*/
 
