@@ -1,38 +1,150 @@
-2400 - 2160 BC 
-	Pyramid Text was in use
+**The Pyramid Texts**
 
-2134 - 2040 BC
-	Coffin Text was in use
+The Pyramid Texts are the oldest religious writings in the world and form the principal funerary literature of ancient Egypt. Inscribed on the sarcophagi and walls of the pyramids at Saqqara during the 5th and 6th Dynasties of the Old Kingdom (c. 2613-2181 BC), these texts were reserved for the soul of the deceased king by his scribes and priests. They consist of spells and incantations designed to free the king's soul from the body and help it ascend to the heavens.
 
-1550 - 1070 BC
-	Book of the Dead was in use
+These texts are primary sources on the lives of the kings they were written for, providing Egyptologists with information on the king's role in Egyptian civilization, specific accomplishments, and even personality traits. The inscriptions also include mythical allusions, the names of gods, and instructions for the deceased regarding the afterlife and the journey of the ka (soul) from the body to eternal life among "the imperishable stars" where he would live with the gods.
+
+Over two hundred gods and goddesses are mentioned in the Pyramid Texts, from the most famous (such as Ra, Thoth, Osiris, and Isis) to lesser-known deities. These allusions were intended to help the pharaoh's soul transition from earthly life to the afterlife (known as the Field of Reeds) where he would live eternally.
+
+The Field of Reeds was a mirror image of one's life on earth but without sickness, disappointment, or death. One would live eternally the life enjoyed on earth but first had to elude dark spirits and pass through the judgment of Osiris and the Forty-Two Judges in the Hall of Truth.
+
+The gods were on the king's side in his struggle to free himself from his body and find eternal joy. They are invoked as allies against the forces of darkness and chaos (evil spirits or demons) and as guides in the unfamiliar realm following life on earth.
+
+**The Utterances**
+
+These inscriptions do not relate the myths of Egypt in full but allude to events in the mythology or iconic moments symbolizing concepts such as harmony, restoration, stability, and order. Potent gods like Thoth (god of wisdom and writing) or Horus (restorer of order) are invoked to help the king. Allusions to myths (such as The Contendings Between Horus and Set, where order overcomes chaos) remind the soul of the gods' presence and goodwill. The sun god Ra is mentioned repeatedly, assuring the soul of continued light, warmth, and comfort. The Pyramid Texts also provide the first written reference to Osiris, king of the dead, and the concept of the judgment of the soul in the Hall of Truth, assuring the king he will pass through this judgment safely.
+
+The "utterances" are inscriptions meant to be spoken aloud and were likely chanted. According to scholar Geraldine Pinch, "Many were composed in the first person and would have been highly dramatic when spoken or chanted aloud" (10).
+
+In the utterance detailing the deceased pharaoh's journey into the sky, verbs like "flieth," "rusheth," "kissed," and "leapt" are emphasized: "He that flieth, flieth! He flieth away from you, ye men. He is no longer in the earth. He is in the sky. He rusheth at the sky as a heron. He hath kissed the sky as a hawk. He hath leapt skyward as a grasshopper" (Nardo, 113). Each utterance corresponds to a chapter in a book to be read aloud to the soul of the deceased. This 'book' was likely an oral tradition that eventually came to be written on tomb walls.
+
+**Creation & Use of the Texts**
+
+The priests of the Old Kingdom are credited with creating these works, and inter-textual evidence suggests they did so to provide the king's soul with detailed knowledge of the afterlife and how to arrive there safely. Some utterances call upon the gods to help and guide, comforting the soul and assuring it that this passage from the body is natural and not to be feared.
+
+Other utterances assure those living (and chanting the words) that the soul has arrived safely: "He hath gone up into the sky and hath found Ra, who standeth up when he draweth nigh unto him. He sitteth down beside him, for Ra suffereth him not to seat himself on the ground, knowing that he is greater than Ra. He hath taken his stand with Ra" (Nardo, 115). Geraldine Pinch notes:
+
+> The main purpose of assembling these texts and inscribing them inside pyramids was to help the body of the deceased king escape the horror of putrefaction and his spirit to ascend to the celestial realm where he would take his place among the gods. Some of the texts were probably recited during the king's funeral or as part of the mortuary cult that continued after his death. Others may have been intended to be spoken by the deceased king as he entered the afterlife. (11)
+
+The soul of the deceased could fly, run, walk, or even row to the Field of Reeds in a ship: "A ramp to the sky is built for him that he may go up to the sky thereon. He goeth up upon the smoke of the great exhalation. He flieth as a bird and he settleth as a beetle on an empty seat on the ship of Ra… He roweth in the sky in thy ship, O Ra! And he cometh to the land in thy ship, O Ra!"
+
+The soul's flight could only take place after passing through the judgment of Osiris in the Hall of Truth and having the heart weighed against the white feather of Truth (the feather of Ma'at, goddess of harmony and balance). While the Pyramid Texts are the first to mention the Judgment of Osiris, the concept would be fully developed later in the Book of Coming Forth By Day, better known as The Egyptian Book of the Dead, which drew on the Pyramid Texts.
+
+**The Journey of the Soul**
+
+The ship of Ra was closely associated with the sun, and the texts indicate that the soul, having passed through judgment, would travel with the ship of Ra through the dark underworld but always rise toward the zenith of heaven with the morning and proceed to the Field of Reeds, where one would enjoy eternal life in a land similar to that known on earth, ever in the benevolent presence of great gods and goddesses like Osiris, Ra, Isis, and Ma'at.
+
+This boat, known as the Ship of a Million Souls, was the sun barge which the justified dead would help Ra defend from the serpent Apep (also known as Apophis) who tried to destroy it each night. This is one version of the afterlife vision presented in the texts, with another being the judgment in the Hall of Truth followed by a journey across the water rowed by the boatman Hraf-haf ("He Who Looks Behind Him") who brought the justified souls to the Field of Reeds.
+
+The Egyptians believed their earthly journey was only part of an eternal life lived in the presence of the gods. The gods imbued their daily lives with meaning and the promise that death was not the end. All of Egypt was alive with the presence of these gods, and the people held the land so dearly that they disliked extensive travel or military campaigns beyond its borders, believing that dying outside Egypt would make it harder to reach the Field of Reeds—or they might never reach it at all.
+
+Even for those who died within Egypt's borders, the transition to the afterlife was recognized as a frightening change. The Pyramid Texts served as assurances that, in the end, all would be well because the gods were there in death as they had been in life and would guide the soul safely to its eternal home.
 
 
-The use of the Book of the Dead declined for several reasons:
+**The Coffin Texts**
 
-1. **Changing Religious Beliefs**: Over time, the religious beliefs and practices in Egypt evolved. The rise of Christianity in Egypt during the Roman period led to a decline in the use of traditional Egyptian funerary texts¹.
+The Coffin Texts (c. 2134-2040 BC) are 1,185 spells, incantations, and other religious writings inscribed on coffins to help the deceased navigate the afterlife. They include the Book of Two Ways, the first example of cosmography in ancient Egypt, providing maps of the afterlife and guidance on avoiding dangers on the way to paradise. Egyptologist Geraldine Pinch notes that these maps, usually painted on the coffin floors, are the earliest known maps from any culture and served as an illustrated guidebook to the afterlife. The Book of Two Ways was not a separate work but detailed maps corresponding to the rest of the text inside the coffin.
 
-2. **Economic Factors**: The production of the Book of the Dead was expensive. As economic conditions changed, fewer people could afford the elaborate scrolls².
+The texts were partly derived from the earlier Pyramid Texts (c. 2400-2300 BC) and inspired the later Egyptian Book of the Dead (c. 1550-1070 BC). They were primarily written during the First Intermediate Period of Egypt (2181-2040 BC), though evidence suggests they began toward the end of the Old Kingdom (c. 2613-2181 BC) and continued through the early Middle Kingdom (2040-1782 BC). By the New Kingdom (c. 1570-1069 BC), they were replaced by the Book of the Dead, sometimes included among one's grave goods.
 
-3. **Simplification of Funerary Practices**: Later periods saw a simplification of funerary practices. Instead of lengthy texts, shorter and more accessible prayers and spells became more common⁴.
+The Coffin Texts are significant because they illustrate the cultural and religious shift between the Old Kingdom and the First Intermediate Period of Egypt and clarify the development of the people's religious beliefs.
 
-4. **Political Changes**: The conquest of Egypt by foreign powers, such as the Greeks and Romans, brought new cultural and religious influences that overshadowed traditional Egyptian practices².
+**The Old Kingdom & First Intermediate Period**
 
-These factors collectively contributed to the decline in the use of the Book of the Dead.
+The Old Kingdom of Egypt, known as the 'Age of the Pyramid Builders,' saw King Sneferu (c. 2613-2589 BC) perfect the art of pyramid building, with his son Khufu (2589-2566 BC) creating the Great Pyramid at Giza. Khufu was followed by Khafre (2558-2532 BC) and Menkaure (2532-2503 BC), who also erected pyramids at the site. These monuments were surrounded by complexes with temples staffed by clergy and housing for state workers. The enormous cost of these monuments is often overlooked.
 
-Source: Conversation with Copilot, 9/10/2024
-(1) Book of the Dead | Funerary Texts, Spells & Rituals | Britannica. https://www.britannica.com/topic/Book-of-the-Dead-ancient-Egyptian-text.
-(2) Egyptian Book of the Dead - World History Encyclopedia. https://www.worldhistory.org/Egyptian_Book_of_the_Dead/.
-(3) The Book of the Dead in Ancient Egypt - World History Edu. https://worldhistoryedu.com/the-book-of-the-dead-in-ancient-egypt/.
-(4) The Truth Behind the Book of the Dead: Necronomicon - Horror Obsessive. https://horrorobsessive.com/2020/09/01/the-truth-behind-the-book-of-the-dead-necronomicon/.
-(5) The Book Of The Dead | History, Spells And Quotes - Ancient Egypt Online. https://www.ancient-egypt-online.com/book-of-the-dead.html.
+Throughout the Old Kingdom, rulers needed to build their grand tombs and maintain those of their predecessors. Giza was the royal necropolis, but there were also pyramid complexes at Saqqara, Abusir, and others. These had to be staffed by priests who performed rituals to honor the dead kings and aid them in their afterlife journey. The priests were given endowments by the king to recite spells and perform rituals and were exempt from paying taxes, resulting in significant revenue loss for the king. During the 5th Dynasty, King Djedkare Isesi (2414-2375 BC) decentralized the government, giving more power to regional governors (nomarchs), who enriched themselves at the central government's expense. These factors contributed to the collapse of the Old Kingdom toward the end of the 6th Dynasty and initiated the First Intermediate Period.
 
-The use of the Book of the Dead began to decline around the 1st century BCE³. This decline was influenced by the rise of Christianity and the changing religious and cultural landscape in Egypt¹². Some artistic motifs from the Book of the Dead continued to be used during Roman times³.
+During this era, the strong king heading a stable central government was replaced by individual nomarchs ruling over their provinces. The king was still respected, and taxes were sent to the capital at Memphis, but there was greater autonomy for the nomarchs and the people. This change allowed for more freedom of expression in art, architecture, and crafts, as there was no longer a state-mandated ideal of representation. Each region was free to create any art they pleased.
 
-Source: Conversation with Copilot, 9/10/2024
-(1) Book of the Dead - Wikipedia. https://en.wikipedia.org/wiki/Book_of_the_Dead.
-(2) Egyptian Book of the Dead - World History Encyclopedia. https://www.worldhistory.org/Egyptian_Book_of_the_Dead/.
-(3) Book of the Dead | Funerary Texts, Spells & Rituals | Britannica. https://www.britannica.com/topic/Book-of-the-Dead-ancient-Egyptian-text.
-(4) The Book of the Dead in Ancient Egypt - World History Edu. https://worldhistoryedu.com/the-book-of-the-dead-in-ancient-egypt/.
-(5) Egyptian 'Book of the Dead' - University of Washington. https://ischool.uw.edu/podcasts/dtctw/egyptian-book-dead.
-(6) Getty Images. https://www.gettyimages.com/detail/news-photo/the-book-of-the-dead-papyrus-of-ani-the-hall-of-judgment-news-photo/1023093512.
+The change also resulted in a democratization of goods and services. Luxuries previously affordable only to the king were now available to lesser nobility, court officials, bureaucrats, and ordinary people. Mass production of goods such as statuary and ceramics began, allowing those who could not afford a fine tomb with inscriptions during the Old Kingdom to do so. Just as the king once had his tomb adorned with the Pyramid Texts, anyone could now have the same through the Coffin Texts.
+
+**The Democratization of the Afterlife**
+
+The Coffin Texts were developed to meet the need for a new understanding of the afterlife and the common people's place in it. Egyptologist Helen Strudwick explains their purpose:
+
+> The texts, a collection of ritual texts, hymns, prayers, and magic spells, which were meant to help the deceased in his journey to the afterlife, originated from the Pyramid Texts, a sequence of mainly obscure spells carved on the internal walls of the pyramids of the Old Kingdom. The Pyramid Texts were exclusively for the king and his family, but the Coffin Texts were used mainly by the nobility and high-ranking officials, and by ordinary people who could afford to have them copied. The Coffin Texts meant that anyone, regardless of rank and with the help of various spells, could now have access to the afterlife.
+
+During the Old Kingdom, only the king was guaranteed continued existence in the next world. Beginning in the First Intermediate Period, ordinary individuals were now thought just as worthy of eternal life as royalty. This era has often been misrepresented as a time of chaos and strife, but it was a period of enormous cultural and artistic growth. Scholars who claim it was a 'dark age' following a monumental government collapse often cite the lack of impressive building projects and poorer quality of arts and crafts as proof.
+
+There were no great pyramids and temples raised simply because there was no money to build them and no strong central government to commission and organize them. The difference in the quality of crafts is due to the practice of mass production of goods. There is ample evidence of elaborate tombs and beautiful works of art during this time, showing how those once thought 'common people' could now afford the luxuries of royalty and journey to paradise just as the king could.
+
+**The Osiris Myth**
+
+The democratization of the afterlife was largely due to the popularity of the myth of Osiris. Osiris was the first-born of the gods after the act of creation, and with his sister-wife Isis, he was the first king of Egypt until his murder by his jealous brother Set. Isis was able to bring Osiris back to life, but he was incomplete and so descended to rule in the underworld as Lord and Judge of the Dead.
+
+The cult of Osiris became increasingly popular during the First Intermediate Period as he was seen as the 'First of the Westerners,' the foremost among the dead, who promised eternal life to those who believed in him. When Isis brought him back from the dead, she enlisted the help of her sister, Nephthys, to chant the magical incantations. This part of the myth was re-enacted during the festivals of Osiris (and also at funerals) through The Lamentations of Isis and Nephthys, a call-and-response performance of two women playing the parts of the deities to call Osiris to the event. The festival was a ritual re-enactment of the resurrection, and anyone attending would spiritually take part in this rebirth.
+
+**The Spells**
+
+The Coffin Text spells and incantations reference many gods (most notably Amun-Ra, Shu, Tefnut, and Thoth) but consistently draw on the Osiris Myth. Spell 74 (A Spell for the Revival of Osiris) re-creates the part of the story in which Isis and Nephthys bring Osiris back to life:
+
+> Ah Helpless One!  
+> Ah Helpless One Asleep!  
+> Ah Helpless One in this place  
+> which you know not; yet I know it!  
+> Behold, I have found you lying on your side  
+> the great Listless One.  
+> 'Ah, Sister!' says Isis to Nephthys,  
+> 'This is our brother,  
+> Come, let us lift up his head,  
+> Come, let us rejoin his bones,  
+> Come, let us reassemble his limbs,  
+> Come, let us put an end to all his woe,  
+> that, as far as we can help, he will weary no more. (Lewis, 46)
+
+Although the words are spoken to Osiris, they were thought to equally apply to the soul of the deceased. Just as Osiris returned to life through the incantations of the sisters, so would the soul awake after death and continue on to, hopefully, be justified and allowed entrance to paradise.
+
+The soul of the dead participated in Osiris' resurrection because Osiris had been a part of the soul's journey on earth, infused the soul with life, and was also part of the ground, the crops, the river, the home which the person knew in life. Spell 330 states,
+
+> Whether I live or die I am Osiris  
+> I enter in and reappear through you  
+> I decay in you  
+> I grow in you...I cover the earth...I am not destroyed" (Lewis, 47).
+
+Empowered by Osiris, the soul could begin its journey through the afterlife. As on any trip to a land one has never visited, a map and directions were considered helpful. The Book of Two Ways (so called because it gave two routes, by land and water, to the afterlife) showed maps, rivers, canals, and the best ways to avoid the Lake of Fire and other pitfalls in the journey. The path through the underworld was perilous, and it would be difficult for a soul, newly arrived, to recognize where to go. The Coffin Texts assured the soul that it could reach its destination safely. Strudwick writes, "Knowledge of the spells and possession of the map meant that the deceased, like the pharaohs in times past, could negotiate the dangers of the underworld and achieve eternal life" (504).
+
+**Coffin Decorated with the Book of Two Ways**
+**Coffin Decorated with the Book of Two Ways**
+
+The soul was expected to have lived a life worthy of continuance, without sin, and to be justified by Osiris. Directions throughout the text assume that the soul will be judged worthy and that it will recognize friends as well as threats. Spell 404 reads:
+
+> He (the soul) will arrive at another doorway. He will find the sisterly companions standing there and they will say to him, "Come, we wish to kiss you." And they will cut off the nose and lips of whoever does not know their names. (Lewis, 48)
+
+If the soul failed to recognize Isis and Nephthys, then it clearly had not been justified and would face one of many possible punishments. Spell 404 references the soul arriving at a doorway, and there would be many of these along one's path, as well as various deities to avoid or appease.
+
+**Writing & Replacement**
+
+The texts themselves represent the democratization of the afterlife, as do the canvases they were painted on. The large sarcophagi of the Old Kingdom were generally replaced by simpler coffins during the First Intermediate Period. These coffins varied in elaborateness depending on the deceased's wealth and status. Egyptologist Rosalie David notes:
+
+> The earliest body coffins were made of cartonnage (a kind of papier-mâché made from papyrus and gum) or wood but, by the Middle Kingdom, wooden coffins became increasingly commonplace. Later, some body coffins were made of stone or pottery and even (usually for royalty) of gold or silver. (151-152)
+
+Scribes carefully painted these coffins with text, including illustrations of the person's life on earth. One primary function of the Pyramid Texts was to remind the king of who he had been while alive and what he had achieved. When his soul woke in the tomb, he would see these images and the accompanying text and recognize himself; this same paradigm was adhered to in the Coffin Texts.
+
+Every available space of the coffin was used for the texts, but what was written differed from person to person. There were usually, but not always, illustrations depicting one's life, horizontal friezes of various offerings, vertical text describing the objects needed in the afterlife, and instructions on how the soul should travel. The texts were written in black ink, but red was used for emphasis or in describing demonic and dangerous forces. Geraldine Pinch describes a part of this journey:
+
+> The deceased had to pass through the mysterious region of Rosetau where the body of Osiris lay surrounded by walls of flame. If the deceased man or woman proved worthy, he or she might be granted a new life in paradise. (15)
+
+In later eras, this new life would be granted if one were justified in the Hall of Truth, but when the Coffin Texts were written, it seems one passed through a redeeming fire around Osiris' body. The cult of Osiris became the cult of Isis by the time of the New Kingdom of Egypt, and her role as the power behind his resurrection was emphasized. The Egyptian Book of the Dead then replaced the Coffin Texts as the guide to the afterlife. Although tombs and coffins were still inscribed with spells, The Egyptian Book of the Dead would serve to direct the soul to paradise for the rest of Egypt's history.
+
+Book of the Dead
+
+The **Egyptian Book of the Dead**, a collection of spells to guide the deceased in the afterlife, was named by Western scholars. Its actual title translates to "The Book of Coming Forth by Day" or "Spells for Going Forth by Day". A more accurate English translation would be "The Egyptian Book of Life", as it assures the soul of eternal life in a realm similar to the earthly world left behind.
+
+Contrary to its reference as the "Ancient Egyptian Bible", the Book of the Dead is not a religious text. It's a personalized manual, created for those who could afford it, to aid them after death. The book was never standardized, and no two copies are identical.
+
+The afterlife was seen as a continuation of earthly life. After passing through trials and judgment in the Hall of Truth, the soul would cross Lily Lake to rest in the Field of Reeds, a paradise reflecting one's earthly life. To reach this paradise, the soul needed to know how to navigate the land of the dead, making the Book of the Dead extremely useful.
+
+The Book of the Dead originated from tomb paintings and inscriptions as early as the Third Dynasty of Egypt (c. 2670 - 2613 BCE). By the 12th Dynasty (1991 - 1802 BCE), these spells were written on papyrus and placed in tombs with the dead. The spells instructed the deceased on overcoming the dangers of the afterlife, providing foreknowledge of what to expect at every stage.
+
+During the New Kingdom (c. 1570 - c. 1069 BCE), the book became popular and was custom-made by scribes for individuals or families. Prior to this, the Book of the Dead was only available to royalty and the elite. As more people desired their own copy, the book became a commodity for sale, with clients choosing the number of chapters, illustrations, and quality of papyrus based on their financial resources.
+
+From the New Kingdom through the Ptolemaic Dynasty (323 - 30 BCE), the Book of the Dead was produced in this way. It continued to vary in form and size until c. 650 BCE when it was fixed at 190 uniform spells, but people could still customize the text. Every copy contained Spell 125, which describes the judging of the heart of the deceased by the god Osiris in the Hall of Truth.
+
+The Book of the Dead is not a magical text for mystical rites, nor is it similar to The Tibetan Book of the Dead. Both books are cultural constructs designed to make death a more manageable experience. The spells in the Book of the Dead promised a continuation of existence after death, with trials and unexpected turns in the path, but eventually, the soul could expect to be rewarded for living a good and virtuous life.
+
+The Tibetan Book of the Dead, unlike its Egyptian counterpart, is meant to be read by the living to the deceased, not self-recited by the deceased. Despite their shared "Book of the Dead" label, which often leads to misconceptions, both books are cultural tools aimed at easing the transition of death.
+
+The Egyptian Book of the Dead, regardless of when it was written or compiled, offers spells promising life after death. Like life, the journey includes trials, unexpected turns, and challenges, but ultimately leads to a reward for a virtuous life.
+
+For those left behind, the spells serve a similar purpose to modern horoscopes. They're not meant to highlight negatives or induce guilt, but to provide comfort and assurance that their loved ones have safely reached the afterlife.
