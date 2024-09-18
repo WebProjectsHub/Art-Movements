@@ -95,6 +95,12 @@ ib	{
 ib:before,
 ib:after
 	{ content:'"';}
+
+bb	{
+	font-size:1.7rem;
+	font-weight:550;
+	color:gray;
+	}
 	/*-------END Font styles---------------------*/
 	/*-------Font size---------------------------*/
 	/*-------END Font size-----------------------*/
@@ -137,6 +143,8 @@ h4, h5, h6
 	line-height: 1.5;
 	font-weight:350;
 	}
+
+
 
 		/*---END body text-------------------*/
 		/*---caption text--------------------*/
