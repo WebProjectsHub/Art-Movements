@@ -157,8 +157,14 @@ text	/*--general text--*/
 	{
 	fill:gray;
 	}
-
-
+#periodFill3
+	{
+	fill:#fee227;
+	}
+#periodFill4
+	{
+	fill:#fdee87;
+	}
 #influenceLine
 	{
 	stroke-width:1;
