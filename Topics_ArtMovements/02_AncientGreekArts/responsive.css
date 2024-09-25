@@ -158,10 +158,11 @@ blockquote
 	}
 
 		/*-------image layout----------------*/
+.divContainer,
+.timeContainer
+	{ display:none; }
 
-.sumBox
-	{ display:none;}
-	
+
 }
 
 /* iphone14 landscape ------------------------------ */
@@ -307,8 +308,10 @@ blockquote
 #imageCaption2
 	{ padding-left:10px;}
 		/*-------image layout----------------*/
-.sumBox
-	{ display:none;}
+.divContainer,
+.timeContainer
+	{ display:none; }
+
 
 
 }
@@ -447,8 +450,9 @@ blockquote
 #imageCaption2
 	{ padding-left:10px;}
 		/*-------image layout----------------*/
-.sumBox
-	{ display:none;}
+.divContainer,
+.timeContainer
+	{ display:none; }
 
 }
 
@@ -564,9 +568,6 @@ blockquote
 .fp-arrow
 	{ scale:60%;}
 
-.sumBox
-	{ display:none;}
-
 }
 
 /* Screen max width 521px--------------------------- */
@@ -679,8 +680,5 @@ blockquote
 	}
 .fp-arrow
 	{ scale:60%;}
-
-.sumBox
-	{ display:none;}
 
 }
