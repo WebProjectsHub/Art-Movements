@@ -4,7 +4,7 @@ The Stone Age
 - Paleolithic
 - Mesolithic
 - Neolithic	
-	7000 - 3200 BC
+	6000 - 2900 BC
 	- Aceramic (Pre-Pottery)
 	- Early Neolithic
 	- Middle Neolithic
@@ -12,19 +12,17 @@ The Stone Age
 	- Late Neolithic II
 	- Final Neolithic
 Bronze Age
+
 - Cycladic civilization
-	3300 - 2000 BC
-- Minoan civilization
-	2700 - 1100 BC
+	3200 - 1100 BC
+	Middle Cycladic and Late Cycladic overlapped and merged with minoan civilization
+- Minoan civilization 
+	2700 - 1500 BC
 - Mycenaean civilization
-	3200 - 1050 BC
+	1900 - 1100 BC
 	eventually merged with the Minoan civilization
-
-Ancient Greece
-1100 -	27 BC
-
-Greek Dark Ages
-	1100 - 750 BC
+- Greek Dark Ages
+	1100 - 800 BC
 	Referred to as Homeric Period, relating to Homer's
 	Iliad and Odyssey.
 
@@ -32,18 +30,24 @@ Geometric Period
 	900 - 700 BC
 
 Archaic Period
-	650 - 480 BC
+	800 - 500 BC
 
 Classical Period
 	480 - 323 BC
+	490 BC	Battle of Marathon
+
 
 Hellenistic Period
-	323 - 27 BC
+	323 - 31 BC
 	Almost coincident with Egypt's Ptolemaic Dynasty
 
 
 Roman Greece
+	31 BC 
+	Greece absorbed into Roman Empire
+	
 146 BC -330 AD
+146 BC Roman influence over Greece begins to rise
 
 Byzantine Period
 330 - 	1453 AD
