@@ -97,6 +97,16 @@ text	/*--general text--*/
 	fill:black;
 	font-weight:bold;
 	}
+
+#periodLabel_c
+	{
+	font-family:Arial;
+	font-size:10px;
+	text-anchor:center;
+	fill:black;
+	font-weight:bold;
+	}
+
 #PointID #connector
 	{
 	stroke-width:1;
@@ -157,14 +167,19 @@ text	/*--general text--*/
 	{
 	fill:gray;
 	}
-#periodFill3
+#periodFill_S1a
 	{
-	fill:#fee227;
+	fill:#F7B801;
 	}
-#periodFill4
+#periodFill_S1b
 	{
-	fill:#fdee87;
+	fill:#F18701;
 	}
+#periodFill_S1c
+	{
+	fill:#F35B04;
+	}
+
 #influenceLine
 	{
 	stroke-width:1;
