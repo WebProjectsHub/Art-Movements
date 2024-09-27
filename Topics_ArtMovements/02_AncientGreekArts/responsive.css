@@ -157,6 +157,9 @@ blockquote
 	width:100%;
 	}
 
+.sumBox
+	{ width:280px;}
+
 		/*-------image layout----------------*/
 .divContainer,
 .timeContainer
