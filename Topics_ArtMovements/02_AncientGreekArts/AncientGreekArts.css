@@ -503,6 +503,13 @@ blockquote
 .dropMenuIcon:hover ~ #horbar
 	{background-color:green;}
 	/*-------END drop down menu------------------*/
+	/*-------time iframe-------------------------*/
+#timeIframe,
+#timeIframe2,
+#timeIframe3,
+#timeIframe200
+	{ background-color: #F6F0E2 }
+	/*-------END time iframe---------------------*/
 /*---------------END Style colors--------------------*/
 /*---12---*/
 
