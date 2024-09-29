@@ -188,6 +188,10 @@ blockquote
 	text-align:justify;
 	}
 	/*-------END Custom Font size----------------*/
+.material-symbols-outlined
+	{
+	font-family:Material Symbols Outlined;
+	}
 /*---------------END Style fonts---------------------*/
 /*---06---*/
 /*---------------Style header------------------------*/
