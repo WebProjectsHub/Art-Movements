@@ -165,7 +165,6 @@ blockquote
 .timeContainer
 	{ display:none; }
 
-
 }
 
 /* iphone14 landscape ------------------------------ */
@@ -314,8 +313,6 @@ blockquote
 .divContainer,
 .timeContainer
 	{ display:none; }
-
-
 
 }
 
@@ -571,6 +568,13 @@ blockquote
 .fp-arrow
 	{ scale:60%;}
 
+		/*-------image layout----------------*/
+.divContainer,
+.timeContainer
+	{ display:none; }
+
+
+
 }
 
 /* Screen max width 521px--------------------------- */
@@ -683,5 +687,9 @@ blockquote
 	}
 .fp-arrow
 	{ scale:60%;}
+		/*-------image layout----------------*/
+.divContainer,
+.timeContainer
+	{ display:none; }
 
 }

@@ -125,7 +125,7 @@ What followed the Bronze Age (c. 3300 - c. 1200 BC) was the Iron Age (c. 1200 - 
 	<br><br>
 		</p>
 		<div class="timeContainer">
-			<iframe id="timeIframe" style="height:600px;"  src="../../Topics_Timeline/TimelineSVG/Timeline01_AncientEgypt - BronzeAgeCollapse.html"></iframe>
+			<iframe id="timeIframe" style="height:650px;"  src="../../Topics_Timeline/TimelineSVG/Timeline01_AncientEgypt - BronzeAgeCollapse.html"></iframe>
 			<br>
 		</div>
 		<h4>
@@ -263,5 +263,14 @@ Even so, the parallel between the period of the collapse and the modern-day seem
 
 	});
 </script>
+<script>
+
+window.addEventListener('resize', function() {
+  if (window.innerWidth === 320) {
+    document.querySelector(".timeContainer").scrollLeft = 175;
+  }
+});
+</script>
+
 </body>
 </html>
