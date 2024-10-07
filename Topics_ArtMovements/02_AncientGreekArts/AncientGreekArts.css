@@ -48,6 +48,11 @@ h6 li a:hover,
 	color:blue;
 	}
 
+
+#bulletListLink li b
+	{ font-weight:550;}
+
+
 /*---moved to index.css---
 .contentContainer p a, blockquote a	
 	{
