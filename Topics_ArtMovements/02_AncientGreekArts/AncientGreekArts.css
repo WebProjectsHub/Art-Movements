@@ -26,6 +26,7 @@
 9. middle
 10. timeline
 11. colors
+12. tables
 
 -------*/
 /*---01---*/
@@ -563,7 +564,43 @@ blockquote
 	/*-------END time iframe---------------------*/
 /*---------------END Style colors--------------------*/
 /*---12---*/
+/*---------------Style tables------------------------*/
+.sumTable
+	{ 
+	width:100%;
+	background-color:#B2B8A3;
+	border-collapse:collapse;
+	margin-bottom:50px;
+	}
 
+.sumTable th
+	{
+	font-size: 1.3rem;
+	line-height: 1.5;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	}
+
+.sumTable td
+	{ 
+	width:25%;
+	padding:2px 5px;
+	}
+
+.sumTable .sideHeader
+	{
+	text-align:left;
+	padding-left:10px;
+	width:25%;
+	}
+
+.sumTable td
+	{
+	font-size: 1.3rem;
+	line-height: 1.5;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	}
 
 /*---------------------------------------------------*/
 /*---------------------------------------------------*/
