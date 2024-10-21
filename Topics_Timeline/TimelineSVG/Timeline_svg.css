@@ -144,6 +144,11 @@ text	/*--general text--*/
 	font-weight:bold;
 	}
 
+#PtmarkersLeft text
+	{
+	text-anchor:end;
+	}
+
 #PointID line
 	{
 	stroke-width:1;
