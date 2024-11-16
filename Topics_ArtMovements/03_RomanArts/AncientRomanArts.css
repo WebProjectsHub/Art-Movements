@@ -1,0 +1,609 @@
+/*---------------Color style------------------------*/
+/*------https://coolors.co/palette/dfd3c3-f0ece3-f4c7ab-b2b8a3-5f8b7e----*/
+/*------
+1. html and body height and width
+2. required
+3. link style
+4. general text size adjustment
+5. font style and sizes
+	- font styles
+	- font size
+	- custom font size
+		- middle >p
+6. header
+	- 1st page header
+	- menu header
+	- dropmenu
+		- container
+		- icon
+		- list
+		- contents
+		- contents anim
+7. sections
+	- pre-container
+	- container
+8. watermark
+9. middle
+10. timeline
+11. colors
+12. tables
+
+-------*/
+/*---01---*/
+/*---------------set html height to full page--------*/
+/*---------------END set html height to full page----*/
+/*---02---*/
+/*---------------Req---------------------------------*/
+/*---------------END Req-----------------------------*/
+/*---03---*/
+/*---------------Style the links---------------------*/
+h6 li a,
+#listLink li a
+	{text-decoration:underline;}
+
+h6 li a:hover,
+#listLink li a:hover,
+#bulletListLink li a:hover
+	{
+	font-weight:bold;
+	color:blue;
+	}
+
+
+#bulletListLink li b
+	{ font-weight:550;}
+
+
+/*---moved to index.css---
+.contentContainer p a, blockquote a	
+	{
+	font-weight:450;
+	color:black
+	}
+
+h6 li a:hover, .contentContainer p a:hover, blockquote a:hover
+	{
+	font-weight:bold;
+	color:blue;
+	}
+---*/
+/*---------------END Style the links-----------------*/
+/*---04---*/
+/*---------------Text size adjustment----------------*/
+/*---------------END Text size adjustment------------*/
+/*---05---*/
+/*---------------Style fonts-------------------------*/
+@font-face 
+	{
+	font-family: 'Hieroglyphs';
+	font-style: normal;
+	src: local('Hieroglyphs'), url('../../assets/fonts/Noto_Sans_EgyptianHieroglyphs/NotoSansEgyptianHieroglyphs-Regular.ttf') format('truetype');
+	}
+
+.Hieroglyphs,
+#iconBox
+	{
+	font-family: 'Hieroglyphs', sans-serif;
+	font-weight:550;
+	}
+
+	/*-------Font styles-------------------------*/
+ib	{
+	font-size:1.6rem;
+	font-style:italic;
+	font-weight:350;
+	color:black;
+	}
+ib:before,
+ib:after
+	{ content:'"';}
+	/*-------END Font styles---------------------*/
+	/*-------Font size---------------------------*/
+	/*-------END Font size-----------------------*/
+	/*-------Custom Font size--------------------*/
+h:hover	{text-decoration:underline}
+
+h1	{font-weight:400;}
+
+h4, h5, h6
+	{font-weight:450;}
+
+h4, h5, h6
+	{margin-bottom:1rem;}
+
+
+		/*---summary page--------------------*/
+.middle >p
+	{
+	font-size: 1.5rem;
+	line-height: 1.6;
+	font-weight:350;
+	}
+
+.middle li
+	{
+	font-size: 1.5rem;
+	line-height: 1.6;
+	font-weight:350;
+	}
+#sumList
+	{ list-style-type:square; }
+
+		/*---END summary page----------------*/
+		/*---body text-----------------------*/
+.contentContainer .middle >p,
+.contentContainer .middle li
+	{
+	font-size: 1.8rem;
+	line-height: 1.5;
+	font-weight:350;
+	}
+
+		/*---END body text-------------------*/
+		/*---caption text--------------------*/
+#imageCaption p,
+#imageCaption2 p,
+#timeDescription ul li
+	{
+	font-size: 1.25rem;
+	line-height: 1.5;
+	font-weight:350;
+	}
+		/*---END caption text----------------*/
+		/*---bullet points-------------------*/
+
+.contentContainer .middle li	
+	{ list-style-type:square; }
+
+li::marker
+	{ font-size:1rem;}
+
+		/*---END bullet points---------------*/
+		/*---number points-------------------*/
+
+.contentContainer .middle ol li	
+	{ list-style-type:unset; }
+
+ol li::marker
+	{ font-size:unset;}
+
+		/*---END number points---------------*/
+
+/*----moved to index.css
+blockquote
+	{
+	font-style:italic;
+	font-size: 1.6rem;
+	line-height: 1.5;
+	font-weight:350;
+	text-align:justify;
+	}
+---*/
+		/*-------sumBox Font size------------*/
+.middle .sumBox h6,
+.middle .sumBox ul li
+	{
+	font-size: 1.3rem;
+	line-height: 1.5;
+	font-weight:350;
+	}
+		/*-------END sumBox Font size--------*/
+		/*-------summaryTable ---------------*/
+.summaryTable1 .ST1  ul li
+	{
+	font-size: 1.3rem;
+	line-height: 1.5;
+	font-weight:350;
+	}
+
+		/*-------END summaryTable -----------*/
+	/*-------END Custom Font size----------------*/
+
+
+/*---------------END Style fonts---------------------*/
+/*---06---*/
+/*---------------Style header------------------------*/
+	/*-------main page 1st page header-----------*/
+	/*-------END main page 1st page header-------*/
+	/*-------standard menu header----------------*/
+	/*-------END standard menu header------------*/
+	/*-------drop down menu----------------------*/
+		/*-------menu container--------------*/
+		/*-------END menu container----------*/
+		/*-------menu icon-------------------*/
+		/*-------END menu icon---------------*/
+		/*-------menu list-------------------*/
+		/*-------menu list-------------------*/
+		/*-------menu contents---------------*/
+			/*----related contents-------*/
+/*-------------*/
+			/*----END related contents---*/
+		/*-------END menu contents-----------*/
+		/*-------menu contents anim----------*/
+		/*-------menu contents anim----------*/
+	/*-------END drop down menu------------------*/
+
+/*---------------END Style header--------------------*/
+/*---07---*/
+/*---------------Style Sections----------------------*/
+	/*-------Style preContainer------------------*/
+#section0 .middle
+	{ padding-bottom:50px;}
+
+.contentContainer
+	{
+	display:flex;
+	justify-content:center;
+	width:100%;
+	}
+
+.contentContainer .middle
+	{
+	width:800px;
+	padding:20px;
+	}
+	/*-------END Style preContainer--------------*/	
+	/*-------image layout------------------------*/
+#imgContainer,
+#imgContainer2
+	{
+	display:flex;
+	flex-direction:row;
+	width:100%;
+	padding:20px 0;
+	overflow:hidden;
+	}
+
+#imgContainer2 	/*---wide image---*/
+	{
+	flex-direction:row;
+	flex-wrap:wrap;
+	}
+
+#pImage
+	{
+	width:auto;
+	height:300px;
+	padding-right:10px;
+	object-fit:contain;
+	}
+
+#pImage img
+	{
+	width:auto;
+	height:100%;
+	}
+
+#imageCaption
+	{
+	width:300px;
+	align-self:flex-end;
+	}
+
+#imageCaption2		/*---for longer text---*/
+	{
+	align-self:flex-end;
+	text-align:justify;
+	flex:1;
+	}
+
+
+#pImage2
+	{
+	width:auto;
+	height:auto;
+	padding-right:0;
+	}
+#pImage2 img
+	{
+	width:100%;
+	height:auto;
+	}
+
+#pImageShen
+	{
+	display:block;
+	width:500px;
+	height:250px;
+	overflow:hidden;
+	margin-right:10px;
+	background-size:500%;
+	position:relative;
+	background-position-x:35%;
+	background-position-y:20%;
+	}
+
+#pImage150_250
+	{
+	display:block;
+	width:150px;
+	height:250px;
+	background-repeat:no-repeat;
+	overflow:hidden;
+	margin-right:10px;
+	background-size:1500%;
+	position:relative;
+	}
+
+#pImage211_211
+	{
+	display:block;
+	width:211px;
+	height:211px;
+	background-repeat:no-repeat;
+	overflow:hidden;
+	position:relative;
+	}
+
+
+#pImage250_250
+	{
+	display:block;
+	width:250px;
+	height:250px;
+	background-repeat:no-repeat;
+	overflow:hidden;
+	margin-right:10px;
+	position:relative;
+	}
+
+
+
+
+	/*-------END image layout--------------------*/
+	/*-------symbol list-------------------------*/
+#listLink
+	{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	padding:0;
+	}
+
+#listLink li
+	{
+	width:50%;
+	height:50px;
+	display:flex;
+	align-items:center;
+	}
+
+#iconBox
+	{
+	height:50px;
+	width:50px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	font-weight:800;
+	font-size:3.5rem;
+	padding-right:20px;
+	}
+
+	/*-------END symbol list---------------------*/
+	/*-------sumBox -----------------------------*/
+.sumBox
+	{
+	display:block;
+	height:auto;
+	width:300px;
+	background-color:silver;
+	float:right;
+	margin-left:10px;
+	margin-bottom:10px;
+	padding:10px;
+	}
+	/*-------END sumBox -------------------------*/
+	/*-------summaryTable -----------------------*/
+.summaryTable1
+	{
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	flex-wrap:nowrap;
+	justify-content:space-between;
+	}
+
+.ST1
+	{
+	background-color:silver;
+	border-radius:5px;
+	padding:5px;
+	margin-bottom:5px;
+	}
+
+#arrowDown
+	{
+	position:relative;
+	float:left;
+	bottom:-10px;
+	scale:5;
+	}
+
+	/*-------END summaryTable -------------------*/
+
+/*---------------END Style Sections------------------*/
+/*---08---*/
+/*---------------Style watermark---------------------*/
+/*---------------END Style watermark-----------------*/
+/*---09---*/
+/*---------------Style middle------------------------*/
+/*---------------END Style middle--------------------*/
+/*---10---*/
+/*---------------Style timeline----------------------*/
+.divContainer
+	{
+	display:flex;
+	flex-direction:row;
+	width:760px;
+	margin-bottom:10px;
+	}
+
+.timeContainer
+	{
+	width:760px;
+	overflow:auto;
+	margin-bottom:10px;
+	}
+.timeContainer2,
+.timeContainer3
+	{
+	width:500px;
+	overflow-x:auto;
+	overflow-y:hidden;
+	}
+
+#timeIframe
+	{
+	width:3000px;
+	height:425px;
+	border:none;
+	background-color:none;
+	overflow:hidden;
+	}
+
+#timeIframe200
+	{
+	width:3000px;
+	height:200px;
+	border:none;
+	background-color:none;
+	overflow:auto;
+	}
+
+
+#timeIframe2,
+#timeIframe3
+	{
+	width:3000px;
+	height:-webkit-fill-available;
+	border:none;
+	background-color:none;
+	overflow:auto;
+	}
+#timeDescription
+	{
+	width:250px;
+	height:auto;
+	display:block;
+	border: 1px gray solid;
+	margin-left:10px;
+	}
+
+
+/*---------------END Style timeline------------------*/
+/*---11---*/
+/*---------------Style colors------------------------*/
+	/*-------Style colors web site name + text---*/
+
+h,
+h1,
+h6,
+.middle >p,
+.middle li a,
+#section0 h4,
+#section0 h5,
+#backLink a,
+.sumBox ul li
+	{color:#2F2F30;}
+
+h:hover
+	{color:#BF2D32;}	
+
+
+.contentContainer .middle >p,
+.contentContainer h4,
+.contentContainer h5,
+.middle li,
+#pImage p,
+blockquote
+	{color:gray;}
+
+.Hieroglyphs,
+#iconBox
+	{ color:black;}
+
+
+#sumList li
+	{color:#2F2F30;}
+
+		/*-------image layout----------------*/
+#imageCaption p,
+.summaryTable1 .ST1  ul li
+	{
+	color:black;
+	}
+		/*-------END image layout------------*/
+	/*-------END Style colors website name-------*/
+	/*-------page colors-main page---------------*/
+#section0	{ background-color:#01B0BB;}
+
+	/*-------END page colors-main page-----------*/
+	/*-------link-Topics-------------------------*/
+#backLink a:hover
+	{ color:#BF2D32;}
+
+	/*-------END link-Topics---------------------*/
+	/*-------drop down menu----------------------*/
+	/*-------drop down menu----------------------*/
+.dropMenuIcon div
+	{background-color:#2F2F30;}
+
+.dropMenuContent a
+	{background-color:#BF2D32;}
+
+.dropMenuIcon:hover ~ #horbar
+	{background-color:green;}
+	/*-------END drop down menu------------------*/
+	/*-------time iframe-------------------------*/
+#timeIframe,
+#timeIframe2,
+#timeIframe3,
+#timeIframe200
+	{ background-color: #F6F0E2 }
+	/*-------END time iframe---------------------*/
+/*---------------END Style colors--------------------*/
+/*---12---*/
+/*---------------Style tables------------------------*/
+.sumTable
+	{ 
+	width:100%;
+	background-color:#B2B8A3;
+	border-collapse:collapse;
+	margin-bottom:50px;
+	}
+
+.sumTable th
+	{
+	font-size: 1.3rem;
+	line-height: 1.5;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	}
+
+.sumTable td
+	{ 
+	width:25%;
+	padding:2px 5px;
+	}
+
+.sumTable .sideHeader
+	{
+	text-align:left;
+	padding-left:10px;
+	width:25%;
+	}
+
+.sumTable td
+	{
+	font-size: 1.3rem;
+	line-height: 1.5;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	}
+
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+
+
