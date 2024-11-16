@@ -187,6 +187,13 @@ blockquote
 	font-weight:350;
 	text-align:justify;
 	}
+
+p12
+	{
+	font-size: 1.2rem;
+	line-height: 1.5;
+	font-weight:350;
+	}
 	/*-------END Custom Font size----------------*/
 .material-symbols-outlined
 	{
@@ -563,6 +570,11 @@ li .dropMenuContent a:hover
 	{background-color:#B20000;}
 
 	/*-------END drop down menu------------------*/
+	/*-------black text color--------------------*/
+p12
+	{ color:black;}
+
+	/*-------END black text color----------------*/
 /*---------------END Style colors--------------------*/
 /*---12---*/
 
