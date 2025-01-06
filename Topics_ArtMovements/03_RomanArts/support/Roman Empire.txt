@@ -8,6 +8,7 @@ By 285, the empire had grown too vast to be ruled from the central government at
 The Early Dynasties
 Following the Battle of Actium in 31 BCE, Gaius Octavian Thurinus, Julius Caesar's nephew and heir, became the first emperor of Rome and took the name Augustus Caesar. Although Julius Caesar is often regarded as the first emperor of Rome, this is incorrect; he never held the title `Emperor' but, rather, `Dictator', a title the Senate could not help but grant him, as Caesar held supreme military and political power at the time. In contrast, the Senate willingly granted Augustus the title of emperor, lavishing praise and power on him because he had destroyed Rome's enemies and brought much-needed stability.
 
+Augustus: "I found Rome a city of clay but left it a city of marble."
 Augustus ruled the empire from 27 BCE until 14 CE when he died. In that time, as he said himself, he "found Rome a city of clay but left it a city of marble." Augustus reformed the laws of the city and, by extension, the empire's, secured Rome's borders, initiated vast building projects (carried out largely by his faithful general Agrippa (l. 63-12 BCE), who built the first Pantheon), and secured the empire a lasting name as one of the greatest, if not the greatest, political and cultural powers in history. The Pax Romana (Roman Peace), also known as the Pax Augusta, which he initiated, was a time of peace and prosperity hitherto unknown and would last over 200 years.
 
 Following Augustus' death, power passed to his heir, Tiberius (r. 14-37), who continued many of the emperor's policies but lacked the strength of character and vision which so defined Augustus. This trend would continue, more or less steadily, with the emperors who followed: Caligula (r. 37-41), Claudius (r. 41-54), and Nero (r. 54-68). These first five rulers of the empire are referred to as the Julio-Claudian Dynasty for the two family names they descended from (either by birth or through adoption), Julius and Claudius.
@@ -21,7 +22,7 @@ Vitellius proved no more fit to rule than Galba had been, as he almost instantly
 
 Vespasian founded the Flavian Dynasty which was characterized by massive building projects, economic prosperity, and expansion of the empire. Vespasian's reign was prosperous as evidenced by his building projects which included initial construction of the Flavian Amphitheatre (the famous Coliseum of Rome) which his son Titus (r. 79-81) would complete. Titus' early reign saw the eruption of Mount Vesuvius in 79 which buried the cities of Pompeii and Herculaneum.
 
-
+Roman Emperor Domitian, Louvre
 Ancient sources are universal in their praise for his handling of this disaster as well as the great fire of Rome in 80. Titus died of a fever in 81 and was succeeded by his brother Domitian (r. 81-96). Domitian expanded and secured the boundaries of Rome, repaired the damage to the city caused by the great fire, continued the building projects initiated by his brother, and improved the economy of the empire. Even so, his autocratic methods and policies made him unpopular with the Roman Senate, and he was assassinated in 96.
 
 The Five Good Emperors
@@ -32,28 +33,24 @@ Trajan (r. 98-117)
 Hadrian (r. 117-138)
 Antoninus Pius (r. 138-161)
 Marcus Aurelius (r. 161-180)
-
 Under their leadership, the Roman Empire grew stronger, more stable, and expanded in size and scope. Lucius Verus and Commodus are the last two of the Nervan-Antonin Dynasty. Verus was co-emperor with Marcus Aurelius until his death in 169 and seems to have been fairly ineffective. Commodus (r. 180-192), Aurelius' son and successor, was one of the most disgraceful emperors Rome ever saw and is universally depicted as indulging himself and his whims at the expense of the empire. He was strangled by his wrestling partner in his bath in 192, ending the Nervan-Antonin Dynasty and raising the prefect Pertinax (who most likely engineered Commodus' assassination) to power.
 
 The Severan Dynasty
-
 Pertinax governed for only three months before he was assassinated. He was followed, in rapid succession, by four others in the period known as The Year of the Five Emperors, which culminated in the rise of Septimus Severus to power. Severus (r. 193-211), founded the Severan Dynasty, defeated the Parthians, and expanded the empire. His campaigns in Africa and Britain were extensive and costly and would contribute to Rome's later financial difficulties. He was succeeded by his sons Caracalla and Geta, until Caracalla had his brother murdered.
 
 Roman Beach Attack
-
 Caracalla ruled until 217, when he was assassinated by his bodyguard. It was under Caracalla's reign that Roman citizenship was expanded to include all free men within the empire. This law was said to have been enacted as a means of raising tax revenue, simply because, after its passage, there were more people the central government could tax. The Severan Dynasty continued, largely under the guidance and manipulation of Julia Maesa (referred to as "empress"), until the assassination of Alexander Severus (r. 222-235) in 235 which plunged the empire into the chaos known as The Crisis of the Third Century (lasting from 235-284).
 
 Two Empires: East & West
 This period, also known as The Imperial Crisis, was characterized by constant civil war, as various military leaders fought for control of the empire. The crisis has been further noted by historians for widespread social unrest, economic instability (fostered, in part, by the devaluation of Roman currency by the Severans), and, finally, the dissolution of the empire which broke into three separate regions. The empire was reunited by Aurelian (270-275) whose policies were further developed and improved upon by Diocletian who established the Tetrarchy (the rule of four) to maintain order throughout the empire.
 
 The Imperial Crisis was characterized by constant civil war, as various military leaders fought for control of the empire.
-
 Even so, the empire was still so vast that Diocletian divided it in half in c. 285 to facilitate more efficient administration by elevating one of his officers, Maximian (r. 286-305) to the position of co-emperor. In so doing, he created the Western Roman Empire and the Eastern Roman Empire (also known as the Byzantine Empire). Since a leading cause of the Imperial Crisis was a lack of clarity in succession, Diocletian decreed that successors must be chosen and approved from the outset of an individual's reign. Two of these successors were the generals Maxentius and Constantine. Diocletian voluntarily retired from rule in 305, and the tetrarchy dissolved as rival regions of the empire vied with each other for dominance. Following Diocletian's death in 311, Maxentius and Constantine plunged the empire again into civil war.
 
 Constantine & Christianity
 In 312, Constantine defeated Maxentius at the Battle of the Milvian Bridge and became sole emperor of both the Western and Eastern Empires (ruling from 306-337 but holding supreme power 324-307). Believing that Jesus Christ was responsible for his victory, Constantine initiated a series of laws such as the Edict of Milan (313) which mandated religious tolerance throughout the empire and, specifically, tolerance for the faith which came to known as Christianity.
 
-
+The Colossus of Constantine
 In the same way that earlier Roman emperors had claimed a special relationship with a deity to augment their authority and standing (Caracalla with Serapis, for example, or Diocletian with Jupiter), Constantine chose the figure of Jesus Christ. At the First Council of Nicea (325), he presided over the gathering to codify the faith and decide on important issues such as the divinity of Jesus and which manuscripts would be collected to form the book known today as The Bible. He stabilized the empire, revalued the currency, and reformed the military, as well as founding the city he called New Rome on the site of the former city of Byzantium (modern-day Istanbul) which came to be known as Constantinople.
 
 
@@ -64,10 +61,9 @@ His three sons, Constantine II, Constantius II, and Constans divided the Roman E
 As a Neo-Platonic philosopher, Julian rejected Christianity and blamed the faith, and Constantine's advocacy for it, for the decline of the empire. While officially proclaiming a policy of religious tolerance, Julian systematically removed Christians from influential government positions, banned the teaching and spread of the religion, and barred Christians from military service. His death, while on campaign against the Persians, ended the dynasty Constantine had begun. He was the last pagan emperor of Rome and came to be known as `Julian the Apostate' for his opposition to Christianity.
 
 Byzantine Empire c. 460 CE
-
 After the brief rule of Jovian, who re-established Christianity as the dominant faith of the empire and repealed Julian's various edicts, the responsibility of emperor fell to Theodosius I. Theodosius I (r. 379-395) took Constantine's and Jovian's religious reforms to their natural ends, outlawed pagan worship throughout the empire, closed the schools and universities, and converted pagan temples into Christian churches after proclaiming Christianity Rome's state religion in 380.
 
-The unity of social duties & religious belief which paganism provided was severed by the institution of Christianity.
+
 
 It was during this time that Plato's famous Academy was closed by Theodosius' decree. Many of his reforms were unpopular with both the Roman aristocracy and the common people who held to the traditional values of pagan practice. The unity of social duties and religious belief which paganism provided was severed by the institution of a religion which removed the gods from the earth and human society and proclaimed only one God who ruled from the heavens.
 
@@ -103,9 +99,6 @@ Apartment complexes (known as insula), public toilets, locks and keys, newspaper
 The Romans were adept at borrowing from, and improving upon, those inventions or concepts they found among the indigenous populace of the regions they conquered. It is therefore difficult to say what is an "original" Roman invention and what is an innovation on a pre-existing concept, technique, or tool. It can safely be said, however, that the Roman Empire left an enduring legacy which continues to affect the way in which people live in the present day.
 
 
-
-Further
-Julius Caesar
-Early Christian Art (Britannica)
-Romance Language
-Roman Calendar
+Image Gallery
+Ancient Rome in 8 Infographics
+The culture of ancient Rome intricately blended laws, military values, and cultural innovations to lay the groundwork for a civilization that endured...
