@@ -126,17 +126,20 @@ h4, h5, h6
 	line-height: 1.6;
 	font-weight:350;
 	}
-#sumList
+#sumList,
+#imageSlideContainerText #bulletListLink
 	{ list-style-type:square; }
 
 		/*---END summary page----------------*/
 		/*---body text-----------------------*/
 .contentContainer .middle >p,
-.contentContainer .middle li
+.contentContainer .middle li,
+#imageSlideContainerText #bulletListLink li
 	{
 	font-size: 1.8rem;
 	line-height: 1.5;
 	font-weight:350;
+	padding-bottom:5px;
 	}
 
 		/*---END body text-------------------*/
