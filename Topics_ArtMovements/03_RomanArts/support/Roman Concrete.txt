@@ -1,6 +1,21 @@
 Roman Concrete
 https://opentextbooks.clemson.edu/sciencetechnologyandsociety/chapter/roman-concrete/
 
+*****
+
+<b>Composition and Self-Healing:</b> Roman concrete was made from aggregate (stones, terra cotta, or tiling), mortar (lime, water, and ash or sand), and facing. It had self-healing properties, reacting with water to create stronger bonds when damaged.
+
+<b>Engineering Marvels:</b> The use of Roman concrete enabled the construction of durable structures like harbors, aqueducts, roads, sewers, and iconic buildings such as the Pantheon and the Colosseum.
+
+<b>Impact on Society:</b> Roman concrete improved infrastructure, increased trade, and enhanced daily life across the Roman Empire. It also influenced modern scientists and engineers to develop better, more sustainable building materials.
+
+<b>Technological Advancements:</b> The Romans' advanced knowledge of chemistry and materials science allowed them to create concrete that could set and harden underwater, revolutionizing harbor construction and enabling the rise of a global empire.
+
+<b>Legacy:</b> The durability and longevity of Roman concrete have left a lasting impact on modern construction practices, inspiring ongoing research into sustainable building materials.
+
+Fascinating stuff, right? If you have any specific questions or want to dive deeper into any of these points, just let me know!
+
+*****
 
 Introduction
 History contains many references to ancient concrete, which turns out to have been exceptionally strong and durable.
@@ -11,7 +26,7 @@ By analyzing the mineral components of the cement taken from the Pozzuoli Bay br
 
 By comparison, Portland cement (the most common modern concrete blend) lacks the lime-volcanic ash combination and doesn’t bind well compared with Roman concrete. Portland cement, in use for almost two centuries, tends to wear particularly quickly in seawater, with a service life of fewer than 50 years. In addition, the production of Portland cement produces a sizable amount of carbon dioxide, one of the most damaging of the so-called greenhouse gases. According to Paulo Monteiro, a professor of civil and environmental engineering at the University of California, Berkeley, and the lead researcher of the team analyzing the Roman concrete, manufacturing the 19 billion tons of Portland cement we use every year “accounts for 7 percent of the carbon dioxide that industry puts into the air.”
 
-n addition to being more durable than Portland cement, argue, Roman concrete also appears to be more sustainable to produce. To manufacture Portland cement, carbon is emitted by the burning fuel used to heat a mix of limestone and clays to 1,450 degrees Celsius (2,642 degrees Fahrenheit) as well as by the heated limestone (calcium carbonate) itself. To make their concrete, Romans used much less lime and made it from limestone baked at 900 degrees Celsius (1,652 degrees Fahrenheit) or lower, a process that used up much less fuel.
+In addition to being more durable than Portland cement, argue, Roman concrete also appears to be more sustainable to produce. To manufacture Portland cement, carbon is emitted by the burning fuel used to heat a mix of limestone and clays to 1,450 degrees Celsius (2,642 degrees Fahrenheit) as well as by the heated limestone (calcium carbonate) itself. To make their concrete, Romans used much less lime and made it from limestone baked at 900 degrees Celsius (1,652 degrees Fahrenheit) or lower, a process that used up much less fuel.
 
 The researchers’ analysis of Roman concrete sheds light on existing modern concrete blends that have been used as more environmentally friendly partial substitutes for Portland cement, such as volcanic ash or fly ash from coal-burning power plants. Monteiro and his colleagues also suggest that adopting materials and production techniques used by the ancient Romans could produce longer-lasting concrete that generates less carbon dioxide. Monteiro estimates that pozzolan, which can be found in many parts of the world, could potentially replace “40 percent of the world’s demand for Portland cement.” 
 
@@ -23,7 +38,7 @@ Stretching from England to parts of Africa and the Middle East, the Roman Empire
 Ancient Roman concrete famously known for its longevity and durability serves as a reminder how science, technology, and society intersect. The concrete composing of aggregate, mortar, facing, and other elements allowed the concrete to repair itself and grow stronger over time, something modern concrete is not able to do. This shows advanced knowledge of chemistry and materials science. Roman concrete also enabled the construction of famous structures such as the Pantheon and the Colosseum, aqueducts, and harbors demonstrating engineering and architectural practices showing their technological advancements. The use of this material also impacted society as it improved infrastructure, increased trade, and improved daily life across the empire. Not only has the use of concrete allowed for Rome to prosper and influence many aspects of life to this day, but Roman concrete also inspires modern scientists and engineers to create better, more sustainable, building materials.
 
 Harbors
-Before Rome’s concrete, harbors were built were only built in locations with advantageous geography or topography. The Romans revolutionized this practice by developing concrete that was able to set and harden underwater. This allowed for Rome to build more harbors in any location they deemed desirable. This allowed for a connection of ports and harbors between parts of Northern Africa to parts of Europe as well as the Middle East. With the now grand use and widespread construction of new harbors there was a connection between the world and the rise of the first global empire and .
+Before Rome’s concrete, harbors were built were only built in locations with advantageous geography or topography. The Romans revolutionized this practice by developing concrete that was able to set and harden underwater. This allowed for Rome to build more harbors in any location they deemed desirable. This allowed for a connection of ports and harbors between parts of Northern Africa to parts of Europe as well as the Middle East. With the now grand use and widespread construction of new harbors there was a connection between the world and the rise of the first global empire and economy.
  
 
 Aqueducts
