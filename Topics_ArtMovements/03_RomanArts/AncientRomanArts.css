@@ -622,6 +622,46 @@ blockquote
 	{
 	width: 15%;
 	}
+/*---------------Style summarty tables---------------*/
+.summaryTable
+	{ 
+	width:100%;
+	background-color:#B2B8A3;
+	border-collapse:collapse;
+	margin-bottom:50px;
+	}
+
+.summaryTable th
+	{
+	font-size: 1.3rem;
+	line-height: 1.5;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	}
+
+.summaryTable td
+	{ 
+	padding:2px 5px;
+	}
+
+.summaryTable .sideHeader
+	{
+	text-align:left;
+	padding-left:10px;
+	width:15%;
+	}
+
+.summaryTable td
+	{
+	font-size: 1.3rem;
+	line-height: 1.5;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	}
+
+
+
+/*---------------------------------------------------*/
 
 /*---------------------------------------------------*/
 /*---------------------------------------------------*/
