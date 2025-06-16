@@ -1,0 +1,695 @@
+/*---------------RESPONSIVE DESIGN-------------------*/
+/* iphone14 portrait ------------------------------ */
+@media only screen
+and (min-width: 320px) 
+and (max-width: 528px) 
+and (orientation : portrait)
+{
+.header, .dropMenu
+	{ height:40px;}
+.header
+	{
+	display:flex;
+	flex:1;
+	min-width:220px;
+	}
+h	/*---website name---*/	
+	{
+	font-size: 2rem;
+	font-weight:900;
+	}
+
+.header img /*---logo---*/
+	{
+	width:35px;
+	top:2px;
+	}
+
+.dropMenu
+	{
+	display:flex;
+	flex:1;
+	min-width:30px;
+	}
+
+.dropMenuIcon div
+	{
+	height:2px;
+	margin:4px 0;
+	}
+
+.container
+	{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	align-content:flex-start;
+	}
+h1
+	{
+	font-size: 2.4rem;
+	line-height:1.25;
+	}
+
+h4
+	{
+	font-size: 2.0rem;
+	line-height:1.25;
+	}
+h5
+	{
+	font-size: 1.5rem;
+	font-weight:600;
+	}
+
+.middle >p,
+.contentContainer .middle >p,
+.contentContainer .middle li,
+blockquote 
+	{
+	font-size: 1.5rem;
+	line-height: 1.5;
+	text-align:justify;
+	}
+
+#topicsList2 li,
+#topicsList li
+	{ margin: 5px;}
+
+#topicsList li
+	{ flex-grow:1;}
+
+#topicsList2 a,
+#topicsList a
+	{
+	margin: 0;
+	font-size:1.5rem;
+	}
+
+/*---slides---*/
+.fp-overflow
+	{
+	align-items:flex-start;
+	}
+#slideContainer
+	{ padding:10px 40px 20px 40px;}
+
+#slideContainer h2,
+#imageSlideContainer h2
+	{
+	font-size:2.4rem;
+	font-weight:500;
+	}
+#slideContainer p,
+#imageSlideContainer p
+	{
+	font-size:1.5rem;
+	font-weight:350;
+	text-align:justify;
+	width:100%;
+	}
+
+
+
+
+.contentContainer .middle
+	{
+	width:320px;
+	}
+		/*-------image layout----------------*/
+#imgContainer
+	{
+	flex-direction:column;
+	align-items:center;
+	}
+
+#imgContainer2	/*---wide image---*/
+	{
+	width:100%;
+	padding:20px 0;
+	justify-content:space-between;
+	}
+
+
+#imgContainer2 #pImage150_250
+	{ width:45%;}
+
+#pImage150_250
+	{ margin-right:0;}
+
+#pImage
+	{
+	height:200px;
+	width:auto;
+	margin-right:auto;
+	margin-left:auto;
+	}
+
+#pImage img
+	{
+	height:200px;
+	width:auto;
+	max-width:100%;
+	}
+
+#pImageShen
+	{
+	width:100%;
+	}
+
+.sumBox
+	{ width:280px;}
+
+		/*-------image layout----------------*/
+.divContainer,
+.timeContainer
+	{ display:none; }
+
+}
+
+/* iphone14 landscape ------------------------------ */
+@media only screen
+and (min-width: 216px) 
+and (max-width: 615px) 
+and (orientation : landscape) 
+{
+.header, .dropMenu
+	{ height:40px;}
+.header
+	{
+	display:flex;
+	flex:1;
+	min-width:220px;
+	}
+h	/*---website name---*/	
+	{
+	font-size: 2rem;
+	font-weight:900;
+	}
+
+.header img /*---logo---*/
+	{
+	width:35px;
+	top:2px;
+	}
+
+.dropMenu
+	{
+	display:flex;
+	flex:1;
+	min-width:30px;
+	}
+
+.dropMenuIcon div
+	{
+	width:20px;
+	height:2px;
+	margin:4px 0;
+	}
+
+.container
+	{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	align-content:flex-start;
+	}
+h1
+	{
+	font-size: 2.4rem;
+	line-height:1.25;
+	}
+
+h4
+	{
+	font-size: 2.0rem;
+	line-height:1.25;
+	}
+h5
+	{
+	font-size: 1.5rem;
+	font-weight:600;
+	}
+
+.middle >p,
+.contentContainer .middle >p,
+.contentContainer .middle li,
+blockquote 
+	{
+	font-size: 1.5rem;
+	line-height: 1.5;
+	text-align:justify;
+	}
+#topicsList2 li,
+#topicsList li
+	{ margin: 5px;}
+
+#topicsList li
+	{ flex-grow:1;}
+
+#topicsList2 a,
+#topicsList a
+	{
+	margin: 0;
+	font-size:1.5rem;
+	}
+
+/*---slides---*/
+.fp-overflow
+	{
+	align-items:flex-start;
+	}
+
+#imageSlideContainer
+	{
+	flex-direction:row;
+	flex-wrap:nowrap
+	}
+
+#imageSlideContainer #imgContainer
+	{ padding-top:85px;}
+
+#slideContainer,
+#imageSlideContainer
+	{ padding:10px 50px 20px 50px;}
+
+#slideContainer h2,
+#imageSlideContainer h2
+	{
+	font-size:2.4rem;
+	font-weight:500;
+	}
+#slideContainer p,
+#imageSlideContainer p
+	{
+	font-size:1.5rem;
+	font-weight:350;
+	text-align:justify;
+	width:100%;
+	}
+.fp-arrow
+	{ scale:60%;}
+
+		/*-------image layout----------------*/
+#pImage
+	{
+	height:auto;
+	width:200px;
+	overflow:clip;
+	display:flex;
+	justify-content:center;
+	}
+
+#pImage img
+	{
+	height:auto;
+	width:200px;
+	}
+
+#imageCaption,
+#imageCaption2
+	{ padding-left:10px;}
+		/*-------image layout----------------*/
+.divContainer,
+.timeContainer
+	{ display:none; }
+
+}
+
+
+/* iphone14 landscape -edge browser----------------- */
+@media only screen
+and (min-width: 248px) 
+and (max-width: 693px) 
+and (orientation : landscape)
+{
+.header, .dropMenu
+	{ height:40px;}
+.header
+	{
+	display:flex;
+	flex:1;
+	min-width:220px;
+	}
+h	/*---website name---*/	
+	{
+	font-size: 2rem;
+	font-weight:900;
+	}
+
+.header img /*---logo---*/
+	{
+	width:35px;
+	top:2px;
+	}
+
+.dropMenu
+	{
+	display:flex;
+	flex:1;
+	min-width:30px;
+	}
+
+.dropMenuIcon div
+	{
+	width:20px;
+	height:2px;
+	margin:4px 0;
+	}
+
+.container
+	{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	align-content:flex-start;
+	}
+h1
+	{
+	font-size: 2.4rem;
+	line-height:1.25;
+	}
+
+h4
+	{
+	font-size: 2.0rem;
+	line-height:1.25;
+	}
+h5
+	{
+	font-size: 1.5rem;
+	font-weight:600;
+	}
+
+.middle >p,
+.contentContainer .middle >p,
+.contentContainer .middle li,
+blockquote 
+	{
+	font-size: 1.5rem;
+	line-height: 1.5;
+	text-align:justify;
+	}
+#topicsList2 li,
+#topicsList li
+	{ margin: 5px;}
+
+#topicsList li
+	{ flex-grow:1;}
+
+#topicsList2 a,
+#topicsList a
+	{
+	margin: 0;
+	font-size:1.5rem;
+	}
+
+/*---slides---*/
+.fp-overflow
+	{
+	align-items:flex-start;
+	}
+#slideContainer,
+#imageSlideContainer
+	{ padding:10px 50px 20px 50px;}
+
+#slideContainer h2,
+#imageSlideContainer h2
+	{
+	font-size:2.4rem;
+	font-weight:500;
+	}
+#slideContainer p,
+#imageSlideContainer p
+	{
+	font-size:1.5rem;
+	font-weight:350;
+	text-align:justify;
+	width:100%;
+	}
+.fp-arrow
+	{ scale:60%;}
+
+		/*-------image layout----------------*/
+#pImage
+	{
+	height:auto;
+	width:200px;
+	overflow:clip;
+	display:flex;
+	justify-content:center;
+	}
+
+#pImage img
+	{
+	height:auto;
+	width:200px;
+	}
+
+#imageCaption,
+#imageCaption2
+	{ padding-left:10px;}
+		/*-------image layout----------------*/
+.divContainer,
+.timeContainer
+	{ display:none; }
+
+}
+
+
+/* Screen max width 557px--------------------------- */
+@media only screen
+and (max-width: 557px) 
+{
+.header, .dropMenu
+	{ height:40px;}
+.header
+	{
+	display:flex;
+	flex:1;
+	min-width:220px;
+	}
+h	/*---website name---*/	
+	{
+	font-size: 2rem;
+	font-weight:900;
+	}
+
+.header img /*---logo---*/
+	{
+	width:35px;
+	top:2px;
+	}
+
+.dropMenu
+	{
+	display:flex;
+	flex:1;
+	min-width:30px;
+	}
+
+.dropMenuIcon div
+	{
+	width:20px;
+	height:2px;
+	margin:4px 0;
+	}
+
+.container
+	{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	align-content:flex-start;
+	}
+h1
+	{
+	font-size: 2.4rem;
+	line-height:1.25;
+	}
+
+h4
+	{
+	font-size: 2.0rem;
+	line-height:1.25;
+	}
+h5
+	{
+	font-size: 1.5rem;
+	font-weight:600;
+	}
+
+.middle >p,
+.contentContainer .middle >p,
+.contentContainer .middle li,
+blockquote 
+	{
+	font-size: 1.5rem;
+	line-height: 1.5;
+	text-align:justify;
+	}
+#topicsList2 li,
+#topicsList li
+	{ margin: 5px;}
+
+#topicsList li
+	{ flex-grow:1;}
+
+#topicsList2 a,
+#topicsList a
+	{
+	margin: 0;
+	font-size:1.5rem;
+	}
+
+/*---slides---*/
+.fp-overflow
+	{
+	align-items:flex-start;
+	}
+#slideContainer,
+#imageSlideContainer
+	{ padding:10px 50px 20px 50px;}
+
+#slideContainer h2,
+#imageSlideContainer h2
+	{
+	font-size:2.4rem;
+	font-weight:500;
+	}
+#slideContainer p,
+#imageSlideContainer p
+	{
+	font-size:1.5rem;
+	font-weight:350;
+	text-align:justify;
+	width:100%;
+	}
+.fp-arrow
+	{ scale:60%;}
+
+		/*-------image layout----------------*/
+.divContainer,
+.timeContainer
+	{ display:none; }
+
+
+
+}
+
+/* Screen max width 521px--------------------------- */
+@media only screen
+and (max-width: 521px) 
+{
+.header, .dropMenu
+	{ height:40px;}
+.header
+	{
+	display:flex;
+	flex:1;
+	min-width:220px;
+	}
+h	/*---website name---*/	
+	{
+	font-size: 2rem;
+	font-weight:900;
+	}
+
+.header img /*---logo---*/
+	{
+	width:35px;
+	top:2px;
+	}
+
+.dropMenu
+	{
+	display:flex;
+	flex:1;
+	min-width:30px;
+	}
+
+.dropMenuIcon div
+	{
+	width:20px;
+	height:2px;
+	margin:4px 0;
+	}
+
+.container
+	{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	align-content:flex-start;
+	}
+h1
+	{
+	font-size: 2.4rem;
+	line-height:1.25;
+	}
+
+h4
+	{
+	font-size: 2.0rem;
+	line-height:1.25;
+	}
+h5
+	{
+	font-size: 1.5rem;
+	font-weight:600;
+	}
+
+.middle >p,
+.contentContainer .middle >p,
+.contentContainer .middle li,
+blockquote 
+	{
+	font-size: 1.5rem;
+	line-height: 1.5;
+	text-align:justify;
+	}
+#topicsList2 li,
+#topicsList li
+	{ margin: 5px;}
+
+#topicsList li
+	{ flex-grow:1;}
+
+#topicsList2 a,
+#topicsList a
+	{
+	margin: 0;
+	font-size:1.5rem;
+	}
+
+/*---slides---*/
+.fp-overflow
+	{
+	align-items:flex-start;
+	}
+#slideContainer,
+#imageSlideContainer
+	{ padding:10px 50px 20px 50px;}
+
+#slideContainer h2,
+#imageSlideContainer h2
+	{
+	font-size:2.4rem;
+	font-weight:500;
+	}
+#slideContainer p,
+#imageSlideContainer p
+	{
+	font-size:1.5rem;
+	font-weight:350;
+	text-align:justify;
+	width:100%;
+	}
+.fp-arrow
+	{ scale:60%;}
+		/*-------image layout----------------*/
+.divContainer,
+.timeContainer
+	{ display:none; }
+
+}

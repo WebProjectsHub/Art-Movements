@@ -1,0 +1,372 @@
+/*---------------Color style------------------------*/
+/*------https://coolors.co/palette/dfd3c3-f0ece3-f4c7ab-b2b8a3-5f8b7e----*/
+/*------https://coolors.co/palette/0015ff-ff00a1-90fe00-8400ff-00fff7-ff7300	----*/
+/*------https://coolors.co/visualizer/0015ff-ff00a1-90fe00-8400ff-00fff7-ff7300	----*/
+/*------
+1. html and body height and width
+2. required
+3. link style
+4. general text size adjustment
+5. font style and sizes
+	- font styles
+	- font size
+	- custom font size
+		- middle >p
+6. header
+	- 1st page header
+	- menu header
+	- dropmenu
+		- container
+		- icon
+		- list
+		- contents
+		- contents anim
+7. sections
+	- pre-container
+	- container
+8. watermark
+9. middle
+10. xxxx
+11. colors
+
+-------*/
+/*---01---*/
+/*---------------set html height to full page--------*/
+/*---------------END set html height to full page----*/
+/*---02---*/
+/*---------------Req---------------------------------*/
+/*---------------END Req-----------------------------*/
+/*---03---*/
+/*---------------Style the links---------------------*/
+	/*-------Related button----------------------*/
+.middle h1 a:hover
+	{
+	text-decoration:underline;
+	}
+
+.middle li a:hover
+	{
+	text-decoration:underline;
+	font-weight:bold;
+	color:blue;
+	}
+
+#topicsList li a:hover,
+#topicsList2 li a:hover
+	{ text-decoration:none;}
+
+#topicsList a,
+#topicsList2 a
+	{
+	display:block;
+	width:100%;
+	border-radius:5px;
+	margin: 10px 0;
+	padding:5px;
+	text-align:center;
+	border-color:black;
+	border-width:1px;
+	}
+
+.middleLeft h5 a:hover,
+#imageSlideContainerText h5 a:hover
+	{text-decoration:underline;}
+
+#imageSlideContainerText h6
+	{
+	display:flex;
+	flex-direction:row;
+	width:50%;
+	justify-content:space-between;
+	}
+
+
+#imageSlideContainerText h6 a:hover
+	{
+	color:black;
+	font-weight:bold;
+	text-decoration:underline;
+	}
+
+	/*-------END Related button------------------*/
+/*---------------END Style the links-----------------*/
+/*---04---*/
+/*---------------Text size adjustment----------------*/
+/*---------------END Text size adjustment------------*/
+/*---05---*/
+/*---------------Style fonts-------------------------*/
+	/*-------Font styles-------------------------*/
+	/*-------END Font styles---------------------*/
+	/*-------Font size---------------------------*/
+	/*-------END Font size-----------------------*/
+	/*-------Custom Font size--------------------*/
+#topicsList li,
+#topicsList2 li
+	{
+	font-size: 1.8rem;
+	line-height: 1.5;
+	font-weight: 350;
+	}
+
+h1	{font-weight:400;}
+
+#slideContainer p,
+#imageSlideContainerText p
+	{
+	font-size: 1.8rem;
+	font-weight:350;
+	}
+
+#imgDesc
+	{
+	font-size: 1.2rem;
+	font-weight:350;
+	}
+
+.sContainer h5	
+	{
+	text-align:center;
+	text-align: -webkit-center;
+	}
+
+
+table
+	{
+	font-size: 1.5rem;
+	line-height: 1.6;
+	font-weight: 350;
+	}
+
+	/*-------END Custom Font size----------------*/
+/*---------------END Style fonts---------------------*/
+/*---06---*/
+/*---------------Style header------------------------*/
+	/*-------main page 1st page header-----------*/
+	/*-------END main page 1st page header-------*/
+	/*-------standard menu header----------------*/
+	/*-------END standard menu header------------*/
+	/*-------drop down menu----------------------*/
+		/*-------menu container--------------*/
+		/*-------END menu container----------*/
+		/*-------menu icon-------------------*/
+		/*-------END menu icon---------------*/
+		/*-------menu list-------------------*/
+		/*-------menu list-------------------*/
+		/*-------menu contents---------------*/
+			/*----related contents-------*/
+/*-------------*/
+			/*----END related contents---*/
+		/*-------END menu contents-----------*/
+		/*-------menu contents anim----------*/
+		/*-------menu contents anim----------*/
+	/*-------END drop down menu------------------*/
+
+/*---------------END Style header--------------------*/
+/*---07---*/
+/*---------------Style Sections----------------------*/
+	/*-------Style preContainer------------------*/
+	/*-------END Style preContainer--------------*/
+	/*-------Style container---------------------*/
+#topicsList,
+#topicsList2
+	{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	margin:0;
+	padding:10px 0 0 0;
+	}
+
+#topicsList li 
+	{
+	width:48%;
+	}
+		/*---Egyptian gods list--------------*/
+#topicsList2 li 
+	{
+	flex-basis:20%;
+	flex-grow:1;
+	margin:10px 5px;
+	}
+
+
+
+		/*---Egyptian gods list--------------*/
+#slideContainer
+	{ height:unset;}
+
+#imageSlideContainer
+	{ 
+	display:flex;
+	flex-direction:row;
+	align-items:flex-start;
+	padding-top:20px;
+	}
+
+#imageSlideContainerText
+	{
+	display:flex;
+	flex-direction:column;
+	height:auto;
+	}
+
+#imgContainer
+	{
+	padding-top:105px;
+	padding-bottom:0;
+	min-width:150px;
+	margin-left:10px;
+	max-width:150px;
+
+	display:flex;
+	flex-direction:column;
+	}
+
+#pImage150_250
+	{
+	margin:0;
+	min-width:150px;
+	}
+
+#pImage250_250
+	{
+	margin:0;
+	min-width:250px;
+	}
+
+#imhotep .fp-overflow,
+#colors .fp-overflow,
+#tomb .fp-overflow,
+#Egyptomania .fp-overflow,
+#Sphinx .fp-overflow
+	{
+	align-items:unset;
+	}
+
+.sContainer 
+	{
+	width: 800px;
+	display: flex;	
+	justify-content: center;
+	margin: 0 60px;
+	align-items: center;
+	flex-direction: column;
+	}
+
+.fp-overflow
+	{
+	cursor:default;
+	}
+
+	/*-------END Style container-----------------*/
+/*---------------END Style Sections------------------*/
+/*---08---*/
+/*---------------Style watermark---------------------*/
+/*---------------END Style watermark-----------------*/
+/*---09---*/
+/*---------------Style middle------------------------*/
+/*---------------END Style middle--------------------*/
+/*---10---*/
+/*---------------Style table-------------------------*/
+table 
+	{
+	border-collapse: collapse;
+	}
+thead
+	{
+	font-weight:bold;
+	border-bottom: 1px solid black;
+	}
+thead tr
+	{
+	border-bottom: 1px solid black;
+	}
+
+th, td
+	{
+	text-align:left;
+	padding:0 10px 5px 0;
+	}
+thead tr th
+	{
+	text-align:left;
+	}
+
+
+/*---------------Style table-------------------------*/
+/*---11---*/
+/*---------------Style colors------------------------*/
+	/*-------Style colors web site name + text---*/
+	/*-------END Style colors website name-------*/
+	/*-------page colors-main page---------------*/
+#section1
+	{background-color:#90979B;}
+	/*-------END page colors-main page-----------*/
+	/*-------link-Topics-------------------------*/
+#topicsList a,
+#topicsList2 a
+	{
+	background-color:#01455E;
+	color:#F6F0E2;
+	}
+
+#topicsList a:hover,
+#topicsList2 a:hover
+	{ background-color:#BF2D32; }
+
+
+
+
+
+	/*-------END link-Topics---------------------*/
+	/*-------drop down menu----------------------*/
+	/*-------END drop down menu------------------*/
+/*---------------END Style colors--------------------*/
+/*---12---*/
+
+
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*---------------RESPONSIVE DESIGN-------------------*/
+
+
+/* iphone14 portrait ------------------------------ */
+@media only screen
+and (min-width: 320px) 
+and (max-width: 528px) 
+and (orientation : portrait), 
+@media only screen
+and (min-width: 320px) 
+and (max-width: 532px) 
+and (orientation : portrait)
+{
+#imgContainer
+	{
+	padding:20px 0;
+	min-width:210px;
+	max-width:210px;
+	margin:0;
+	}
+}
+
+/* iphone14 landscape ------------------------------ */
+@media only screen
+and (min-width: 216px) 
+and (max-width: 615px) 
+and (orientation : landscape),
+{
+
+}
+
+
+/* iphone14 landscape -edge browser----------------- */
+@media only screen
+and (min-width: 248px) 
+and (max-width: 693px) 
+and (orientation : landscape)
+{
+
+}
+
