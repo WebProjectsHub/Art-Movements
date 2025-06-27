@@ -309,6 +309,10 @@ thead tr th
 	{
 	background-color:#01455E;
 	color:#F6F0E2;
+	height:100%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
 	}
 
 #topicsList a:hover,
