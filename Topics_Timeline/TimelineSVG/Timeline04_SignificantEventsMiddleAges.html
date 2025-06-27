@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Main Timeline</title>
+   <link rel="stylesheet" href="Timeline_svg_V2.css">
+
+   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+html
+	{
+	overflow-y:hidden;
+	overflow-x:hidden;
+	}
+.periodTimeline
+	{
+	top:0px;
+	position:absolute;
+	}
+</style>
+
+</head>
+<html>
+<body>
+<!--------main timeline---------------------->
+<div class="mainTimeline">
+	<svg xmlns="http://www.w3.org/2000/svg" 
+    	xmlns:xlink="http://www.w3.org/1999/xlink"  
+    	width="3200" 
+	height="1000" 
+    	>
+
+    <!-- Main Timeline -->
+
+	<line id="timeBC" x1="0" 	x2="1000" y1="10" y2="10"  stroke-dasharray="10" />	<!-- BC timeline -->
+	<line id="time" x1="1000" 	x2="10000" y1="10" y2="10"/>				<!-- AD timeline -->
+
+
+
+	<g id="timeMarkers">		<!-- Tick marks -->
+	<line x1="000" x2="000" y1="5" y2="15" />
+	<line x1="100" x2="100" y1="5" y2="15" />
+	<line x1="200" x2="200" y1="5" y2="15" />
+	<line x1="300" x2="300" y1="5" y2="15" />
+	<line x1="400" x2="400" y1="5" y2="15" />
+	<line x1="500" x2="500" y1="5" y2="15" />
+	<line x1="600" x2="600" y1="5" y2="15" />
+	<line x1="700" x2="700" y1="5" y2="15" />
+	<line x1="800" x2="800" y1="5" y2="15" />
+	<line x1="900" x2="900" y1="5" y2="15" />
+	</g>
+
+	<line id="BC_AD" x1="1000" x2="1000" y1="5" y2="15" stroke="red" stroke-width="2" />
+
+	<g id="timeMarkers">
+	<line x1="1100" x2="1100" y1="5" y2="15" />
+	<line x1="1200" x2="1200" y1="5" y2="15" />
+	<line x1="1300" x2="1300" y1="5" y2="15" />
+	<line x1="1400" x2="1400" y1="5" y2="15" />
+	<line x1="1500" x2="1500" y1="5" y2="15" />
+	<line x1="1600" x2="1600" y1="5" y2="15" />
+	<line x1="1700" x2="1700" y1="5" y2="15" />
+	<line x1="1800" x2="1800" y1="5" y2="15" />
+	<line x1="1900" x2="1900" y1="5" y2="15" />
+	<line x1="2000" x2="2000" y1="5" y2="15" />
+	<line x1="2100" x2="2100" y1="5" y2="15" />
+	<line x1="2200" x2="2200" y1="5" y2="15" />
+	<line x1="2300" x2="2300" y1="5" y2="15" />
+	<line x1="2400" x2="2400" y1="5" y2="15" />
+	<line x1="2500" x2="2500" y1="5" y2="15" />
+	<line x1="2600" x2="2600" y1="5" y2="15" />
+	<line x1="2700" x2="2700" y1="5" y2="15" />
+	<line x1="2800" x2="2800" y1="5" y2="15" />
+	<line x1="2900" x2="2900" y1="5" y2="15" />
+	<line x1="3000" x2="3000" y1="5" y2="15" />
+	<line x1="3100" x2="3100" y1="5" y2="15" />
+	<line x1="3200" x2="3200" y1="5" y2="15" />
+
+
+	</g>
+
+    <!-- Text Labels -->
+	<text x="100" y="25"> 9000 BC</text>
+	<text x="200" y="25"> 8000 BC</text>
+	<text x="300" y="25"> 7000 BC</text>
+	<text x="400" y="25"> 6000 BC</text>
+	<text x="500" y="25"> 5000 BC</text>
+	<text x="600" y="25"> 4000 BC</text>
+	<text x="700" y="25"> 3000 BC</text>
+	<text x="800" y="25"> 2000 BC</text>
+	<text x="900" y="25"> 1000 BC</text>
+
+		<!-- BC-AD -->
+	<text x="1000" y="25">   0   </text>
+		<!-- BC-AD -->
+
+	<text x="1100" y="25"> 100 AD </text>
+		<text id="centuryLabel" x="1050" y="25"> 1st c.</text>
+	<text x="1200" y="25"> 200 AD </text>
+		<text id="centuryLabel" x="1150" y="25"> 2nd c.</text>
+	<text x="1300" y="25"> 300 AD </text>
+		<text id="centuryLabel" x="1250" y="25"> 3rd c.</text>
+	<text x="1400" y="25"> 400 AD </text>
+		<text id="centuryLabel" x="1350" y="25"> 4th c.</text>
+	<text x="1500" y="25"> 500 AD </text>
+		<text id="centuryLabel" x="1450" y="25"> 5th c.</text>
+	<text x="1600" y="25"> 600 AD </text>
+		<text id="centuryLabel" x="1550" y="25"> 6th c.</text>
+	<text x="1700" y="25"> 700 AD </text>
+		<text id="centuryLabel" x="1650" y="25"> 7th c.</text>
+	<text x="1800" y="25"> 800 AD </text>
+		<text id="centuryLabel" x="1750" y="25"> 8th c.</text>
+	<text x="1900" y="25"> 900 AD </text>
+		<text id="centuryLabel" x="1850" y="25"> 9th c.</text>
+	<text x="2000" y="25"> 1000 AD </text>
+		<text id="centuryLabel" x="1950" y="25"> 10th c.</text>
+	<text x="2100" y="25"> 1100 AD </text>
+		<text id="centuryLabel" x="2050" y="25"> 11th c.</text>
+	<text x="2200" y="25"> 1200 AD </text>
+		<text id="centuryLabel" x="2150" y="25"> 12th c.</text>
+	<text x="2300" y="25"> 1300 AD </text>
+		<text id="centuryLabel" x="2250" y="25"> 13th c.</text>
+	<text x="2400" y="25"> 1400 AD </text>
+		<text id="centuryLabel" x="2350" y="25"> 14th c.</text>
+	<text x="2500" y="25"> 1500 AD </text>
+		<text id="centuryLabel" x="2450" y="25"> 15th c.</text>
+	<text x="2600" y="25"> 1600 AD </text>
+		<text id="centuryLabel" x="2550" y="25"> 16th c.</text>
+	<text x="2700" y="25"> 1700 AD </text>
+		<text id="centuryLabel" x="2650" y="25"> 17th c.</text>
+	<text x="2800" y="25"> 1800 AD </text>
+		<text id="centuryLabel" x="2750" y="25"> 18th c.</text>
+	<text x="2900" y="25"> 1900 AD </text>
+		<text id="centuryLabel" x="2850" y="25"> 19th c.</text>
+	<text x="3000" y="25"> 2000 AD </text>
+		<text id="centuryLabel" x="2950" y="25"> 20th c.</text>
+	<text x="3100" y="25"> 2100 AD </text>
+		<text id="centuryLabel" x="3050" y="25"> 21st c.</text>
+	<text x="3200" y="25">          </text>
+		<text id="centuryLabel" x="3150" y="25"> 22st c.</text>
+    <!-- END Main Timeline -->
+
+    <!-- Art Movement Timelines --->
+
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="1523" x2="1523" y1="40" y2="65"/>
+	<line id="hors" x1="1523" x2="1498" y1="65" y2="65"/>
+	
+	<text x="1493" y="67.5" >523-524 AD</text> 
+	<text x="1493" y="77.5" >Boethius writes</text> 
+	<text x="1493" y="87.5" >The Consolation of Philosophy</text> 
+	<circle cx="1523" cy="40" />
+	</g>
+	</g>
+*************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="1525" x2="1525" y1="40" y2="115"/>
+	<line id="hors" x1="1525" x2="1500" y1="115" y2="115"/>
+	
+	<text x="1495" y="117.5" >525 AD</text> 
+	<text x="1495" y="127.5" >The Anno Domini calendar</text> 
+	<text x="1495" y="137.5" >is invented</text> 
+	<circle cx="1525" cy="40" />
+	</g>
+	</g>
+*************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="1529" x2="1529" y1="40" y2="165"/>
+	<line id="hors" x1="1529" x2="1504" y1="165" y2="165"/>
+	
+	<text x="1499" y="167.5" >529-534 AD</text> 
+	<text x="1499" y="177.5" >Code of Justinian Issued</text> 
+	<circle cx="1529" cy="40" />
+	</g>
+	</g>
+*************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="1541" x2="1541" y1="40" y2="215"/>
+	<line id="hors" x1="1541" x2="1516" y1="215" y2="215"/>
+	
+	<text x="1511" y="217.5" >541-542 AD</text> 
+	<text x="1511" y="227.5" >Plague of Justinian</text> 
+	<circle cx="1541" cy="40" />
+	</g>
+	</g>
+*************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="1563" x2="1563" y1="40" y2="265"/>
+	<line id="hors" x1="1563" x2="1538" y1="265" y2="265"/>
+	
+	<text x="1533" y="267.5" >563 AD</text> 
+	<text x="1533" y="277.5" >St. Columba Founds Iona</text> 
+	<circle cx="1563" cy="40" />
+	</g>
+	</g>
+************************		
+	<g id="PointID">
+	<g id="Ptmarkers">
+	<line id="vert" x1="1590" x2="1590" y1="40" y2="285"/>
+	<line id="hors" x1="1590" x2="1615" y1="285" y2="285"/>
+	
+	<text x="1620" y="287.5" >590 AD</text> 
+	<text x="1620" y="297.5" >Gregory the Great</text> 
+	<text x="1620" y="307.5" >Becomes Pope</text>
+	<circle cx="1590" cy="40" />
+	</g>
+	</g>	
+************************
+	<g id="PointID">
+	<g id="Ptmarkers">
+	<line id="vert" x1="1618" x2="1618" y1="40" y2="225"/>
+	<line id="hors" x1="1618" x2="1643" y1="225" y2="225"/>
+	
+	<text x="1648" y="227.5" >618 AD</text> 
+	<text x="1648" y="237.5" >Tang Dynasty</text> 
+	<text x="1648" y="247.5" >Begins</text> 
+	<circle cx="1618" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="Ptmarkers">
+	<line id="vert" x1="1622" x2="1622" y1="40" y2="175"/>
+	<line id="hors" x1="1622" x2="1647" y1="175" y2="175"/>
+	
+	<text x="1652" y="177.5" >622 AD</text> 
+	<text x="1652" y="187.5" >Hegira</text> 
+	<circle cx="1622" cy="40" />
+	</g>
+	</g>		
+************************
+	<g id="PointID">
+	<g id="Ptmarkers">
+	<line id="vert" x1="1651" x2="1651" y1="40" y2="95"/>
+	<line id="hors" x1="1651" x2="1676" y1="95" y2="95"/>
+	
+	<text x="1681" y="97.5" >651 AD</text> 
+	<text x="1681" y="107.5" >Islamic</text> 
+	<text x="1681" y="117.5" >Conquest</text> 
+	<text x="1681" y="127.5" >of Persia</text> 
+	<circle cx="1651" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="1717" x2="1717" y1="40" y2="45"/>
+
+	
+	<text x="1727" y="57.5" >717-718 AD</text> 
+	<text x="1727" y="67.5" >Siege of</text> 
+	<text x="1727" y="77.5" >Constantinople</text> 
+	<circle cx="1717" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="1747" x2="1747" y1="40" y2="135"/>
+
+	
+	<text x="1777" y="147.5" >747-750 AD</text> 
+	<text x="1777" y="157.5" >Abbasid</text> 
+	<text x="1777" y="167.5" >Revolution</text> 
+	<circle cx="1747" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="1793" x2="1793" y1="40" y2="195"/>
+	<line id="hors" x1="1793" x2="1768" y1="195" y2="195"/>
+	
+	<text x="1763" y="197.5" >793 AD</text> 
+	<text x="1763" y="207.5" >Vikings Raid</text> 
+	<text x="1763" y="217.5" > Lindisfarne</text> 
+	<circle cx="1793" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="1800" x2="1800" y1="40" y2="255"/>
+	<line id="hors" x1="1800" x2="1775" y1="255" y2="255"/>
+	
+	<text x="1770" y="257.5" >800 AD</text> 
+	<text x="1770" y="267.5" >Charlemagne</text> 
+	<text x="1770" y="277.5" >Crowned Emperor</text>
+	<circle cx="1800" cy="40" />
+	</g>
+	</g>
+******************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="1843" x2="1843" y1="40" y2="295"/>
+	<line id="hors" x1="1843" x2="1818" y1="295" y2="295"/>
+	
+	<text x="1813" y="297.5" >843 AD</text> 
+	<text x="1813" y="307.5" >Treaty of Verdun</text> 
+	<circle cx="1843" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="Ptmarkers">
+	<line id="vert" x1="1862" x2="1862" y1="40" y2="315"/>
+	<line id="hors" x1="1862" x2="1887" y1="315" y2="315"/>
+	
+	<text x="1892" y="317.5" >862 AD</text> 
+	<text x="1892" y="327.5" >Rurik Dynasty</text> 
+	<text x="1892" y="337.5" >in Russia</text> 
+	<circle cx="1862" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="Ptmarkers">
+	<line id="vert" x1="1910" x2="1910" y1="40" y2="255"/>
+	
+	<text x="1890" y="267.5" >910 AD</text> 
+	<text x="1890" y="277.5" >Cluny Abbey</text> 
+	<text x="1890" y="287.5" >Founded</text> 
+	<circle cx="1910" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="Ptmarkers">
+	<line id="vert" x1="1911" x2="1911" y1="40" y2="235"/>
+	<line id="hors" x1="1911" x2="1924" y1="235" y2="235"/>
+	
+	<text x="1929" y="237.5" >911 AD</text> 
+	<text x="1929" y="247.5" >Foundation of Normandy</text> 
+	<circle cx="1911" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="Ptmarkers">
+	<line id="vert" x1="1919" x2="1919" y1="40" y2="175"/>
+	<line id="hors" x1="1919" x2="1924" y1="175" y2="175"/>
+	
+	<text x="1929" y="177.5" >919 AD</text> 
+	<text x="1929" y="187.5" >First Use of Gunpowder</text> 
+	<circle cx="1919" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="Ptmarkers">
+	<line id="vert" x1="1969" x2="1969" y1="40" y2="95"/>
+	
+	<text x="1939" y="107.5" >969 AD</text> 
+	<text x="1939" y="117.5" >Foundation of Cairo</text> 
+	<circle cx="1969" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="2025" x2="2025" y1="40" y2="45"/>
+
+	
+	<text x="2035" y="57.5" >1025 AD</text> 
+	<text x="2035" y="67.5" >Avicenna</text> 
+	<text x="2035" y="77.5" >Writes the</text> 
+	<text x="2035" y="87.5" >Canon of</text> 
+	<text x="2035" y="97.5" >Medicine</text> 
+	<circle cx="2025" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="2040" x2="2040" y1="40" y2="135"/>
+	<line id="hors" x1="2040" x2="2015" y1="135" y2="135"/>
+	
+	<text x="2010" y="137.5" >1040 AD</text> 
+	<text x="2010" y="147.5" >Invention of</text> 
+	<text x="2010" y="157.5" >Movable Type</text> 
+	<circle cx="2040" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="2054" x2="2054" y1="40" y2="205"/>
+	<line id="hors" x1="2054" x2="2029" y1="205" y2="205"/>
+	
+	<text x="2024" y="207.5" >1054 AD</text> 
+	<text x="2024" y="217.5" >Great Schism</text> 
+	<circle cx="2054" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="2066" x2="2066" y1="40" y2="265"/>
+	<line id="hors" x1="2066" x2="2052" y1="265" y2="265"/>
+	
+	<text x="2047" y="267.5" >1066 AD</text> 
+	<text x="2047" y="277.5" >Norman</text> 
+	<text x="2047" y="287.5" >Conquest of</text> 
+	<text x="2047" y="297.5" >England</text> 
+	<circle cx="2066" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="2077" x2="2077" y1="40" y2="325"/>
+	<line id="hors" x1="2077" x2="2052" y1="325" y2="325"/>
+	
+	<text x="2047" y="327.5" >1077 AD</text> 
+	<text x="2047" y="337.5" >Walk to Canossa</text> 
+	<circle cx="2077" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="Ptmarkers">
+	<line id="vert" x1="2095" x2="2095" y1="40" y2="325"/>
+	<line id="hors" x1="2095" x2="2120" y1="325" y2="325"/>
+	
+	<text x="2125" y="327.5" >1095 AD</text> 
+	<text x="2125" y="337.5" >The First Crusade</text> 
+	<text x="2125" y="347.5" >Launched</text> 
+	<circle cx="2095" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="Ptmarkers">
+	<line id="vert" x1="2098" x2="2098" y1="40" y2="295"/>
+	<line id="hors" x1="2098" x2="2123" y1="295" y2="295"/>
+	
+	<text x="2128" y="297.5" >1098 AD</text> 
+	<text x="2128" y="307.5" >Cistercians Founded</text> 
+	<circle cx="2098" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="Ptmarkers">
+	<line id="vert" x1="2135" x2="2135" y1="40" y2="245"/>
+	
+	<text x="2128" y="257.5" >1135 AD</text> 
+	<text x="2128" y="267.5" >Gothic Buildings</text> 
+	<text x="2128" y="277.5" >Emerge</text> 
+	<circle cx="2135" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="Ptmarkers">
+	<line id="vert" x1="2170" x2="2170" y1="40" y2="45"/>
+	
+	<text x="2140" y="57.5" >1170 AD</text> 
+	<text x="2140" y="67.5" >Maimonides</text> 
+	<text x="2140" y="77.5" >Writes</text> 
+	<text x="2140" y="87.5" >Mishneh</text> 
+	<text x="2140" y="97.5" >Torah</text> 
+	<circle cx="2170" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="Ptmarkers">
+	<line id="vert" x1="2206" x2="2206" y1="40" y2="215"/>
+	<line id="hors" x1="2206" x2="2190" y1="215" y2="215"/>
+	
+	<text x="2146" y="217.5" >1206 AD</text> 
+	<text x="2146" y="227.5" >Chinggis Khan Becomes</text> 
+	<text x="2146" y="237.5" >Ruler of the Mongols</text> 
+	<circle cx="2206" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="Ptmarkers">
+	<line id="vert" x1="2215" x2="2215" y1="40" y2="160"/>
+	
+	<text x="2210" y="172.5" >1215 AD</text> 
+	<text x="2210" y="182.5" >Fourth</text> 
+	<text x="2210" y="192.5" >Lateran Council +</text> 
+	<text x="2210" y="202.5" >Magna Carta</text> 
+	<circle cx="2215" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="2258" x2="2258" y1="40" y2="45"/>
+	
+	<text x="2260" y="57.5" >1258 AD</text> 
+	<text x="2260" y="67.5" >Siege of</text> 
+	<text x="2260" y="77.5" >Baghdad</text>
+	<circle cx="2258" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="Ptmarkers">
+	<line id="vert" x1="2265" x2="2265" y1="40" y2="110"/>
+	
+	<text x="2225" y="122.5" >1265 AD</text> 
+	<text x="2225" y="132.5" >Thomas Aquinas</text> 
+	<text x="2225" y="142.5" >Begins His Summa</text>
+	<text x="2225" y="152.5" >Theologiae</text>
+	<circle cx="2265" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="Ptmarkers">
+	<line id="vert" x1="2291" x2="2291" y1="40" y2="45"/>
+	
+	<text x="2271" y="57.5" >1291 AD</text> 
+	<text x="2271" y="67.5" >Siege of</text> 
+	<text x="2271" y="77.5" >Acre</text>
+	<circle cx="2291" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="2315" x2="2315" y1="40" y2="85"/>
+	
+	<text x="2315" y="97.5" >1315 AD</text> 
+	<text x="2315" y="107.5" >Great</text> 
+	<text x="2315" y="117.5" >Famine</text> 
+	<circle cx="2315" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="2320" x2="2320" y1="40" y2="255"/>
+	<line id="hors" x1="2320" x2="2299" y1="255" y2="255"/>
+	
+	<text x="2294" y="257.5" >1320 AD</text> 
+	<text x="2294" y="267.5" >Dante Alighieri</text> 
+	<text x="2294" y="277.5" >Completes the</text> 
+	<text x="2294" y="287.5" >Divine Comedy</text> 
+	<circle cx="2320" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="2324" x2="2324" y1="40" y2="315"/>
+	<line id="hors" x1="2324" x2="2299" y1="315" y2="315"/>
+	
+	<text x="2294" y="317.5" >1324 AD</text> 
+	<text x="2294" y="327.5" >Pilgrimage</text> 
+	<text x="2294" y="337.5" >to Mecca by</text> 
+	<text x="2294" y="347.5" >Mansa Musa</text> 
+	<circle cx="2324" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="Ptmarkers">
+	<line id="vert" x1="2337" x2="2337" y1="40" y2="315"/>
+	<line id="hors" x1="2337" x2="2372" y1="315" y2="315"/>
+	
+	<text x="2377" y="317.5" >1337 AD</text> 
+	<text x="2377" y="327.5" >Beginning of the</text> 
+	<text x="2377" y="337.5" >Hundred Years’ War</text> 
+	<circle cx="2337" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="Ptmarkers">
+	<line id="vert" x1="2347" x2="2347" y1="40" y2="285"/>
+	<line id="hors" x1="2347" x2="2372" y1="285" y2="285"/>
+	
+	<text x="2377" y="287.5" >1347 AD</text> 
+	<text x="2377" y="297.5" >Black Death</text> 
+	<circle cx="2347" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="Ptmarkers">
+	<line id="vert" x1="2378" x2="2378" y1="40" y2="255"/>
+	<line id="hors" x1="2378" x2="2426" y1="255" y2="255"/>
+	
+	<text x="2431" y="257.5" >1378 AD</text> 
+	<text x="2431" y="267.5" >Western Schism begins</text> 
+	<circle cx="2378" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="Ptmarkers">
+	<line id="vert" x1="2397" x2="2397" y1="40" y2="225"/>
+	<line id="hors" x1="2397" x2="2426" y1="225" y2="225"/>
+	
+	<text x="2431" y="227.5" >1397 AD</text> 
+	<text x="2431" y="237.5" >Kalmar Union established</text> 
+	<circle cx="2397" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="Ptmarkers">
+	<line id="vert" x1="2401" x2="2401" y1="40" y2="195"/>
+	<line id="hors" x1="2401" x2="2426" y1="195" y2="195"/>
+	
+	<text x="2431" y="197.5" >1401 AD</text> 
+	<text x="2431" y="207.5" >Competition for the Florence Baptistery</text> 
+	<circle cx="2401" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="Ptmarkers">
+	<line id="vert" x1="2439" x2="2439" y1="40" y2="160"/>
+	<line id="hors" x1="2439" x2="2478" y1="160" y2="160"/>
+	
+	<text x="2483" y="162.5" >1439 AD</text> 
+	<text x="2483" y="172.5" >Gutenberg invents printing press</text> 
+	<circle cx="2439" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="Ptmarkers">
+	<line id="vert" x1="2453" x2="2453" y1="40" y2="125"/>
+	<line id="hors" x1="2453" x2="2478" y1="125" y2="125"/>
+	
+	<text x="2483" y="127.5" >1453 AD</text> 
+	<text x="2483" y="137.5" >Siege of Constantinople</text> 
+	<circle cx="2453" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="Ptmarkers">
+	<line id="vert" x1="2469" x2="2469" y1="40" y2="85"/>
+	<line id="hors" x1="2469" x2="2517" y1="85" y2="85"/>
+	
+	<text x="2522" y="87.5" >1469 AD</text> 
+	<text x="2522" y="97.5" >Marriage between Ferdinand and Isabella</text> 
+	<circle cx="2469" cy="40" />
+	</g>
+	</g>
+************************
+	<g id="PointID">
+	<g id="Ptmarkers">
+	<line id="vert" x1="2492" x2="2492" y1="40" y2="55"/>
+	<line id="hors" x1="2492" x2="2517" y1="55" y2="55"/>
+	
+	<text x="2522" y="57.5" >1492 AD</text> 
+	<text x="2522" y="67.5" >Columbus sails to the Americas</text> 
+	<circle cx="2492" cy="40" />
+	</g>
+	</g>
+		
+		
+	
+
+		
+		
+		
+		
+		
+
+
+
+
+</body>
+</html>

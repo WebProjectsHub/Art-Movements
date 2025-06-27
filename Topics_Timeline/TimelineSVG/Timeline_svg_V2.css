@@ -1,0 +1,200 @@
+/*------ TOC -------
+1. html
+2. time line
+3. main time period
+4. time periods
+----------*/
+
+/*---01---*/
+/*---------------html--------------------------------*/
+html
+	{
+	overflow-y:hidden;
+	}
+
+svg	{width:3200px;}
+/*---------------END html----------------------------*/
+
+/*---02---*/
+/*---------------time line---------------------------*/
+.mainTimeline
+	{
+	width:auto;
+	height:30px;
+	}
+
+#time
+	{
+	stroke-width:2;
+	stroke:black;
+	}
+#timeBC
+	{
+	stroke-width:2;
+	stroke:gray;
+	}
+
+#timeMarkers
+	{
+	stroke-width:1;
+	stroke:red;
+	}
+	
+text	/*--general text--*/
+	{
+	font-family:Arial;
+	font-size:12px;
+	text-anchor:middle;
+	/*--	fill:#efefef;--*/
+	}
+
+#centuryLabel
+	{
+	font-family:Arial;
+	font-size:10px;
+	text-anchor:middle;
+	fill:blue;
+	}
+/*---------------END time line-----------------------*/
+
+/*---03---*/
+/*---------------main time period--------------------*/
+#Time1 text
+	{
+	font-family:Arial;
+	font-size:14px;
+	text-anchor:middle;
+	font-weight:bold;
+	}
+
+#Time1 #markers
+	{
+	stroke-width:2;
+	stroke:black;
+	}
+
+#Time1 #centuryLabel
+	{
+	font-family:Arial;
+	font-size:10px;
+	text-anchor:middle;
+	fill:blue;
+	}
+
+#Time1 #sText
+	{
+	font-size:12px;
+	}
+/*---------------END main time period----------------*/
+
+/*---04---*/
+/*---------------time periods------------------------*/
+.Time2 #periodLabel,
+#PointID text
+	{
+	font-family:Arial;
+	font-size:10px;
+	text-anchor:start;
+	fill:black;
+	font-weight:bold;
+	}
+
+.Time2 #periodLabel
+	{
+	text-anchor:middle;
+	}
+
+#periodLabel_c
+	{
+	font-family:Arial;
+	font-size:10px;
+	text-anchor:center;
+	fill:black;
+	font-weight:bold;
+	}
+
+#PointID #connector
+	{
+	stroke-width:1;
+	stroke:red;
+	}
+
+
+.Time2 #markers
+	{
+	stroke-width:2;
+	stroke:red;
+	}
+
+.Time2 #centuryLabel
+	{
+	font-weight:bold;
+	/*--	fill:#efefef;--*/
+	}
+
+.Time2 #centuryLabel0
+	{
+	font-family:Arial;
+	font-size:10px;
+	text-anchor:end;
+	fill:blue;
+	font-weight:bold;
+	}
+
+.Time2 #centuryLabel2,
+#PointID #centuryLabel2
+	{
+	font-family:Arial;
+	font-size:10px;
+	text-anchor:start;
+	fill:blue;
+	font-weight:bold;
+	}
+
+#PtmarkersLeft text
+	{
+	text-anchor:end;
+	}
+
+#PointID line
+	{
+	stroke-width:1;
+	stroke:black;
+	}
+
+#PointID circle
+	{
+	stroke-width:1;
+	stroke:black;
+	fill:blue;
+	r:3;
+	}
+
+#periodFill
+	{
+	fill:silver;
+	}
+
+#periodFill2
+	{
+	fill:gray;
+	}
+#periodFill_S1a
+	{
+	fill:#F7B801;
+	}
+#periodFill_S1b
+	{
+	fill:#F18701;
+	}
+#periodFill_S1c
+	{
+	fill:#F35B04;
+	}
+
+#influenceLine
+	{
+	stroke-width:1;
+	stroke:gray;
+	stroke-dasharray:10;
+	}
