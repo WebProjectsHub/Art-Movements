@@ -456,6 +456,21 @@ blockquote
 	overflow-y:hidden;
 	}
 
+[class^="timeContainer_S"]	
+/*--slide container side_instead of image--*/
+	{
+	width:2000px;
+	overflow:auto;
+	margin-bottom:10px;
+
+	display:flex;
+	flex-direction:column;
+	position:relative;
+	border-right: solid black 2px;
+	border-left: solid black 2px;
+	}
+
+
 #timeIframe
 	{
 	width:3000px;

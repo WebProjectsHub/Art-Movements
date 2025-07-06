@@ -209,6 +209,7 @@ table
 	display:flex;
 	flex-direction:column;
 	height:auto;
+	min-width:545px;
 	}
 
 #imgContainer
