@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Main Timeline</title>
+   <link rel="stylesheet" href="Timeline_svg_V2.css">
+
+   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+html
+	{
+	overflow-y:hidden;
+	overflow-x:hidden;
+	}
+.periodTimeline
+	{
+	top:0px;
+	position:absolute;
+	}
+</style>
+
+</head>
+<html>
+<body>
+<!--------main timeline---------------------->
+<div class="mainTimeline">
+	<svg xmlns="http://www.w3.org/2000/svg" 
+    	xmlns:xlink="http://www.w3.org/1999/xlink"  
+    	width="3200" 
+	height="1000" 
+    	>
+
+    <!-- Main Timeline -->
+
+	<line id="timeBC" x1="0" 	x2="1000" y1="10" y2="10"  stroke-dasharray="10" />	<!-- BC timeline -->
+	<line id="time" x1="1000" 	x2="10000" y1="10" y2="10"/>				<!-- AD timeline -->
+
+
+
+	<g id="timeMarkers">		<!-- Tick marks -->
+	<line x1="000" x2="000" y1="5" y2="15" />
+	<line x1="100" x2="100" y1="5" y2="15" />
+	<line x1="200" x2="200" y1="5" y2="15" />
+	<line x1="300" x2="300" y1="5" y2="15" />
+	<line x1="400" x2="400" y1="5" y2="15" />
+	<line x1="500" x2="500" y1="5" y2="15" />
+	<line x1="600" x2="600" y1="5" y2="15" />
+	<line x1="700" x2="700" y1="5" y2="15" />
+	<line x1="800" x2="800" y1="5" y2="15" />
+	<line x1="900" x2="900" y1="5" y2="15" />
+	</g>
+
+	<line id="BC_AD" x1="1000" x2="1000" y1="5" y2="15" stroke="red" stroke-width="2" />
+
+	<g id="timeMarkers">
+	<line x1="1100" x2="1100" y1="5" y2="15" />
+	<line x1="1200" x2="1200" y1="5" y2="15" />
+	<line x1="1300" x2="1300" y1="5" y2="15" />
+	<line x1="1400" x2="1400" y1="5" y2="15" />
+	<line x1="1500" x2="1500" y1="5" y2="15" />
+	<line x1="1600" x2="1600" y1="5" y2="15" />
+	<line x1="1700" x2="1700" y1="5" y2="15" />
+	<line x1="1800" x2="1800" y1="5" y2="15" />
+	<line x1="1900" x2="1900" y1="5" y2="15" />
+	<line x1="2000" x2="2000" y1="5" y2="15" />
+	<line x1="2100" x2="2100" y1="5" y2="15" />
+	<line x1="2200" x2="2200" y1="5" y2="15" />
+	<line x1="2300" x2="2300" y1="5" y2="15" />
+	<line x1="2400" x2="2400" y1="5" y2="15" />
+	<line x1="2500" x2="2500" y1="5" y2="15" />
+	<line x1="2600" x2="2600" y1="5" y2="15" />
+	<line x1="2700" x2="2700" y1="5" y2="15" />
+	<line x1="2800" x2="2800" y1="5" y2="15" />
+	<line x1="2900" x2="2900" y1="5" y2="15" />
+	<line x1="3000" x2="3000" y1="5" y2="15" />
+	<line x1="3100" x2="3100" y1="5" y2="15" />
+	<line x1="3200" x2="3200" y1="5" y2="15" />
+
+
+	</g>
+
+    <!-- Text Labels -->
+	<text x="100" y="25"> 9000 BC</text>
+	<text x="200" y="25"> 8000 BC</text>
+	<text x="300" y="25"> 7000 BC</text>
+	<text x="400" y="25"> 6000 BC</text>
+	<text x="500" y="25"> 5000 BC</text>
+	<text x="600" y="25"> 4000 BC</text>
+	<text x="700" y="25"> 3000 BC</text>
+	<text x="800" y="25"> 2000 BC</text>
+	<text x="900" y="25"> 1000 BC</text>
+
+		<!-- BC-AD -->
+	<text x="1000" y="25">   0   </text>
+		<!-- BC-AD -->
+
+	<text x="1100" y="25"> 100 AD </text>
+		<text id="centuryLabel" x="1050" y="25"> 1st c.</text>
+	<text x="1200" y="25"> 200 AD </text>
+		<text id="centuryLabel" x="1150" y="25"> 2nd c.</text>
+	<text x="1300" y="25"> 300 AD </text>
+		<text id="centuryLabel" x="1250" y="25"> 3rd c.</text>
+	<text x="1400" y="25"> 400 AD </text>
+		<text id="centuryLabel" x="1350" y="25"> 4th c.</text>
+	<text x="1500" y="25"> 500 AD </text>
+		<text id="centuryLabel" x="1450" y="25"> 5th c.</text>
+	<text x="1600" y="25"> 600 AD </text>
+		<text id="centuryLabel" x="1550" y="25"> 6th c.</text>
+	<text x="1700" y="25"> 700 AD </text>
+		<text id="centuryLabel" x="1650" y="25"> 7th c.</text>
+	<text x="1800" y="25"> 800 AD </text>
+		<text id="centuryLabel" x="1750" y="25"> 8th c.</text>
+	<text x="1900" y="25"> 900 AD </text>
+		<text id="centuryLabel" x="1850" y="25"> 9th c.</text>
+	<text x="2000" y="25"> 1000 AD </text>
+		<text id="centuryLabel" x="1950" y="25"> 10th c.</text>
+	<text x="2100" y="25"> 1100 AD </text>
+		<text id="centuryLabel" x="2050" y="25"> 11th c.</text>
+	<text x="2200" y="25"> 1200 AD </text>
+		<text id="centuryLabel" x="2150" y="25"> 12th c.</text>
+	<text x="2300" y="25"> 1300 AD </text>
+		<text id="centuryLabel" x="2250" y="25"> 13th c.</text>
+	<text x="2400" y="25"> 1400 AD </text>
+		<text id="centuryLabel" x="2350" y="25"> 14th c.</text>
+	<text x="2500" y="25"> 1500 AD </text>
+		<text id="centuryLabel" x="2450" y="25"> 15th c.</text>
+	<text x="2600" y="25"> 1600 AD </text>
+		<text id="centuryLabel" x="2550" y="25"> 16th c.</text>
+	<text x="2700" y="25"> 1700 AD </text>
+		<text id="centuryLabel" x="2650" y="25"> 17th c.</text>
+	<text x="2800" y="25"> 1800 AD </text>
+		<text id="centuryLabel" x="2750" y="25"> 18th c.</text>
+	<text x="2900" y="25"> 1900 AD </text>
+		<text id="centuryLabel" x="2850" y="25"> 19th c.</text>
+	<text x="3000" y="25"> 2000 AD </text>
+		<text id="centuryLabel" x="2950" y="25"> 20th c.</text>
+	<text x="3100" y="25"> 2100 AD </text>
+		<text id="centuryLabel" x="3050" y="25"> 21st c.</text>
+	<text x="3200" y="25">          </text>
+		<text id="centuryLabel" x="3150" y="25"> 22st c.</text>
+    <!-- END Main Timeline -->
+
+    <!-- Art Movement Timelines --->
+*************************
+*************************
+	<g class="Time2">		
+		<text id="periodLabel" x="1524" y="57.5"> </text>	
+			
+		<line id="time" x1="1548" x2="1500" y1="60" y2="60"/>	
+			
+		<g id="markers">	
+			<line x1="1548" x2="1548" y1="55" y2="65" />
+			<line x1="1500" x2="1500" y1="55" y2="65" />
+		</g>	
+		<text id="centuryLabel" x="1500" y="50">500 AD</text>	
+		<text id="centuryLabel" x="1548" y="50">548 AD</text>	
+	</g>		
+*************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="1524" x2="1524" y1="60" y2="85"/>
+	<line id="hors" x1="1524" x2="1499" y1="85" y2="85"/>
+	
+	<text x="1494" y="87.5" >l. 500 - 548 AD</text> 
+	<text x="1494" y="97.5" >Theodora of Byzantium</text> 
+	<circle cx="1524" cy="60" />
+	</g>
+	</g>
+*************************
+	<g class="Time2">		
+		<text id="periodLabel" x="1647" y="57.5"> </text>	
+			
+		<line id="time" x1="1680" x2="1614" y1="60" y2="60"/>	
+			
+		<g id="markers">	
+			<line x1="1680" x2="1680" y1="55" y2="65" />
+			<line x1="1614" x2="1614" y1="55" y2="65" />
+		</g>	
+		<text id="centuryLabel" x="1614" y="50">614 AD</text>	
+		<text id="centuryLabel" x="1680" y="50">680 AD</text>	
+	</g>		
+*************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="1647" x2="1647" y1="60" y2="85"/>
+	<line id="hors" x1="1647" x2="1622" y1="85" y2="85"/>
+	
+	<text x="1617" y="87.5" >614 - 680 AD</text> 
+	<text x="1617" y="97.5" >Hilda of Whitby</text> 
+	<circle cx="1647" cy="60" />
+	</g>
+	</g>
+*************************
+	<g class="Time2">		
+		<text id="periodLabel" x="1914.5" y="57.5"> </text>	
+			
+		<line id="time" x1="1918" x2="1911" y1="60" y2="60"/>	
+			
+		<g id="markers">	
+			<line x1="1918" x2="1918" y1="55" y2="65" />
+			<line x1="1911" x2="1911" y1="55" y2="65" />
+		</g>	
+		<text id="centuryLabel" x="1891" y="50">911 AD</text>	
+		<text id="centuryLabel" x="1938" y="50">918 AD</text>	
+	</g>		
+*************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="1914" x2="1914" y1="60" y2="85"/>
+	<line id="hors" x1="1914" x2="1889" y1="85" y2="85"/>
+	
+	<text x="1884" y="87.5" >r. 911 - 918 AD</text> 
+	<text x="1884" y="97.5" >Aethelflaed, Lady of the Mercians</text> 
+	<circle cx="1914" cy="60" />
+	</g>
+	</g>
+*************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="1975" x2="1975" y1="60" y2="135"/>
+	<line id="hors" x1="1975" x2="1950" y1="135" y2="135"/>
+	
+	<text x="1945" y="137.5" >c. 975 AD</text> 
+	<text x="1945" y="147.5" >Ende the Illuminator</text> 
+	<circle cx="1975" cy="60" />
+	</g>
+	</g>
+*************************
+	<g class="Time2">		
+		<text id="periodLabel" x="2080.5" y="57.5"> </text>	
+			
+		<line id="time" x1="2115" x2="2046" y1="60" y2="60"/>	
+			
+		<g id="markers">	
+			<line x1="2115" x2="2115" y1="55" y2="65" />
+			<line x1="2046" x2="2046" y1="55" y2="65" />
+		</g>	
+		<text id="centuryLabel" x="2046" y="50">1046 AD</text>	
+		<text id="centuryLabel" x="2115" y="50">1115 AD</text>	
+	</g>		
+*************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="2080" x2="2080" y1="60" y2="65"/>
+	
+	<text x="2080" y="77.5" >1l. 1046 - 1115 AD</text> 
+	<text x="2080" y="87.5" >Matilda of Tuscany</text> 
+	<circle cx="2080" cy="60" />
+	</g>
+	</g>
+*************************
+	<g class="Time2">		
+		<text id="periodLabel" x="2138.5" y="107.5"> </text>	
+			
+		<line id="time" x1="2179" x2="2098" y1="110" y2="110"/>	
+			
+		<g id="markers">	
+			<line x1="2179" x2="2179" y1="105" y2="115" />
+			<line x1="2098" x2="2098" y1="105" y2="115" />
+		</g>	
+		<text id="centuryLabel" x="2110" y="100">1098 AD</text>	
+		<text id="centuryLabel" x="2179" y="100">1179 AD</text>	
+	</g>		
+*************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="2135" x2="2135" y1="110" y2="135"/>
+	<line id="hors" x1="2135" x2="2110" y1="135" y2="135"/>
+	
+	<text x="2105" y="137.5" >l. 1098 - 1179 AD</text> 
+	<text x="2105" y="147.5" >Hildegard of Bingen</text> 
+	<circle cx="2135" cy="110" />
+	</g>
+	</g>
+*************************
+	<g class="Time2">		
+		<text id="periodLabel" x="2163" y="177.5"> </text>	
+			
+		<line id="time" x1="2204" x2="2122" y1="180" y2="180"/>	
+			
+		<g id="markers">	
+			<line x1="2204" x2="2204" y1="175" y2="185" />
+			<line x1="2122" x2="2122" y1="175" y2="185" />
+		</g>	
+		<text id="centuryLabel" x="2122" y="170">1122 AD</text>	
+		<text id="centuryLabel" x="2204" y="170">1204 AD</text>	
+	</g>				
+*************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="2163" x2="2163" y1="180" y2="205"/>
+	<line id="hors" x1="2163" x2="2138" y1="205" y2="205"/>
+	
+	<text x="2133" y="207.5" >l. 1122 - 1204 AD</text> 
+	<text x="2133" y="217.5" >Eleanor of Aquitaine</text> 
+	<circle cx="2163" cy="180" />
+	</g>
+	</g>
+*************************
+	<g class="Time2">		
+		<text id="periodLabel" x="2187.5" y="57.5"> </text>	
+			
+		<line id="time" x1="2215" x2="2160" y1="60" y2="60"/>	
+			
+		<g id="markers">	
+			<line x1="2215" x2="2215" y1="55" y2="65" />
+			<line x1="2160" x2="2160" y1="55" y2="65" />
+		</g>	
+		<text id="centuryLabel" x="2160" y="50">1160 AD</text>	
+		<text id="centuryLabel" x="2215" y="50">1215 AD</text>	
+	</g>		
+*************************
+	<g id="PointID">
+	<g id="Ptmarkers">
+	<line id="vert" x1="2187" x2="2187" y1="60" y2="65"/>
+	
+	<text x="2187" y="77.5" >l. 1160 - 1215 AD</text> 
+	<text x="2187" y="87.5" >Marie de France</text> 
+	<circle cx="2187" cy="60" />
+	</g>
+	</g>
+*************************
+	<g class="Time2">		
+		<text id="periodLabel" x="2379" y="57.5"> </text>	
+			
+		<line id="time" x1="2416" x2="2342" y1="60" y2="60"/>	
+			
+		<g id="markers">	
+			<line x1="2416" x2="2416" y1="55" y2="65" />
+			<line x1="2342" x2="2342" y1="55" y2="65" />
+		</g>	
+		<text id="centuryLabel" x="2342" y="50">1342 AD</text>	
+		<text id="centuryLabel" x="2416" y="50">1416 AD</text>	
+	</g>				
+*************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="2379" x2="2379" y1="60" y2="65"/>
+	
+	<text x="2379" y="77.5" >l. 1342 - 1416 AD</text> 
+	<text x="2379" y="87.5" >Julian of Norwich</text> 
+	<circle cx="2379" cy="60" />
+	</g>
+	</g>
+*************************
+	<g class="Time2">		
+		<text id="periodLabel" x="2397" y="107.5"> </text>	
+			
+		<line id="time" x1="2430" x2="2364" y1="110" y2="110"/>	
+			
+		<g id="markers">	
+			<line x1="2430" x2="2430" y1="105" y2="115" />
+			<line x1="2364" x2="2364" y1="105" y2="115" />
+		</g>	
+		<text id="centuryLabel" x="2364" y="100">1364 AD</text>	
+		<text id="centuryLabel" x="2430" y="100">1430 AD</text>	
+	</g>			
+*************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="2397" x2="2397" y1="110" y2="135"/>
+	<line id="hors" x1="2397" x2="2372" y1="135" y2="135"/>
+	
+	<text x="2367" y="137.5" >l. 1364 - 1430 AD</text> 
+	<text x="2367" y="147.5" >Christine de Pizan</text> 
+	<circle cx="2397" cy="110" />
+	</g>
+	</g>
+*************************
+	<g class="Time2">		
+		<text id="periodLabel" x="2405.5" y="177.5"> </text>	
+			
+		<line id="time" x1="2438" x2="2373" y1="180" y2="180"/>	
+			
+		<g id="markers">	
+			<line x1="2438" x2="2438" y1="175" y2="185" />
+			<line x1="2373" x2="2373" y1="175" y2="185" />
+		</g>	
+		<text id="centuryLabel" x="2373" y="170">1373 AD</text>	
+		<text id="centuryLabel" x="2438" y="170">1438 AD</text>	
+	</g>		
+*************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="2405" x2="2405" y1="180" y2="205"/>
+	<line id="hors" x1="2405" x2="2380" y1="205" y2="205"/>
+	
+	<text x="2375" y="207.5" >l. 1373 - 1438 AD</text> 
+	<text x="2375" y="217.5" >Margery Kempe</text> 
+	<circle cx="2405" cy="180" />
+	</g>
+	</g>
+*************************
+	<g class="Time2">		
+		<text id="periodLabel" x="2421.5" y="247.5"> </text>	
+			
+		<line id="time" x1="2431" x2="2412" y1="250" y2="250"/>	
+			
+		<g id="markers">	
+			<line x1="2431" x2="2431" y1="245" y2="255" />
+			<line x1="2412" x2="2412" y1="245" y2="255" />
+		</g>	
+		<text id="centuryLabel0" x="2412" y="240">1412 AD</text>	
+		<text id="centuryLabel2" x="2431" y="240">1431 AD</text>	
+	</g>						
+*************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="2421" x2="2421" y1="250" y2="275"/>
+	<line id="hors" x1="2421" x2="2396" y1="275" y2="275"/>
+	
+	<text x="2391" y="277.5" >l. 1412 - 1431 AD</text> 
+	<text x="2391" y="287.5" >Joan of Arc</text> 
+	<circle cx="2421" cy="250" />
+	</g>
+	</g>
+*************************
+
+*************************
+
+*************************
+
+*************************
+
+*************************
+		
+		
+	
+
+		
+		
+		
+		
+		
+
+
+
+
+</body>
+</html>

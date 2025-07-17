@@ -156,6 +156,11 @@ text	/*--general text--*/
 	text-anchor:end;
 	}
 
+#PtmarkersCntr text
+	{
+	text-anchor:middle;
+	}
+
 #PointID line
 	{
 	stroke-width:1;
