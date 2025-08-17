@@ -1,0 +1,15 @@
+Semiotics
+https://www.britannica.com/science/semiotics
+
+study of signs
+
+Semiotics, the study of signs and sign-using behaviour. It was defined by one of its founders, the Swiss linguist Ferdinand de Saussure, as the study of “the life of signs within society.” Although the word was used in this sense in the 17th century by the English philosopher John Locke, the idea of semiotics as an interdisciplinary field of study emerged only in the late 19th and early 20th centuries with the independent work of Saussure and of the American philosopher Charles Sanders Peirce.
+
+Peirce’s seminal work in the field was anchored in pragmatism and logic. He defined a sign as “something which stands to somebody for something,” and one of his major contributions to semiotics was the categorization of signs into three main types: (1) an icon, which resembles its referent (such as a road sign for falling rocks); (2) an index, which is associated with its referent (as smoke is a sign of fire); and (3) a symbol, which is related to its referent only by convention (as with words or traffic signals). Peirce also demonstrated that a sign can never have a definite meaning, for the meaning must be continuously qualified.
+
+Saussure treated language as a sign-system, and his work in linguistics supplied the concepts and methods that semioticians applied to sign-systems other than language. One such basic semiotic concept is Saussure’s distinction between the two inseparable components of a sign: the signifier, which in language is a set of speech sounds or marks on a page, and the signified, which is the concept or idea behind the sign. Saussure also distinguished parole, or actual individual utterances, from langue, the underlying system of conventions that makes such utterances understandable; it is this underlying langue that most interests semioticians.
+
+
+This interest in the structure behind the use of particular signs linked semiotics with the methods of structuralism, which sought to analyze such relations. Saussure’s theories were thus also considered fundamental to structuralism (especially structural linguistics) and to poststructuralism.
+
+Twentieth-century semioticians applied Peirce and Saussure’s principles to a variety of fields, including aesthetics, anthropology, psychoanalysis, communications, and semantics. Among the most influential of these thinkers were the French scholars Claude Lévi-Strauss, Jacques Lacan, Michel Foucault, Jacques Derrida, Roland Barthes, and Julia Kristeva.

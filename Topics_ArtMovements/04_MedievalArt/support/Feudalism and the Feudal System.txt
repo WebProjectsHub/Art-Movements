@@ -1,5 +1,53 @@
 Middle Ages: Feudalism and the Feudal System
 https://www.historyonthenet.com/middle-ages-comprehensive-overview-europe-500-1500
+https://www.bbc.co.uk/bitesize/articles/zct4r2p#zwvqwnb
+https://www.worldhistory.org/Feudalism/
+
+*************************************************
+Absolutely! Here’s a distilled summary of the key points from the page on **Feudalism and the Feudal System**:
+
+---
+
+### 🏰 Structure of the Feudal System
+<b>The King</b> owned all land and leased it to <b>Barons</b>, who swore loyalty to him.
+<b>Barons</b> ruled manors, set laws and taxes, and provided the King with knights and support.
+<b>Knights</b> got land from Barons in exchange for military service and protection.
+<b>Villeins (serfs)</b> worked the land for Knights, had no freedom, and needed permission to marry or leave.
+
+---
+
+### ⚖️ Medieval Crime & Punishment
+- Harsh punishments (e.g., mutilation, stocks, death) maintained order.
+<b>King’s Court</b> used *trial by ordeal*: hot iron (fire), water test, or combat to determine guilt.
+- After 1215, </b>trial by jury</b> replaced ordeal-based methods.
+<b>Manorial Courts</b> dealt with minor crimes via community juries called *tithings*.
+
+---
+
+### ⚖️ Inequality in Society
+- Land and wealth were unevenly distributed—nobility thrived while peasants struggled.
+- Villeins were legally tied to their land, facing harsh conditions and restricted movement.
+- Compensation (called *Weregild*) for crimes varied by social rank—nobles were literally “worth” more.
+
+---
+
+### 📜 Consequences and Decline
+- Discontent led to major events like the </b>Magna Carta (1215)</b> and the </b>Peasants' Revolt (1381)</b>.
+- The system weakened due to:
+  - Population loss from wars and the Black Death
+  - Urban growth and job opportunities
+  - A rising merchant class with no feudal ties
+  - Lords shifting from land-grants to money-based service
+
+*************************************************
+
+
+
+
+
+
+
+
 
 The feudal system of the Middle Ages was introduced to England following the invasion and conquest of the country by William I, The Conqueror.
 
@@ -52,3 +100,25 @@ The accused had their hands and feet tied together. They were then thrown into w
 Ordeal by Combat
 Noblemen would fight (usually to the death) in combat with their accuser. The winner of the battle would be considered to be in the right. After 1215 Trial by Ordeal was replaced by Trial by Jury
 
+The inequality of the feudal system
+
+There was great inequality in medieval society because of the distribution of land and wealth. The nobility was able to raise large amounts of money from payments from peasants living on their land. Peasants were usually villeins. This meant they were legally tied to the land they worked on and could only leave with their Lord’s permission. If they had a bad harvest, they faced possible starvation. Freemen were a minority of peasants who were allowed to move around to work on different land.
+
+There was a belief in medieval England that you would stay at the society level you were born into. So, if you were born a peasant, you would almost always stay a peasant. Peasants' lives were heavily controlled by those above them in society: the nobility, the Church and the king.
+
+Inequality was written into the law. If someone was murdered, the compensation was called a Weregild. The higher someone was in society, the more compensation their family would be paid.
+
+Consequences of the feudal system
+
+This unequal distribution of power and wealth had several implications throughout the medieval period.
+
+In 1215, King John signed the Magna Carta, which was a document that set out how power and decisions would be made between the monarch and powerful nobility. It took away some of the power of the monarch and meant future kings or queens would have reduced power and would be unable to make all decisions on their own.
+
+In 1381, the Peasants' Revolt took place which was partly caused by the peasants being angry at unfair taxes and restrictions on their freedoms.
+
+Decline of the feudal system
+Medieval feudalism was essentially based on the relationship of reciprocal aid between lord and vassal but as that system became more complex over time, so this relationship weakened. Lords came to own multiple estates and vassals could be tenants of various parcels of land so that loyalties became confused and even conflicting with people choosing to honour the relationship that suited their own needs best.
+
+Another blow to the system came from sudden population declines caused by wars and plagues, particularly the Black Death (which peaked between 1347-1352), and by peasant revolts (most famously in England in 1381). Such crises caused a chronic shortage of labour and the abandonment of estates because there was no one to work them. The growth of large towns and cities also saw labour leave the countryside to find a better future and the new jobs available there.
+
+By the 13th century, the increase in commerce and the greater use of coinage changed the way the feudal system worked. Money allowed feudal lords to pay their sovereign instead of performing military service; the monarch's use of mercenaries then meant military service, and thus the barons themselves became less important to the defence of the realm. Conversely, a monarch could now distribute money instead of land in his system of rewards. A rich merchant class developed with no ties of loyalty to anyone except their sovereign, their suppliers and their customers. Even serfs could sometimes buy their freedom and escape the circumstances into which they were born. All of these factors conspired to weaken the feudal system based on land ownership and service even if feudalism would continue beyond the medieval period in some forms and in some places.
