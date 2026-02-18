@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Main Timeline</title>
+   <link rel="stylesheet" href="Timeline_svg_V2.css">
+
+   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+html
+	{
+	overflow-y:hidden;
+	overflow-x:hidden;
+	}
+
+.periodTimeline
+	{
+	top:0px;
+	position:absolute;
+	}
+</style>
+
+</head>
+<html>
+<body>
+<!--------main timeline---------------------->
+<div class="mainTimeline">
+	<svg xmlns="http://www.w3.org/2000/svg" 
+    	xmlns:xlink="http://www.w3.org/1999/xlink"  
+    	width="3200" 
+	height="1000" 
+    	>
+
+    <!-- Main Timeline -->
+
+	<line id="timeBC" x1="0" 	x2="1000" y1="10" y2="10"  stroke-dasharray="10" />	<!-- BC timeline -->
+	<line id="time" x1="1000" 	x2="10000" y1="10" y2="10"/>				<!-- AD timeline -->
+
+
+
+	<g id="timeMarkers">		<!-- Tick marks -->
+	<line x1="000" x2="000" y1="5" y2="15" />
+	<line x1="100" x2="100" y1="5" y2="15" />
+	<line x1="200" x2="200" y1="5" y2="15" />
+	<line x1="300" x2="300" y1="5" y2="15" />
+	<line x1="400" x2="400" y1="5" y2="15" />
+	<line x1="500" x2="500" y1="5" y2="15" />
+	<line x1="600" x2="600" y1="5" y2="15" />
+	<line x1="700" x2="700" y1="5" y2="15" />
+	<line x1="800" x2="800" y1="5" y2="15" />
+	<line x1="900" x2="900" y1="5" y2="15" />
+	</g>
+
+	<line id="BC_AD" x1="1000" x2="1000" y1="5" y2="15" stroke="red" stroke-width="2" />
+
+	<g id="timeMarkers">
+	<line x1="1100" x2="1100" y1="5" y2="15" />
+	<line x1="1200" x2="1200" y1="5" y2="15" />
+	<line x1="1300" x2="1300" y1="5" y2="15" />
+	<line x1="1400" x2="1400" y1="5" y2="15" />
+	<line x1="1500" x2="1500" y1="5" y2="15" />
+	<line x1="1600" x2="1600" y1="5" y2="15" />
+	<line x1="1700" x2="1700" y1="5" y2="15" />
+	<line x1="1800" x2="1800" y1="5" y2="15" />
+	<line x1="1900" x2="1900" y1="5" y2="15" />
+	<line x1="2000" x2="2000" y1="5" y2="15" />
+	<line x1="2100" x2="2100" y1="5" y2="15" />
+	<line x1="2200" x2="2200" y1="5" y2="15" />
+	<line x1="2300" x2="2300" y1="5" y2="15" />
+	<line x1="2400" x2="2400" y1="5" y2="15" />
+	<line x1="2500" x2="2500" y1="5" y2="15" />
+	<line x1="2600" x2="2600" y1="5" y2="15" />
+	<line x1="2700" x2="2700" y1="5" y2="15" />
+	<line x1="2800" x2="2800" y1="5" y2="15" />
+	<line x1="2900" x2="2900" y1="5" y2="15" />
+	<line x1="3000" x2="3000" y1="5" y2="15" />
+	<line x1="3100" x2="3100" y1="5" y2="15" />
+	<line x1="3200" x2="3200" y1="5" y2="15" />
+
+
+	</g>
+
+    <!-- Text Labels -->
+	<text x="100" y="25"> 9000 BC</text>
+	<text x="200" y="25"> 8000 BC</text>
+	<text x="300" y="25"> 7000 BC</text>
+	<text x="400" y="25"> 6000 BC</text>
+	<text x="500" y="25"> 5000 BC</text>
+	<text x="600" y="25"> 4000 BC</text>
+	<text x="700" y="25"> 3000 BC</text>
+	<text x="800" y="25"> 2000 BC</text>
+	<text x="900" y="25"> 1000 BC</text>
+
+		<!-- BC-AD -->
+	<text x="1000" y="25">   0   </text>
+		<!-- BC-AD -->
+
+	<text x="1100" y="25"> 100 AD </text>
+		<text id="centuryLabel" x="1050" y="25"> 1st c.</text>
+	<text x="1200" y="25"> 200 AD </text>
+		<text id="centuryLabel" x="1150" y="25"> 2nd c.</text>
+	<text x="1300" y="25"> 300 AD </text>
+		<text id="centuryLabel" x="1250" y="25"> 3rd c.</text>
+	<text x="1400" y="25"> 400 AD </text>
+		<text id="centuryLabel" x="1350" y="25"> 4th c.</text>
+	<text x="1500" y="25"> 500 AD </text>
+		<text id="centuryLabel" x="1450" y="25"> 5th c.</text>
+	<text x="1600" y="25"> 600 AD </text>
+		<text id="centuryLabel" x="1550" y="25"> 6th c.</text>
+	<text x="1700" y="25"> 700 AD </text>
+		<text id="centuryLabel" x="1650" y="25"> 7th c.</text>
+	<text x="1800" y="25"> 800 AD </text>
+		<text id="centuryLabel" x="1750" y="25"> 8th c.</text>
+	<text x="1900" y="25"> 900 AD </text>
+		<text id="centuryLabel" x="1850" y="25"> 9th c.</text>
+	<text x="2000" y="25"> 1000 AD </text>
+		<text id="centuryLabel" x="1950" y="25"> 10th c.</text>
+	<text x="2100" y="25"> 1100 AD </text>
+		<text id="centuryLabel" x="2050" y="25"> 11th c.</text>
+	<text x="2200" y="25"> 1200 AD </text>
+		<text id="centuryLabel" x="2150" y="25"> 12th c.</text>
+	<text x="2300" y="25"> 1300 AD </text>
+		<text id="centuryLabel" x="2250" y="25"> 13th c.</text>
+	<text x="2400" y="25"> 1400 AD </text>
+		<text id="centuryLabel" x="2350" y="25"> 14th c.</text>
+	<text x="2500" y="25"> 1500 AD </text>
+		<text id="centuryLabel" x="2450" y="25"> 15th c.</text>
+	<text x="2600" y="25"> 1600 AD </text>
+		<text id="centuryLabel" x="2550" y="25"> 16th c.</text>
+	<text x="2700" y="25"> 1700 AD </text>
+		<text id="centuryLabel" x="2650" y="25"> 17th c.</text>
+	<text x="2800" y="25"> 1800 AD </text>
+		<text id="centuryLabel" x="2750" y="25"> 18th c.</text>
+	<text x="2900" y="25"> 1900 AD </text>
+		<text id="centuryLabel" x="2850" y="25"> 19th c.</text>
+	<text x="3000" y="25"> 2000 AD </text>
+		<text id="centuryLabel" x="2950" y="25"> 20th c.</text>
+	<text x="3100" y="25"> 2100 AD </text>
+		<text id="centuryLabel" x="3050" y="25"> 21st c.</text>
+	<text x="3200" y="25">          </text>
+		<text id="centuryLabel" x="3150" y="25"> 22st c.</text>
+    <!-- END Main Timeline -->
+
+    <!-- Art Movement Timelines --->
+*************************
+	<g id="PointID">
+	<g id="Ptmarkers">
+	<line id="vert" x1="957" x2="957" y1="40" y2="65"/>
+	<line id="hors" x1="957" x2="982" y1="65" y2="65"/>
+	
+	<text x="987" y="67.5" >430 BC</text> 
+	<text x="987" y="77.5" >Athens</text> 
+	<circle cx="957" cy="40" />
+	</g>
+	</g>
+*************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="1165" x2="1165" y1="40" y2="65"/>
+	<line id="hors" x1="1165" x2="1140" y1="65" y2="65"/>
+	
+	<text x="1135" y="67.5" >165 AD</text> 
+	<text x="1135" y="77.5" >Antonine Plague</text> 
+	<circle cx="1165" cy="40" />
+	</g>
+	</g>
+
+*************************
+	<g id="PointID">
+	<g id="Ptmarkers">
+	<line id="vert" x1="1250" x2="1250" y1="40" y2="65"/>
+	<line id="hors" x1="1250" x2="1275" y1="65" y2="65"/>
+	
+	<text x="1280" y="67.5" >250 AD</text> 
+	<text x="1280" y="77.5" >Cyprian Plague</text> 
+	<circle cx="1250" cy="40" />
+	</g>
+	</g>
+*************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="1541" x2="1541" y1="40" y2="65"/>
+	<line id="hors" x1="1541" x2="1516" y1="65" y2="65"/>
+	
+	<text x="1511" y="67.5" >541 AD</text> 
+	<text x="1511" y="77.5" >Justinian Plague</text> 
+	<circle cx="1541" cy="40" />
+	</g>
+	</g>
+*************************
+	<g class="Time2">		
+		<text id="periodLabel" x="2050" y="57.5">Leprosy</text>	
+			
+		<line id="time" x1="2100" x2="2000" y1="60" y2="60"/>	
+			
+		<g id="markers">	
+			<line x1="2100" x2="2100" y1="55" y2="65" />
+			<line x1="2000" x2="2000" y1="55" y2="65" />
+		</g>	
+		<text id="centuryLabel" x="2000" y="50">1000 AD</text>	
+		<text id="centuryLabel" x="2100" y="50">1100 AD</text>	
+	</g>						
+*************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="2350" x2="2350" y1="40" y2="65"/>
+	<line id="hors" x1="2350" x2="2325" y1="65" y2="65"/>
+	
+	<text x="2320" y="67.5" >1347 AD</text> 
+	<text x="2320" y="77.5" >The Black Death</text> 
+	<circle cx="2350" cy="40" />
+	</g>
+	</g>
+*************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="2492" x2="2492" y1="40" y2="65"/>
+	<line id="hors" x1="2492" x2="2467" y1="65" y2="65"/>
+	
+	<text x="2462" y="67.5" >1492 AD</text> 
+	<text x="2462" y="77.5" >The Columbian</text> 
+	<text x="2462" y="87.5" >Exchange</text> 
+	<circle cx="2492" cy="40" />
+	</g>
+	</g>
+*************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="2665" x2="2665" y1="40" y2="65"/>
+	<line id="hors" x1="2665" x2="2640" y1="65" y2="65"/>
+	
+	<text x="2635" y="67.5" >1665 AD</text> 
+	<text x="2635" y="77.5" >The Great Plague</text> 
+	<text x="2635" y="87.5" >Of London</text> 
+	<circle cx="2665" cy="40" />
+	</g>
+	</g>
+*************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="2817" x2="2817" y1="40" y2="65"/>
+	<line id="hors" x1="2817" x2="2792" y1="65" y2="65"/>
+	
+	<text x="2787" y="67.5" >1817 AD</text> 
+	<text x="2787" y="77.5" >First Cholera Pandemic</text> 
+	<circle cx="2817" cy="40" />
+	</g>
+	</g>
+*************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="2855" x2="2855" y1="40" y2="105"/>
+	<line id="hors" x1="2855" x2="2830" y1="105" y2="105"/>
+	
+	<text x="2825" y="107.5" >1855 AD</text> 
+	<text x="2825" y="117.5" >The Third Plague Pandemic</text> 
+	<circle cx="2855" cy="40" />
+	</g>
+	</g>
+*************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="2875" x2="2875" y1="40" y2="145"/>
+	<line id="hors" x1="2875" x2="2850" y1="145" y2="145"/>
+	
+	<text x="2845" y="147.5" >1875 AD</text> 
+	<text x="2845" y="157.5" >Fiji Measles Pandemic</text> 
+	<circle cx="2875" cy="40" />
+	</g>
+	</g>
+*************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="2889" x2="2889" y1="40" y2="185"/>
+	<line id="hors" x1="2889" x2="2864" y1="185" y2="185"/>
+	
+	<text x="2859" y="187.5" >1889 AD</text> 
+	<text x="2859" y="197.5" >Russian Flu</text> 
+	<circle cx="2889" cy="40" />
+	</g>
+	</g>
+*************************
+	<g id="PointID">
+	<g id="PtmarkersLeft">
+	<line id="vert" x1="2918" x2="2918" y1="40" y2="225"/>
+	<line id="hors" x1="2918" x2="2893" y1="225" y2="225"/>
+	
+	<text x="2888" y="227.5" >1918 AD</text> 
+	<text x="2888" y="237.5" >Spanish Flu</text> 
+	<circle cx="2918" cy="40" />
+	</g>
+	</g>
+*************************
+	<g id="PointID">
+	<g id="Ptmarkers">
+	<line id="vert" x1="2957" x2="2957" y1="40" y2="185"/>
+	<line id="hors" x1="2957" x2="2982" y1="185" y2="185"/>
+	
+	<text x="2987" y="187.5" >1957 AD</text> 
+	<text x="2987" y="197.5" >Asian flu</text> 
+	<circle cx="2957" cy="40" />
+	</g>
+	</g>
+*************************
+	<g id="PointID">
+	<g id="Ptmarkers">
+	<line id="vert" x1="2981" x2="2981" y1="40" y2="145"/>
+	<line id="hors" x1="2981" x2="3006" y1="145" y2="145"/>
+	
+	<text x="3011" y="147.5" >1981 AD</text> 
+	<text x="3011" y="157.5" >HIV/AIDS</text> 
+	<circle cx="2981" cy="40" />
+	</g>
+	</g>
+*************************
+	<g id="PointID">
+	<g id="Ptmarkers">
+	<line id="vert" x1="3003" x2="3003" y1="40" y2="105"/>
+	<line id="hors" x1="3003" x2="3028" y1="105" y2="105"/>
+	
+	<text x="3033" y="107.5" >2003 AD</text> 
+	<text x="3033" y="117.5" >SARS</text> 
+	<circle cx="3003" cy="40" />
+	</g>
+	</g>
+*************************		
+	<g id="PointID">
+	<g id="Ptmarkers">
+	<line id="vert" x1="3019" x2="3019" y1="40" y2="65"/>
+	<line id="hors" x1="3019" x2="3044" y1="65" y2="65"/>
+	
+	<text x="3049" y="67.5" >2019 AD</text> 
+	<text x="3049" y="77.5" >COVID-19</text> 
+	<circle cx="3019" cy="40" />
+	</g>
+	</g>
+
+
+
+</body>
+</html>
