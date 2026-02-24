@@ -708,4 +708,12 @@ blockquote
 	min-width:unset;
 	}
 
+	/*-------image layout----------------*/
+.colorTable th, .colorTable td
+	{
+	font-size: 0.9rem;
+	line-height: 1.5;
+	}
+
+
 }

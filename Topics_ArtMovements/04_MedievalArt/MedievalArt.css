@@ -637,6 +637,61 @@ blockquote
 	{
 	width: 15%;
 	}
+
+/*---------------Style color tables------------------------*/
+
+.colorTable
+	{ 
+	width:100%;
+	border-collapse:collapse;
+	margin-bottom:50px;
+	background-color:#eaeaea;
+	}
+
+.colorTable tr
+	{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color:black;
+	}
+
+.colorTable th
+	{
+	font-size: 1.3rem;
+	line-height: 1.5;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color:black;
+	}
+
+.colorTable td
+	{ 
+	font-size: 1.3rem;
+	line-height: 1.5;
+	width:25%;
+	padding:2px 5px;
+	text-align:center;
+	border-bottom-color:black;
+	}
+
+.colorTable td:first-child, .colorTable th:first-child
+	{
+	width: 10%;
+	margin:5px;
+	}
+
+.colorTable td:nth-child(2), .colorTable th:nth-child(2)
+	{
+	width: 15%;
+	}
+.colorTable td:nth-child(3), .colorTable th:nth-child(3)
+.colorTable td:nth-child(4), .colorTable th:nth-child(4)
+.colorTable td:nth-child(5), .colorTable th:nth-child(5)
+	{
+	width: 25%;
+	}
+
+
 /*---------------Style summarty tables---------------*/
 .summaryTable
 	{ 
