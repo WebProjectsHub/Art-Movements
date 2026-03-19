@@ -506,7 +506,7 @@ ul	{ list-style:none;}
 /*---------------END Style middle--------------------*/
 /*---10---*/
 /*---------------Style tables-----------------------*/
-.basicTable
+.basicTable, .basicTable1Col
 	{
 	font-size: 1.2rem;
 	line-height: 1.5;
@@ -522,10 +522,54 @@ ul	{ list-style:none;}
 	padding-right:10px;
 	}
 
-.basicTable tr
+.basicTable1Col th
+	{
+	font-weight:bold;
+	text-align:left;
+	padding-right:10px;
+	}
+
+.basicTable tr, .basicTable1Col tr
 	{
 	border-bottom: 1px solid gray;
 	}
+
+	/*-------Custom tables----------------------*/
+		/*-------twoColTableHeaderShort-----*/
+#twoColTableHeaderShort
+	{ width:75%;	}
+
+#twoColTableHeaderShort th:nth-child(1),
+#twoColTableHeaderShort td:nth-child(1)
+	{ 
+	text-align:right;
+	padding-right:10px;
+	width:50%;
+	}
+
+#twoColTableHeaderShort th:nth-child(2),
+#twoColTableHeaderShort td:nth-child(2)
+	{
+	text-align:left;
+	width:50%;
+	}
+		/*-------twoColTableHeaderShort-----*/
+#twoColTableHeader 
+	{ width:100%;	}
+
+#twoColTableHeader .leftSide-header
+	{
+	width:30%;
+	text-align:right;
+	}
+
+#twoColTableHeader .rightSide-header
+	{
+	width:70%;
+	text-align:left;
+	}
+		/*-------twoColTableHeaderShort-----*/
+	/*-------END Custom tables------------------*/
 
 /*---------------END Style tables-------------------*/
 /*---11---*/
